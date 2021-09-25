@@ -7,7 +7,7 @@
   let boxClicked = false;
   function setBoxClicked() {
     boxClicked = true;
-    setTimeout(() => dispatch("requested"), 2000);
+    setTimeout(() => dispatch("requested"), Math.random() * 2000 + 1000);
   }
 </script>
 
@@ -25,11 +25,20 @@
     display: inline-block;
     margin: auto;
     padding: 1em;
-    background-color: rgb(185, 180, 180);
-    border-radius: 1em;
+    border-radius: 0.2em;
+
+    // Color Picked from Real Google Captcha
+    background-color: #f9f9f9;
+    border: 1px solid #d3d3d3;
+  }
+
+  input {
+    transform: scale(2.2);
+    margin: 0 0 0 0.5em;
   }
 
   span {
-    font-size: 1.2em;
+    font-size: 1.6em;
+    margin: 0 0.5em;
   }
 </style>

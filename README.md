@@ -1,6 +1,8 @@
 # Anime Captcha
 
-**Status**: Core is done, but still lack of _datas_
+**Status**: Core is done and you can play with it
+
+**Note**: Right now, data available is mocked, real data coming soon...
 
 ## Reference
 

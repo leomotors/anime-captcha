@@ -37,7 +37,7 @@
 </script>
 
 <main>
-  <div class="title px-1 py-2 bg-primary h2">
+  <div class="captcha-title px-1 py-2 h2 text-start px-4 text-light">
     {@html questions.title}
   </div>
   <table class="table table-bordered mb-1">
@@ -67,15 +67,31 @@
     class="container-lg d-flex flex-row justify-content-between align-items-center"
   >
     <i class="bi bi-arrow-clockwise" on:click={reload} />
-    <button class="btn btn-primary my-2" on:click={submitAnswer}>Verify</button>
+    <button class="captcha-verify btn my-2 text-light" on:click={submitAnswer}
+      >Verify</button
+    >
   </div>
 
   {#if lmaoreload}
-    <h3>You cannot skip this test!</h3>
+    <h3>You cannot change test case!</h3>
   {/if}
 </main>
 
 <style lang="scss">
+  $captcha-color: #4a90e2; // Color Picked from Real Google Captcha
+
+  .captcha-title {
+    background-color: $captcha-color;
+  }
+
+  .captcha-verify {
+    background-color: $captcha-color;
+  }
+
+  main {
+    border: 1px solid black;
+  }
+
   $img-size: 100px;
   $clicked-img-size: 80px;
 

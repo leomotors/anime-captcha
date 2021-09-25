@@ -1,62 +1,92 @@
 <script lang="ts">
   import NotARobot from "./components/NotARobot.svelte";
   import Captcha from "./components/Captcha.svelte";
+  import AnswerKey from "./components/AnswerKey.svelte";
+  import FooterBar from "./components/FooterBar.svelte";
+
+  import { trimHTML } from "./utils/Trim";
+
   import { Data, prepareData } from "./data/Data";
   const data = prepareData(Data);
 
   let requested = false;
-  function setRequested() {
-    requested = true;
-  }
 
   let captchaEnded: boolean;
   let captchaResult: boolean;
+  let userAnswer: boolean[][] = [[]];
   function submitAnswer(event: CustomEvent<any>) {
-    const answer = event.detail.answer;
+    userAnswer = event.detail.answer;
 
     for (let i = 0; i < 4; i++) {
       for (let j = 0; j < 4; j++) {
-        if (data.questions[4 * i + j].answer != answer[i][j]) {
+        if (data.questions[4 * i + j].answer != userAnswer[i][j]) {
           captchaResult = false; // Fail Captcha
           captchaEnded = true;
           return;
         }
       }
     }
-
     captchaResult = true; // Pass Captcha
     captchaEnded = true;
   }
+
+  let seeAnswer = false;
 </script>
 
+<!-- Why use Router? when you can use *if-else* -->
 <main class="d-flex flex-column justify-content-center align-items-center">
   {#if requested}
     {#if captchaEnded}
-      {#if captchaResult}
-        You are God
+      {#if seeAnswer}
+        <h1 class="mt-3">Answer of "{trimHTML(data.title)}"</h1>
+        <AnswerKey {data} {userAnswer} />
+        <button
+          class="btn btn-info my-3"
+          on:click={() => {
+            seeAnswer = false;
+          }}
+        >
+          Go Back
+        </button>
       {:else}
-        {data.onFail.text}
-        <img src={data.onFail.image} alt={data.onFail.text} />
+        {#if captchaResult}
+          <h1>Congrats! You are not a Robot</h1>
+        {:else}
+          <h1>{data.onFail.text}</h1>
+          <img src={data.onFail.image} alt={data.onFail.text} width="400px" />
+        {/if}
+        <button
+          class="btn btn-info my-3"
+          on:click={() => {
+            seeAnswer = true;
+          }}
+        >
+          See Answers
+        </button>
       {/if}
     {:else}
       <Captcha questions={data} on:submit={submitAnswer} />
     {/if}
   {:else}
-    <NotARobot on:requested={setRequested} />
+    <NotARobot
+      on:requested={() => {
+        requested = true;
+      }}
+    />
   {/if}
+
+  <div class="reserve-footer-bar-space" />
+  <FooterBar />
 </main>
 
 <style lang="scss">
-  $svelte-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-
-  :root {
-    font-family: $svelte-font;
-  }
-
   main {
     min-height: 100vh;
     text-align: center;
     margin: 0 auto;
+  }
+
+  .reserve-footer-bar-space {
+    height: 3em;
   }
 </style>

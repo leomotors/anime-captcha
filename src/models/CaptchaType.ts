@@ -1,4 +1,4 @@
-interface Label {
+export interface Label {
   en: string;
   jp: string;
 }
