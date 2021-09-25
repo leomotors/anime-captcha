@@ -2,3 +2,5 @@
 /dist/
 /.vscode/
 .DS_Store
+
+src/config.ts
