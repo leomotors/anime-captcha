@@ -7,6 +7,7 @@ interface Question {
   image: string;
   name: Label;
   anime: Label;
+  answer: boolean;
 }
 
 export interface CaptchaType {

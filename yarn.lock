@@ -1295,10 +1295,10 @@ kleur@^4.1.4:
   resolved "https://registry.npmjs.org/kleur/-/kleur-4.1.4.tgz"
   integrity sha512-8QADVssbrFjivHWQU7KkMgptGTl6WAcSdlbBPY4uNF+mWr6DGcKrvY2w4FQJoXch7+fKMjj0dRrL75vk3k23OA==
 
-leomotors-automation@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/leomotors-automation/-/leomotors-automation-1.0.0.tgz#c431ad6605a77e8dcbc8e67ce972f1d429cb2bbe"
-  integrity sha512-G3qeX/grevrIhwHQO+vt+Hojxa/4Bmg6enTnfkrJHonZrKxF3CHqEzak3TG6YTTwT88IBQVcrzcrMmcQHnBnEQ==
+leomotors-automation@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/leomotors-automation/-/leomotors-automation-1.0.1.tgz#ea9ac5f4471ae76508718142746883d55a89c70d"
+  integrity sha512-OeO/Vy1G+B8u+NEPN8XsGb4YwqU8Y7OBhKzcMUNQ6RSkcMzOUZcAifjGhJAqRzF0DjlvR4Rn6DYIoLQ4UeVqUQ==
   dependencies:
     chalk "^4.1.2"
 

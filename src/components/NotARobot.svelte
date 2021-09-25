@@ -17,7 +17,7 @@
   {:else}
     <input type="checkbox" on:click={setBoxClicked} />
   {/if}
-  I'm not a Robot
+  <span>I'm not a Robot</span>
 </main>
 
 <style lang="scss">
@@ -27,5 +27,9 @@
     padding: 1em;
     background-color: rgb(185, 180, 180);
     border-radius: 1em;
+  }
+
+  span {
+    font-size: 1.2em;
   }
 </style>

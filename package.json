@@ -1,6 +1,6 @@
 {
   "name": "anime-captcha",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "type": "module",
   "scripts": {
     "dev": "node node_modules/leomotors-automation/incrementVersion.js && node node_modules/leomotors-automation/configPackage.js && vite",
@@ -32,7 +32,7 @@
     "vite": "^2.5.10"
   },
   "dependencies": {
-    "leomotors-automation": "^1.0.0",
+    "leomotors-automation": "^1.0.1",
     "bootstrap": "^5.1.1",
     "chalk": "^4.1.2",
     "node-sass": "^6.0.1",

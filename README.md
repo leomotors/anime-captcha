@@ -1,6 +1,6 @@
 # Anime Captcha
 
-**WORK IN PROGRESS**
+**Status**: Core is done, but still lack of _datas_
 
 ## Reference
 
