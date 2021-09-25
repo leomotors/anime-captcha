@@ -5,7 +5,6 @@
   import { Spinner } from "sveltestrap";
 
   let boxClicked = false;
-
   function setBoxClicked() {
     boxClicked = true;
     setTimeout(() => dispatch("requested"), 2000);

@@ -1,15 +1,16 @@
 <script lang="ts">
+  import NotARobot from "./components/NotARobot.svelte";
+  import Captcha from "./components/Captcha.svelte";
+
   let requested = false;
   function setRequested() {
     requested = true;
   }
-
-  import NotARobot from "./components/NotARobot.svelte";
 </script>
 
 <main class="d-flex flex-column justify-content-center align-items-center">
   {#if requested}
-    Captcha Here
+    <Captcha />
   {:else}
     <NotARobot on:requested={setRequested} />
   {/if}
