@@ -41,7 +41,7 @@
         <h1 class="mt-3">Answer of "{trimHTML(data.title)}"</h1>
         <AnswerKey {data} {userAnswer} />
         <button
-          class="btn btn-info my-3"
+          class="btn btn-info mt-2 mb-3"
           on:click={() => {
             seeAnswer = false;
           }}
@@ -56,7 +56,7 @@
           <img src={data.onFail.image} alt={data.onFail.text} width="400px" />
         {/if}
         <button
-          class="btn btn-info my-3"
+          class="btn btn-info mt-2 mb-3"
           on:click={() => {
             seeAnswer = true;
           }}

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Label } from "../models/CaptchaType";
+  import { Label } from "../../models/CaptchaType";
 
   export let label: Label;
 </script>
