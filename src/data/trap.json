@@ -192,6 +192,78 @@
                 "ja": "ご注文はうさぎですか？"
             },
             "answer": true
+        },
+        {
+            "image": "https://pbs.twimg.com/profile_images/919647985008508931/y2hrjwoK.jpg",
+            "name": {
+                "en": "Sakuranomiya Maika",
+                "ja": "桜ノ宮苺香"
+            },
+            "anime": {
+                "en": "Blend S",
+                "ja": "ブレンド・S"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://pbs.twimg.com/profile_images/1211621771033464834/52zCzOFE_400x400.jpg",
+            "name": {
+                "en": "Robert E. O. Speedwagon",
+                "ja": "ロバート・E・O・スピードワゴン"
+            },
+            "anime": {
+                "en": "JoJo's Bizarre Adventure",
+                "ja": "ジョジョの奇妙な冒険"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://i.pinimg.com/originals/a9/f8/9e/a9f89e792c741ce4d5b6be989fcb16ba.png",
+            "name": {
+                "en": "Kafū Chino",
+                "ja": "香風智乃"
+            },
+            "anime": {
+                "en": "Is the Order a Rabbit?",
+                "ja": "ご注文はうさぎですか？"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://somoskudasai.com/wp-content/uploads/2020/10/portada_gochuumon-10.jpg",
+            "name": {
+                "en": "Hoto Cocoa",
+                "ja": "保登心愛"
+            },
+            "anime": {
+                "en": "Is the Order a Rabbit?",
+                "ja": "ご注文はうさぎですか？"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://mangathrill.com/wp-content/uploads/2019/11/fadaaqqw.jpg",
+            "name": {
+                "en": "Kibutsuji Muzan",
+                "ja": "鬼舞辻無惨"
+            },
+            "anime": {
+                "en": "Demon Slayer",
+                "ja": "鬼滅の刃"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://i.ytimg.com/vi/FwHix50cyJc/maxresdefault.jpg",
+            "name": {
+                "en": "Keyaruga",
+                "ja": "ケヤルガ"
+            },
+            "anime": {
+                "en": "Redo of Healer",
+                "ja": "回復術士のやり直し 〜即死魔法とスキルコピーの超越ヒール〜"
+            },
+            "answer": false
         }
     ],
     "onFail": {

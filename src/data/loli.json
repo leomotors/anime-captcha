@@ -192,6 +192,78 @@
                 "ja": "通常攻撃が全体攻撃で二回攻撃のお母さんは好きですか?"
             },
             "answer": true
+        },
+        {
+            "image": "https://i.pinimg.com/474x/b6/e3/78/b6e378b3e93d884ea0cb25b5f70f38a5.jpg",
+            "name": {
+                "en": "Shinomiya Kaguya",
+                "ja": "四宮かぐや"
+            },
+            "anime": {
+                "en": "Kaguya-sama: Love Is War",
+                "ja": "かぐや様は告らせたい ～天才たちの恋愛頭脳戦～"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://cdn.myanimelist.net/r/360x360/images/characters/4/296859.jpg?s=9fd9111f95cae9cb6c6b084a1fdc9fd2",
+            "name": {
+                "en": "Mate Rin",
+                "ja": "真手凛"
+            },
+            "anime": {
+                "en": "Is the Order a Rabbit?",
+                "ja": "ご注文はうさぎですか？"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7ab45c67-d10a-4420-811a-519a7e24ec4a/dbyb17c-40fe7d4f-2c05-417b-b175-905537046e1f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdhYjQ1YzY3LWQxMGEtNDQyMC04MTFhLTUxOWE3ZTI0ZWM0YVwvZGJ5YjE3Yy00MGZlN2Q0Zi0yYzA1LTQxN2ItYjE3NS05MDU1MzcwNDZlMWYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.P-15UAiR4X9XKir7HXY9zYTP3iQ1GvDkE_06Bs9Ncb4",
+            "name": {
+                "en": "Amano Miu",
+                "ja": "天野美雨"
+            },
+            "anime": {
+                "en": "Blend S",
+                "ja": "ブレンド・S"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://pbs.twimg.com/profile_images/919647985008508931/y2hrjwoK.jpg",
+            "name": {
+                "en": "Sakuranomiya Maika",
+                "ja": "桜ノ宮苺香"
+            },
+            "anime": {
+                "en": "Blend S",
+                "ja": "ブレンド・S"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://i.pinimg.com/originals/af/af/86/afaf862ba8ad32a2230a9434b761faf4.jpg",
+            "name": {
+                "en": "Mishima Yuzuha",
+                "ja": "三島柚葉"
+            },
+            "anime": {
+                "en": "Higehiro: After Being Rejected, I Shaved and Took in a High School Runaway",
+                "ja": "ひげを剃る。そして女子高生を拾う。"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://i.pinimg.com/550x/62/ef/b4/62efb421f3f08b30138434e62fa77023.jpg",
+            "name": {
+                "en": "Sakurajima Mai",
+                "ja": "桜島麻衣"
+            },
+            "anime": {
+                "en": "Rascal Does Not Dream of Bunny Girl Senpai",
+                "ja": "青春ブタ野郎はバニーガール先輩の夢を見ない"
+            },
+            "answer": true
         }
     ],
     "onFail": {

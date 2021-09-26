@@ -7,7 +7,16 @@
   let boxClicked = false;
   function setBoxClicked() {
     boxClicked = true;
-    setTimeout(() => dispatch("requested"), Math.random() * 2000 + 1000);
+    setTimeout(
+      () => {
+        // 3% Chance
+        if (Math.random() < 0.03)
+          window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+        else dispatch("requested");
+      },
+      // Load for 0.5s - 2s
+      Math.random() * 1500 + 500
+    );
   }
 </script>
 

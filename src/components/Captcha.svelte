@@ -66,15 +66,14 @@
   <div
     class="container-lg d-flex flex-row justify-content-between align-items-center"
   >
-    <i class="bi bi-arrow-clockwise" on:click={reload} />
+    <i class="reload-btn bi bi-arrow-clockwise" on:click={reload} />
+    {#if lmaoreload}
+      <div class="text-danger fs-4">You cannot change test case!</div>
+    {/if}
     <button class="captcha-verify btn my-2 text-light" on:click={submitAnswer}
       >Verify</button
     >
   </div>
-
-  {#if lmaoreload}
-    <h3>You cannot change test case!</h3>
-  {/if}
 </main>
 
 <style lang="scss">
@@ -89,7 +88,7 @@
   }
 
   main {
-    border: 1px solid black;
+    border: 1px solid rgb(187, 186, 186);
   }
 
   $img-size: 100px;
@@ -105,6 +104,10 @@
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 
@@ -125,7 +128,15 @@
     }
   }
 
-  .bi {
+  .bi-check-circle-fill {
+    font-size: 1.8em;
+  }
+
+  .reload-btn {
     font-size: 2em;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 </style>
