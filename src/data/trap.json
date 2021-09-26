@@ -264,6 +264,42 @@
                 "ja": "回復術士のやり直し 〜即死魔法とスキルコピーの超越ヒール〜"
             },
             "answer": false
+        },
+        {
+            "image": "https://anime-daily.com/wp-content/uploads/2021/06/whymikasaaistherealprotagonistofattackontitanandnoteren.jpeg",
+            "name": {
+                "en": "Mikasa Ackerman",
+                "ja": "ミカサ・アッカーマン"
+            },
+            "anime": {
+                "en": "Attack on Titan",
+                "ja": "進撃の巨人"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://pbs.twimg.com/profile_images/716300324361912321/mw6LSat8.jpg",
+            "name": {
+                "en": "Shiota Nagisa",
+                "ja": "潮田渚"
+            },
+            "anime": {
+                "en": "Assassination Classroom",
+                "ja": "暗殺教室"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://i.pinimg.com/originals/59/8e/22/598e2284f8b2f15fa1200f4eb943a687.jpg",
+            "name": {
+                "en": "Kawajiri Hayato",
+                "ja": "川尻早人"
+            },
+            "anime": {
+                "en": "JoJo's Bizarre Adventure",
+                "ja": "ジョジョの奇妙な冒険"
+            },
+            "answer": false
         }
     ],
     "onFail": {

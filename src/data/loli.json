@@ -264,6 +264,42 @@
                 "ja": "青春ブタ野郎はバニーガール先輩の夢を見ない"
             },
             "answer": true
+        },
+        {
+            "image": "https://pbs.twimg.com/media/EqZq_8UXUAEbKLA.jpg",
+            "name": {
+                "en": "Gabi Braun",
+                "ja": "ガビ・ブラウン"
+            },
+            "anime": {
+                "en": "Attack on Titan",
+                "ja": "進撃の巨人"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://animeanime.global/wp-content/uploads/2021/08/425938.jpg",
+            "name": {
+                "en": "Saki Saki",
+                "ja": "佐木咲"
+            },
+            "anime": {
+                "en": "Girlfriend, Girlfriend",
+                "ja": "カノジョも彼女"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://i.pinimg.com/originals/59/fa/7c/59fa7cb3f13dc008fb4d2957168cc5bc.jpg",
+            "name": {
+                "en": "Jolyne Cujoh",
+                "ja": "空条徐倫"
+            },
+            "anime": {
+                "en": "JoJo's Bizarre Adventure",
+                "ja": "ジョジョの奇妙な冒険"
+            },
+            "answer": true
         }
     ],
     "onFail": {
