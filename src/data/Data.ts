@@ -1,5 +1,6 @@
 import type { CaptchaType } from "../models/CaptchaType";
 
+// * Import all JSON Files Here
 import * as loli from "./loli.json";
 import * as trap from "./trap.json";
 

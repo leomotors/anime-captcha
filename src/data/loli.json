@@ -4,194 +4,194 @@
         {
             "image": "https://i.pinimg.com/originals/a9/f8/9e/a9f89e792c741ce4d5b6be989fcb16ba.png",
             "name": {
-                "en": "Kafuu Chino",
-                "jp": "香風智乃"
+                "en": "Kafū Chino",
+                "ja": "香風智乃"
             },
             "anime": {
                 "en": "Is the Order a Rabbit?",
-                "jp": "ご注文はうさぎですか？"
+                "ja": "ご注文はうさぎですか？"
             },
             "answer": false
         },
         {
-            "image": "https://i.pinimg.com/originals/a9/f8/9e/a9f89e792c741ce4d5b6be989fcb16ba.png",
+            "image": "https://somoskudasai.com/wp-content/uploads/2020/10/portada_gochuumon-10.jpg",
             "name": {
-                "en": "Kafuu Chino",
-                "jp": "香風智乃"
+                "en": "Hoto Cocoa",
+                "ja": "保登心愛"
             },
             "anime": {
                 "en": "Is the Order a Rabbit?",
-                "jp": "ご注文はうさぎですか？"
+                "ja": "ご注文はうさぎですか？"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://i.pinimg.com/originals/60/a9/0b/60a90bdff72f9fda44b423679bcc0987.png",
+            "name": {
+                "en": "Hoshikawa Mafuyu",
+                "ja": "星川麻冬"
+            },
+            "anime": {
+                "en": "Blend S",
+                "ja": "ブレンド・S"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://static3.cbrimages.com/wordpress/wp-content/uploads/2020/04/CBR-Featured-Image-Kaho-Hinata-Blend-S-Opening.jpg",
+            "name": {
+                "en": "Hinata Kaho",
+                "ja": "日向夏帆"
+            },
+            "anime": {
+                "en": "Blend S",
+                "ja": "ブレンド・S"
             },
             "answer": false
         },
         {
-            "image": "https://i.pinimg.com/originals/a9/f8/9e/a9f89e792c741ce4d5b6be989fcb16ba.png",
+            "image": "https://i0.wp.com/akibatan.com/wp-content/uploads/2018/12/cells-at-work-platelets-win-most-charming-character-of-2018-poll-02.jpg?ssl=1",
             "name": {
-                "en": "Kafuu Chino",
-                "jp": "香風智乃"
+                "en": "Platelet",
+                "ja": "血小板"
             },
             "anime": {
-                "en": "Is the Order a Rabbit?",
-                "jp": "ご注文はうさぎですか？"
+                "en": "Cells at Work!",
+                "ja": "はたらく細胞"
             },
             "answer": false
         },
         {
-            "image": "https://i.pinimg.com/originals/a9/f8/9e/a9f89e792c741ce4d5b6be989fcb16ba.png",
+            "image": "https://i.pinimg.com/550x/25/42/59/2542592e1be69f0b97f6c94adb1e045a.jpg",
             "name": {
-                "en": "Kafuu Chino",
-                "jp": "香風智乃"
+                "en": "Hoshino Hinata",
+                "ja": "星野ひなた"
             },
             "anime": {
-                "en": "Is the Order a Rabbit?",
-                "jp": "ご注文はうさぎですか？"
+                "en": "Wataten!: An Angel Flew Down to Me",
+                "ja": "私に天使が舞い降りた!"
             },
             "answer": false
         },
         {
-            "image": "https://i.pinimg.com/originals/a9/f8/9e/a9f89e792c741ce4d5b6be989fcb16ba.png",
+            "image": "https://c4.wallpaperflare.com/wallpaper/427/836/35/furry-sewayaki-kitsune-no-senko-san-hd-wallpaper-preview.jpg",
             "name": {
-                "en": "Kafuu Chino",
-                "jp": "香風智乃"
+                "en": "Senko",
+                "ja": "仙狐"
             },
             "anime": {
-                "en": "Is the Order a Rabbit?",
-                "jp": "ご注文はうさぎですか？"
+                "en": "The Helpful Fox Senko-san",
+                "ja": "世話やきキツネの仙狐さん"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://github.com/Leomotors/anime-captcha/blob/main/assets/Komoe.jpg?raw=true",
+            "name": {
+                "en": "Tsukuyomi Komoe",
+                "ja": "月詠小萌"
+            },
+            "anime": {
+                "en": "A Certain Magical Index",
+                "ja": "とある魔術の禁書目録"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://github.com/Leomotors/anime-captcha/blob/main/assets/Kannajpg?raw=true",
+            "name": {
+                "en": "Kobayashi Kanna",
+                "ja": "小林カンナ"
+            },
+            "anime": {
+                "en": "Miss Kobayashi's Dragon Maid",
+                "ja": "小林さんちのメイドラゴン"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://i.ytimg.com/vi/4dZOlxUvTxE/maxresdefault.jpg",
+            "name": {
+                "en": "Shiro",
+                "ja": "白"
+            },
+            "anime": {
+                "en": "No Game No Life",
+                "ja": "ノーゲーム・ノーライフ"
             },
             "answer": false
         },
         {
-            "image": "https://i.pinimg.com/originals/a9/f8/9e/a9f89e792c741ce4d5b6be989fcb16ba.png",
+            "image": "https://2.bp.blogspot.com/-GORHHWmNxbU/WHDbXDNxUoI/AAAAAAAAYb8/eBgfMjXPyA0uUyn40FUAj8ikEgFQ3m9oACLcB/s1600/Miyauchi-Renge.jpg",
             "name": {
-                "en": "Kafuu Chino",
-                "jp": "香風智乃"
+                "en": "Miyauchi Renge",
+                "ja": "宮内れんげ"
             },
             "anime": {
-                "en": "Is the Order a Rabbit?",
-                "jp": "ご注文はうさぎですか？"
+                "en": "Non Non Biyori",
+                "ja": "のんのんびより"
             },
             "answer": false
         },
         {
-            "image": "https://i.pinimg.com/originals/a9/f8/9e/a9f89e792c741ce4d5b6be989fcb16ba.png",
+            "image": "https://pbs.twimg.com/media/E2co2WOVEAAbsOO?format=jpg&name=large",
             "name": {
-                "en": "Kafuu Chino",
-                "jp": "香風智乃"
+                "en": "Aoyama Midori",
+                "ja": "青山翠"
             },
             "anime": {
                 "en": "Is the Order a Rabbit?",
-                "jp": "ご注文はうさぎですか？"
+                "ja": "ご注文はうさぎですか？"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://pbs.twimg.com/profile_images/437523589521080321/bgUkhrZa.jpeg",
+            "name": {
+                "en": "Oshino Shinobu",
+                "ja": "忍野忍"
+            },
+            "anime": {
+                "en": "Bakemonogatari",
+                "ja": "化物語"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://i.imgur.com/dHmoIPI.jpg",
+            "name": {
+                "en": "Jōga Maya",
+                "ja": "条河麻耶"
+            },
+            "anime": {
+                "en": "Is the Order a Rabbit?",
+                "ja": "ご注文はうさぎですか？"
             },
             "answer": false
         },
         {
-            "image": "https://i.pinimg.com/originals/a9/f8/9e/a9f89e792c741ce4d5b6be989fcb16ba.png",
+            "image": "https://i.pinimg.com/736x/21/88/0f/21880f36f761f2827387881eb1522d61.jpg",
             "name": {
-                "en": "Kafuu Chino",
-                "jp": "香風智乃"
+                "en": "Trish Una",
+                "ja": "トリッシュ・ウナ"
             },
             "anime": {
-                "en": "Is the Order a Rabbit?",
-                "jp": "ご注文はうさぎですか？"
+                "en": "JoJo's Bizarre Adventure",
+                "ja": "ジョジョの奇妙な冒険"
             },
             "answer": false
         },
         {
-            "image": "https://i.pinimg.com/originals/a9/f8/9e/a9f89e792c741ce4d5b6be989fcb16ba.png",
+            "image": "https://animecorner.me/wp-content/uploads/2021/05/Mamako-Oosuki-1024x576.jpg.webp",
             "name": {
-                "en": "Kafuu Chino",
-                "jp": "香風智乃"
+                "en": "Ōsuki Mamako",
+                "ja": "大好真々子"
             },
             "anime": {
-                "en": "Is the Order a Rabbit?",
-                "jp": "ご注文はうさぎですか？"
+                "en": "Do You Love Your Mom and Her Two-Hit Multi-Target Attacks?",
+                "ja": "通常攻撃が全体攻撃で二回攻撃のお母さんは好きですか?"
             },
-            "answer": false
-        },
-        {
-            "image": "https://i.pinimg.com/originals/a9/f8/9e/a9f89e792c741ce4d5b6be989fcb16ba.png",
-            "name": {
-                "en": "Kafuu Chino",
-                "jp": "香風智乃"
-            },
-            "anime": {
-                "en": "Is the Order a Rabbit?",
-                "jp": "ご注文はうさぎですか？"
-            },
-            "answer": false
-        },
-        {
-            "image": "https://i.pinimg.com/originals/a9/f8/9e/a9f89e792c741ce4d5b6be989fcb16ba.png",
-            "name": {
-                "en": "Kafuu Chino",
-                "jp": "香風智乃"
-            },
-            "anime": {
-                "en": "Is the Order a Rabbit?",
-                "jp": "ご注文はうさぎですか？"
-            },
-            "answer": false
-        },
-        {
-            "image": "https://i.pinimg.com/originals/a9/f8/9e/a9f89e792c741ce4d5b6be989fcb16ba.png",
-            "name": {
-                "en": "Kafuu Chino",
-                "jp": "香風智乃"
-            },
-            "anime": {
-                "en": "Is the Order a Rabbit?",
-                "jp": "ご注文はうさぎですか？"
-            },
-            "answer": false
-        },
-        {
-            "image": "https://i.pinimg.com/originals/a9/f8/9e/a9f89e792c741ce4d5b6be989fcb16ba.png",
-            "name": {
-                "en": "Kafuu Chino",
-                "jp": "香風智乃"
-            },
-            "anime": {
-                "en": "Is the Order a Rabbit?",
-                "jp": "ご注文はうさぎですか？"
-            },
-            "answer": false
-        },
-        {
-            "image": "https://i.pinimg.com/originals/a9/f8/9e/a9f89e792c741ce4d5b6be989fcb16ba.png",
-            "name": {
-                "en": "Kafuu Chino",
-                "jp": "香風智乃"
-            },
-            "anime": {
-                "en": "Is the Order a Rabbit?",
-                "jp": "ご注文はうさぎですか？"
-            },
-            "answer": false
-        },
-        {
-            "image": "https://i.pinimg.com/originals/a9/f8/9e/a9f89e792c741ce4d5b6be989fcb16ba.png",
-            "name": {
-                "en": "Kafuu Chino",
-                "jp": "香風智乃"
-            },
-            "anime": {
-                "en": "Is the Order a Rabbit?",
-                "jp": "ご注文はうさぎですか？"
-            },
-            "answer": false
-        },
-        {
-            "image": "https://i.pinimg.com/originals/a9/f8/9e/a9f89e792c741ce4d5b6be989fcb16ba.png",
-            "name": {
-                "en": "Kafuu Chino",
-                "jp": "香風智乃"
-            },
-            "anime": {
-                "en": "Is the Order a Rabbit?",
-                "jp": "ご注文はうさぎですか？"
-            },
-            "answer": false
+            "answer": true
         }
     ],
     "onFail": {
