@@ -324,6 +324,30 @@
                 "ja": "ご注文はうさぎですか？"
             },
             "answer": true
+        },
+        {
+            "image": "https://benigmatica.files.wordpress.com/2020/05/gochiusa-dear-my-sister-11.jpg?w=376&h=211",
+            "name": {
+                "en": "Cocoa's Mother",
+                "ja": "ココアの母"
+            },
+            "anime": {
+                "en": "Is the Order a Rabbit?",
+                "ja": "ご注文はうさぎですか？"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://pbs.twimg.com/media/CSIHYYjUkAERcuT.png:large",
+            "name": {
+                "en": "Megu's Mother",
+                "ja": "メグの母"
+            },
+            "anime": {
+                "en": "Is the Order a Rabbit?",
+                "ja": "ご注文はうさぎですか？"
+            },
+            "answer": true
         }
     ],
     "onFail": {
