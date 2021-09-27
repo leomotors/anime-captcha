@@ -5,13 +5,13 @@
   import { Spinner } from "sveltestrap";
 
   let boxClicked = false;
+  let RickRolled = false;
   function setBoxClicked() {
     boxClicked = true;
     setTimeout(
       () => {
-        // 3% Chance
-        if (Math.random() < 0.03)
-          window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+        // 3% Chance for Rick Roll
+        if (Math.random() < 0.03) RickRolled = true;
         else dispatch("requested");
       },
       // Load for 0.5s - 2s
@@ -21,12 +21,30 @@
 </script>
 
 <main>
-  {#if boxClicked}
-    <Spinner color="primary" />
+  {#if RickRolled}
+    <h3 class="fw-bold">You Lucky!</h3>
+    <hr />
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
+      title="Never Gonna Give You Up"
+      frameborder="0"
+      allow="autoplay; encrypted-media; picture-in-picture"
+      allowfullscreen
+    />
+    <h4 class="mt-4">
+      There is 3% Chance you will be Rick Rolled and you get it!
+    </h4>
+    <h4>Reload Website to try again</h4>
   {:else}
-    <input type="checkbox" on:click={setBoxClicked} />
+    {#if boxClicked}
+      <Spinner color="primary" />
+    {:else}
+      <input type="checkbox" on:click={setBoxClicked} />
+    {/if}
+    <span>I'm not a Robot</span>
   {/if}
-  <span>I'm not a Robot</span>
 </main>
 
 <style lang="scss">

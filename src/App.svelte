@@ -64,6 +64,8 @@
           See Answers
         </button>
       {/if}
+      <h4>Reload Website to play again</h4>
+      <h4>Want to request or contribute? Check GitHub Repo below!</h4>
     {:else}
       <Captcha questions={data} on:submit={submitAnswer} />
     {/if}
@@ -87,6 +89,6 @@
   }
 
   .reserve-footer-bar-space {
-    height: 3em;
+    height: 4em;
   }
 </style>
