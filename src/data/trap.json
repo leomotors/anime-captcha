@@ -261,7 +261,7 @@
             },
             "anime": {
                 "en": "Redo of Healer",
-                "ja": "回復術士のやり直し 〜即死魔法とスキルコピーの超越ヒール〜"
+                "ja": "回復術士のやり直し"
             },
             "answer": false
         },
@@ -298,6 +298,30 @@
             "anime": {
                 "en": "JoJo's Bizarre Adventure",
                 "ja": "ジョジョの奇妙な冒険"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://static.fandomspot.com/images/07/7703/09-luka-urushibara-steins-gate-anime.jpg",
+            "name": {
+                "en": "Urushibara Luka",
+                "ja": "漆原るか"
+            },
+            "anime": {
+                "en": "Steins;Gate",
+                "ja": "シュタインズ・ゲート"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://i.redd.it/h3uip0ptaz761.jpg",
+            "name": {
+                "en": "Eren Jaeger",
+                "ja": "エレン・イェーガー"
+            },
+            "anime": {
+                "en": "Attack on Titan",
+                "ja": "進撃の巨人"
             },
             "answer": false
         }

@@ -1,6 +1,6 @@
 {
   "name": "anime-captcha",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "type": "module",
   "scripts": {
     "dev": "node node_modules/leomotors-automation/incrementVersion.js && node node_modules/leomotors-automation/configPackage.js && vite",

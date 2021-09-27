@@ -300,6 +300,30 @@
                 "ja": "ジョジョの奇妙な冒険"
             },
             "answer": true
+        },
+        {
+            "image": "https://64.media.tumblr.com/054c9dfb29eaa507824d798e22a3a170/tumblr_ox2otofLtn1uctmvwo2_500.png",
+            "name": {
+                "en": "Natsu Megumi",
+                "ja": "奈津恵"
+            },
+            "anime": {
+                "en": "Is the Order a Rabbit?",
+                "ja": "ご注文はうさぎですか？"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://cdn.myanimelist.net/images/characters/7/389670.jpg",
+            "name": {
+                "en": "Kafū Saki",
+                "ja": "香風咲"
+            },
+            "anime": {
+                "en": "Is the Order a Rabbit?",
+                "ja": "ご注文はうさぎですか？"
+            },
+            "answer": true
         }
     ],
     "onFail": {
