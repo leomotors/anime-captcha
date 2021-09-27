@@ -3,8 +3,9 @@ import type { CaptchaType } from "../models/CaptchaType";
 // * Import all JSON Files Here
 import * as loli from "./loli.json";
 import * as trap from "./trap.json";
+import * as hani from "./hani.json";
 
-export const Data: CaptchaType[] = [loli, trap];
+export const Data: CaptchaType[] = [loli, trap, hani];
 
 export function prepareData(Data: CaptchaType[]): CaptchaType {
   const data = Data[Math.floor(Math.random() * Data.length)];
