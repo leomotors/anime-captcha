@@ -348,6 +348,18 @@
                 "ja": "ご注文はうさぎですか？"
             },
             "answer": true
+        },
+        {
+            "image":"https://www.looper.com/img/gallery/the-real-reason-nezuko-wears-a-bamboo-muzzle-on-demon-slayer/l-intro-1624054679.jpg",
+            "name": {
+                "en": "Nezuko Kamado",
+                "ja": "竈門 禰豆子"
+            },
+            "anime": {
+                "en": "Demon Slayer",
+                "ja": "鬼滅の刃"
+            },
+            "answer": false
         }
     ],
     "onFail": {
