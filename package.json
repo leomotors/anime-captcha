@@ -1,12 +1,13 @@
 {
   "name": "anime-captcha",
-  "version": "1.0.20",
+  "version": "1.0.22",
   "type": "module",
   "scripts": {
-    "dev": "node node_modules/leomotors-automation/incrementVersion.js && node node_modules/leomotors-automation/configPackage.js && vite",
-    "build": "node node_modules/leomotors-automation/configPackage.js && vite build",
+    "dev": "yarn config:pkg && vite",
+    "build": "yarn config:pkg && vite build",
     "serve": "vite preview",
-    "check": "svelte-check --tsconfig ./tsconfig.json"
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "config:pkg": "node node_modules/leomotors-automation/configPackage.js"
   },
   "repository": {
     "type": "git",
