@@ -336,6 +336,17 @@
                 "ja": "鬼滅の刃"
             },
             "answer": true
+        },
+        {
+            "image": "https://cdn.myanimelist.net/images/characters/6/422029.jpg",
+            "name": {
+                "en": "Flare Arlgrande Jioral",
+                "ja": "フレア・アールグランデ・ジオラル"
+            },
+            "anime": {
+                "en": "Redo of Healer",
+                "ja": "回復術士のやり直し"
+            }
         }
     ],
     "onFail": {
