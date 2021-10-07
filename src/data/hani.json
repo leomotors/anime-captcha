@@ -346,7 +346,8 @@
             "anime": {
                 "en": "Redo of Healer",
                 "ja": "回復術士のやり直し"
-            }
+            },
+            "answer": true
         }
     ],
     "onFail": {
