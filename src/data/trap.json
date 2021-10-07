@@ -348,6 +348,30 @@
                 "ja": "月刊少女野崎くん"
             },
             "answer": true
+        },
+        {
+            "image": "https://64.media.tumblr.com/1afca247415c0ded1f04a5fe9f167de1/tumblr_ox2pjl9uuE1uctmvwo8_1280.png",
+            "name": {
+                "en": "Hoto Mocha",
+                "ja": "保登モカ"
+            },
+            "anime": {
+                "en": "Is the Order a Rabbit?",
+                "ja": "ご注文はうさぎですか？"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://i.redd.it/g90zcxysbe361.jpg",
+            "name": {
+                "en": "Tedeza Rize",
+                "ja": "天々座理世"
+            },
+            "anime": {
+                "en": "Is the Order a Rabbit?",
+                "ja": "ご注文はうさぎですか？"
+            },
+            "answer": true
         }
     ],
     "onFail": {

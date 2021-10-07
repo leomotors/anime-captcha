@@ -1,6 +1,6 @@
 {
   "name": "anime-captcha",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "type": "module",
   "scripts": {
     "dev": "yarn config:pkg && vite",
