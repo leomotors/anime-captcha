@@ -372,6 +372,18 @@
                 "ja": "ご注文はうさぎですか？"
             },
             "answer": true
+        },
+        {
+            "image": "https://i1.sndcdn.com/avatars-lO0re1Tyz1pTw85M-3SDpyg-t500x500.jpg",
+            "name": {
+                "en": "Bruno Bucciarati",
+                "ja": "ブローノ・ブチャラティ"
+            },
+            "anime": {
+                "en": "JoJo's Bizarre Adventure",
+                "ja": "ジョジョの奇妙な冒険"
+            },
+            "answer": false
         }
     ],
     "onFail": {

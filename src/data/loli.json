@@ -384,6 +384,18 @@
                 "ja": "ご注文はうさぎですか？"
             },
             "answer": true
+        },
+        {
+            "image": "https://i.pinimg.com/originals/e8/67/d2/e867d2ee8e0c21c1e092e58e3f8262d9.jpg",
+            "name": {
+                "en": "Hiratsuka Shizuka",
+                "ja": "平塚静"
+            },
+            "anime": {
+                "en": "My Youth Romantic Comedy Is Wrong, As I Expected",
+                "ja": "やはり俺の青春ラブコメはまちがっている。"
+            },
+            "answer": true
         }
     ],
     "onFail": {
