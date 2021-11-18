@@ -16,7 +16,7 @@
   let userAnswer: boolean[][] = [[]];
 
   async function onStart() {
-    const res = await fetch("/api");
+    const res = await fetch("/api/get");
     data = await res.json();
     started = true;
   }

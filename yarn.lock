@@ -73,11 +73,6 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@now/build-utils@^2.7.0":
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/@now/build-utils/-/build-utils-2.7.0.tgz#a7d940eaf77e39d2c838482ffa2dbae1096d3aa7"
-  integrity sha512-5917PKoI3PgVkbEl3/tPMOR+z3UD20RTfoXhAwBEsP1HJAYEl+Mv5NawDgBLRsikz2drbZn1YTOLbadBujcPow==
-
 "@popperjs/core@^2.9.2":
   version "2.10.2"
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.10.2.tgz#0798c03351f0dea1a5a4cabddf26a55a7cbee590"
@@ -209,11 +204,6 @@
   dependencies:
     "@typescript-eslint/types" "5.4.0"
     eslint-visitor-keys "^3.0.0"
-
-"@vercel/build-utils@^2.12.2":
-  version "2.12.2"
-  resolved "https://registry.yarnpkg.com/@vercel/build-utils/-/build-utils-2.12.2.tgz#285a3bb0b78864fb6f44478257bd275c57aa8651"
-  integrity sha512-KbSgG2ZCVXhUsdbnpv6gC7buygd31jaKiKhrd4Lzv1NwjnoeDZAXlm4hzvSPYHVtCY2jirKJWP2rFtMW8iAh9g==
 
 "@vercel/node@^1.12.1":
   version "1.12.1"

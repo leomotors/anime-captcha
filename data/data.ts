@@ -1,4 +1,4 @@
-import type { CaptchaType } from "../src/models/CaptchaType";
+import { CaptchaType } from "../src/models/CaptchaType";
 
 // * Import all JSON Files Here
 import * as loli from "./loli.json";
