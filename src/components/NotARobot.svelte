@@ -12,10 +12,10 @@
       () => {
         // 3% Chance for Rick Roll
         if (Math.random() < 0.03) RickRolled = true;
-        else dispatch("requested");
+        else dispatch("start");
       },
-      // Load for 0.5s - 2s
-      Math.random() * 1500 + 500
+      // Load for 0.5s - 1.5s
+      Math.random() * 1000 + 500
     );
   }
 </script>

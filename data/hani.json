@@ -383,7 +383,7 @@
                 "en": "My Youth Romantic Comedy Is Wrong, As I Expected",
                 "ja": "やはり俺の青春ラブコメはまちがっている。"
             },
-            "answer": "true"
+            "answer": true
         }
     ],
     "onFail": {

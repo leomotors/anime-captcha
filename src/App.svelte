@@ -5,15 +5,22 @@
   import FooterBar from "./components/FooterBar.svelte";
 
   import { trimHTML } from "./utils/Trim";
+  import { CaptchaType } from "./models/CaptchaType";
 
-  import { Data, prepareData } from "./data/Data";
-  const data = prepareData(Data);
+  let data: CaptchaType;
 
-  let requested = false;
+  let started = false;
 
   let captchaEnded: boolean;
   let captchaResult: boolean;
   let userAnswer: boolean[][] = [[]];
+
+  async function onStart() {
+    const res = await fetch("/api");
+    data = await res.json();
+    started = true;
+  }
+
   function submitAnswer(event: CustomEvent<any>) {
     userAnswer = event.detail.answer;
 
@@ -35,7 +42,7 @@
 
 <!-- Why use Router? when you can use *if-else* -->
 <main class="d-flex flex-column justify-content-center align-items-center">
-  {#if requested}
+  {#if started}
     {#if captchaEnded}
       {#if seeAnswer}
         <h1 class="mt-3">Answer of "{trimHTML(data.title)}"</h1>
@@ -70,11 +77,7 @@
       <Captcha questions={data} on:submit={submitAnswer} />
     {/if}
   {:else}
-    <NotARobot
-      on:requested={() => {
-        requested = true;
-      }}
-    />
+    <NotARobot on:start={onStart} />
   {/if}
 
   <div class="reserve-footer-bar-space" />
