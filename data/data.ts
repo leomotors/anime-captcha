@@ -27,3 +27,7 @@ export function getRandomQuestions(): CaptchaType {
 
   return getQuestions(category);
 }
+
+export function getAll() {
+  return Data;
+}

@@ -3,6 +3,7 @@
   import Captcha from "./components/Captcha.svelte";
   import AnswerKey from "./components/AnswerKey.svelte";
   import FooterBar from "./components/FooterBar.svelte";
+  import Debug from "./components/Debug.svelte";
 
   import { trimHTML } from "./utils/Trim";
   import { CaptchaType } from "./models/CaptchaType";
@@ -38,6 +39,8 @@
   }
 
   let seeAnswer = false;
+
+  let debug = false;
 </script>
 
 <!-- Why use Router? when you can use *if-else* -->
@@ -78,6 +81,21 @@
     {/if}
   {:else}
     <NotARobot on:start={onStart} />
+  {/if}
+
+  <!-- DEVELOPMENT MODE ONLY -->
+  {#if import.meta.env.MODE == "development"}
+    <button
+      class="btn btn-info"
+      on:click={() => {
+        debug = true;
+      }}
+    >
+      DEBUG PHOTO
+    </button>
+    {#if debug}
+      <Debug />
+    {/if}
   {/if}
 
   <div class="reserve-footer-bar-space" />

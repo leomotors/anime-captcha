@@ -396,6 +396,66 @@
                 "ja": "やはり俺の青春ラブコメはまちがっている。"
             },
             "answer": true
+        },
+        {
+            "image": "https://i.pinimg.com/originals/74/0f/8f/740f8f9d0290df11ced664058dbe44ee.jpg",
+            "name": {
+                "en": "Hikigaya Komachi",
+                "ja": "比企谷小町"
+            },
+            "anime": {
+                "en": "My Youth Romantic Comedy Is Wrong, As I Expected",
+                "ja": "やはり俺の青春ラブコメはまちがっている。"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://i.pinimg.com/custom_covers/222x/663295920057752069_1545868521.jpg",
+            "name": {
+                "en": "Isshiki Iroha",
+                "ja": "一色いろは"
+            },
+            "anime": {
+                "en": "My Youth Romantic Comedy Is Wrong, As I Expected",
+                "ja": "やはり俺の青春ラブコメはまちがっている。"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://i.pinimg.com/originals/4d/96/21/4d9621d288649ad697bde58fac76790e.jpg",
+            "name": {
+                "en": "Yuigahama Yui",
+                "ja": "由比ヶ浜結衣"
+            },
+            "anime": {
+                "en": "My Youth Romantic Comedy Is Wrong, As I Expected",
+                "ja": "やはり俺の青春ラブコメはまちがっている。"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://i1.wp.com/akibatan.com/wp-content/uploads/2016/11/Yukinoshita-Yukino.jpg?fit=1920%2C1080&ssl=1",
+            "name": {
+                "en": "Yukinoshita Yukino",
+                "ja": "雪ノ下雪乃"
+            },
+            "anime": {
+                "en": "My Youth Romantic Comedy Is Wrong, As I Expected",
+                "ja": "やはり俺の青春ラブコメはまちがっている。"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://yaharibento.files.wordpress.com/2016/03/yahari-oregariu-zoku-anime-ep3-32-yukinoshita-haruno.jpg?w=740",
+            "name": {
+                "en": "Yukinoshita Haruno",
+                "ja": "雪ノ下陽乃"
+            },
+            "anime": {
+                "en": "My Youth Romantic Comedy Is Wrong, As I Expected",
+                "ja": "やはり俺の青春ラブコメはまちがっている。"
+            },
+            "answer": true
         }
     ],
     "onFail": {

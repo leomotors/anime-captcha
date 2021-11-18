@@ -266,7 +266,7 @@
             "answer": false
         },
         {
-            "image": "https://anime-daily.com/wp-content/uploads/2021/06/whymikasaaistherealprotagonistofattackontitanandnoteren.jpeg",
+            "image": "https://wallpapercave.com/wp/wp8472272.jpg",
             "name": {
                 "en": "Mikasa Ackerman",
                 "ja": "ミカサ・アッカーマン"
@@ -384,6 +384,18 @@
                 "ja": "ジョジョの奇妙な冒険"
             },
             "answer": false
+        },
+        {
+            "image": "https://yaharibento.files.wordpress.com/2016/03/yahari-oregariu-zoku-anime-ep3-32-yukinoshita-haruno.jpg?w=740",
+            "name": {
+                "en": "Yukinoshita Haruno",
+                "ja": "雪ノ下陽乃"
+            },
+            "anime": {
+                "en": "My Youth Romantic Comedy Is Wrong, As I Expected",
+                "ja": "やはり俺の青春ラブコメはまちがっている。"
+            },
+            "answer": true
         }
     ],
     "onFail": {

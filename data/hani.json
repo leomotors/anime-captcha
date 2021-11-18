@@ -384,6 +384,30 @@
                 "ja": "やはり俺の青春ラブコメはまちがっている。"
             },
             "answer": true
+        },
+        {
+            "image": "https://yaharibento.files.wordpress.com/2016/03/yahari-oregariu-zoku-anime-ep3-32-yukinoshita-haruno.jpg?w=740",
+            "name": {
+                "en": "Yukinoshita Haruno",
+                "ja": "雪ノ下陽乃"
+            },
+            "anime": {
+                "en": "My Youth Romantic Comedy Is Wrong, As I Expected",
+                "ja": "やはり俺の青春ラブコメはまちがっている。"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://i.pinimg.com/originals/74/0f/8f/740f8f9d0290df11ced664058dbe44ee.jpg",
+            "name": {
+                "en": "Hikigaya Komachi",
+                "ja": "比企谷小町"
+            },
+            "anime": {
+                "en": "My Youth Romantic Comedy Is Wrong, As I Expected",
+                "ja": "やはり俺の青春ラブコメはまちがっている。"
+            },
+            "answer": true
         }
     ],
     "onFail": {
