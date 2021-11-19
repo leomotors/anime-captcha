@@ -1,8 +1,10 @@
 # Changelog
 
-All notable change will be documented here
+All change except adding data will be noted here
 
-Changes like adding data will not be noted here
+## [1.1.43] - 2021-11-19
+
+- Fix an error in api/insight
 
 ## [1.1.42] - 2021-11-19
 

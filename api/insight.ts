@@ -1,16 +1,11 @@
 import { VercelRequest, VercelResponse } from "@vercel/node";
 import { getAll } from "../data/data";
-import { BuildTime, Version } from "../src/config";
 
 export default (req: VercelRequest, res: VercelResponse) => {
   const data = getAll();
 
   const response = {
     categories: {},
-    meta: {
-      build_time: BuildTime,
-      version: Version,
-    },
   };
 
   for (const cat in data) {
