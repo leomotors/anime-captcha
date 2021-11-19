@@ -480,6 +480,18 @@
                 "ja": "五等分の花嫁"
             },
             "answer": false
+        },
+        {
+            "image": "https://yaharibento.files.wordpress.com/2016/03/yahari-oregariu-zoku-anime-ep3-32-yukinoshita-haruno.jpg?w=740",
+            "name": {
+                "en": "Yukinoshita Haruno",
+                "ja": "雪ノ下陽乃"
+            },
+            "anime": {
+                "en": "My Youth Romantic Comedy Is Wrong, As I Expected",
+                "ja": "やはり俺の青春ラブコメはまちがっている。"
+            },
+            "answer": true
         }
     ],
     "onFail": {

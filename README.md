@@ -26,12 +26,10 @@ Featuring 3 Quizzes to test if you are a Robot
 
 /api/insight : Get Insight about the data ex. Questions Count
 
-## To Run Locally (prerequisites: nodejs, npm, yarn)
+## To Run Locally (prerequisites: nodejs, npm, yarn, vercel)
 
 - yarn install
 
-- yarn dev
+- vercel dev
 
 - Go to localhost:3000
-
-Done!
