@@ -1,8 +1,9 @@
 <script lang="ts">
-  import Label from "./AnswerTable/Label.svelte";
-
-  import { CaptchaType } from "../models/CaptchaType";
   import { onMount } from "svelte";
+
+  import Label from "./AnswerTable/Label.svelte";
+  import { CaptchaType } from "../models/CaptchaType";
+  import { trimHTML } from "../utils/Trim";
 
   let data: { [category: string]: CaptchaType } = {};
 
@@ -15,6 +16,7 @@
 <main>
   {#each Object.entries(data) as [category, captcha]}
     <h1 class="display-6">Category: {category}</h1>
+    <h2>{trimHTML(captcha.title)}</h2>
     <table class="table table-bordered">
       <thead>
         <tr class="table-info">

@@ -446,16 +446,40 @@
             "answer": false
         },
         {
-            "image": "https://yaharibento.files.wordpress.com/2016/03/yahari-oregariu-zoku-anime-ep3-32-yukinoshita-haruno.jpg?w=740",
+            "image": "https://cdn.myanimelist.net/r/360x360/images/characters/2/285624.jpg?s=dec49352cdc2c9b5bbc2c251400e6354",
             "name": {
-                "en": "Yukinoshita Haruno",
-                "ja": "雪ノ下陽乃"
+                "en": "Yuigahama's Mother",
+                "ja": "由比ヶ浜母"
             },
             "anime": {
                 "en": "My Youth Romantic Comedy Is Wrong, As I Expected",
                 "ja": "やはり俺の青春ラブコメはまちがっている。"
             },
             "answer": true
+        },
+        {
+            "image": "https://i1.wp.com/anitrendz.net/news/wp-content/uploads/2020/12/2020-12-11-20_49_12-Greenshot.png",
+            "name": {
+                "en": "Elaina",
+                "ja": "イレイナ"
+            },
+            "anime": {
+                "en": "Wandering Witch: The Journey of Elaina",
+                "ja": "魔女の旅々"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://i.pinimg.com/originals/fb/56/4e/fb564eb5becf892426d5a439e55a44db.jpg",
+            "name": {
+                "en": "Uesugi Raiha",
+                "ja": "上杉らいは"
+            },
+            "anime": {
+                "en": "Quintessential Quintuplets",
+                "ja": "五等分の花嫁"
+            },
+            "answer": false
         }
     ],
     "onFail": {

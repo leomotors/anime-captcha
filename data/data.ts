@@ -5,7 +5,7 @@ import * as loli from "./loli.json";
 import * as trap from "./trap.json";
 import * as hani from "./hani.json";
 
-export const Data: { [category: string]: CaptchaType } = { loli, trap, hani };
+const Data: { [category: string]: CaptchaType } = { loli, trap, hani };
 
 export function getQuestions(category: string): CaptchaType {
   const data = Data[category];

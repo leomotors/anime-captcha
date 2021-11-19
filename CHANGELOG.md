@@ -4,6 +4,10 @@ All notable change will be documented here
 
 Changes like adding data will not be noted here
 
+## [1.1.42] - 2021-11-19
+
+- Updated api/insight
+
 ## [1.1.40] - 2021-11-18
 
 - Added API to reduce client workload and for 3rd party use (if someone wish to)

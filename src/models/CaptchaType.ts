@@ -13,7 +13,7 @@ interface Question {
   answer: boolean;
 }
 
-// * This is the type of JSON File
+// * This is the type of JSON File * //
 export interface CaptchaType {
   // * Title of Captcha (the one appearing on top)
   title: string;

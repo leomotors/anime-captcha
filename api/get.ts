@@ -14,6 +14,7 @@ export default (req: VercelRequest, res: VercelResponse) => {
     }
   } else {
     const questions = getRandomQuestions();
+
     if (questions) {
       res.status(200).json(questions);
     } else {
