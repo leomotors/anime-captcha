@@ -3,40 +3,37 @@
   const dispatch = createEventDispatcher();
 
   import { Spinner } from "sveltestrap";
+  import RickRoll from "./RickRoll.svelte";
 
   let boxClicked = false;
   let RickRolled = false;
+  let SuperIdoled = false;
   function setBoxClicked() {
     boxClicked = true;
-    setTimeout(
-      () => {
-        // 3% Chance for Rick Roll
-        if (Math.random() < 0.03) RickRolled = true;
-        else dispatch("start");
-      },
-      // Load for 0.5s - 1.5s
-      Math.random() * 1000 + 500
-    );
+    const randed = Math.random();
+
+    // 4% Chance for Rick Roll and 3% for Super Idol
+    if (randed < 0.04) RickRolled = true;
+    else if (randed < 0.07) SuperIdoled = true;
+    else dispatch("start");
   }
 </script>
 
 <main>
   {#if RickRolled}
-    <h3 class="fw-bold">You Lucky!</h3>
-    <hr />
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
+    <RickRoll
       title="Never Gonna Give You Up"
-      frameborder="0"
-      allow="autoplay; encrypted-media; picture-in-picture"
-      allowfullscreen
+      url="dQw4w9WgXcQ"
+      roll="Rick Rolled"
+      chance="4"
     />
-    <h4 class="mt-4">
-      There is 3% Chance you will be Rick Rolled and you get it!
-    </h4>
-    <h4>Reload Website to try again</h4>
+  {:else if SuperIdoled}
+    <RickRoll
+      title="super idol 的笑容都没你的甜"
+      url="aCgP8BFjrw4"
+      roll="Super Idoled"
+      chance="3"
+    />
   {:else}
     {#if boxClicked}
       <Spinner color="primary" />

@@ -1,6 +1,6 @@
 {
   "name": "anime-captcha",
-  "version": "1.1.44",
+  "version": "1.1.45",
   "type": "module",
   "scripts": {
     "dev": "yarn config:pkg && vite --port $PORT",
@@ -26,7 +26,7 @@
     "@typescript-eslint/parser": "^5.4.0",
     "@vercel/node": "^1.12.1",
     "eslint": "^8.2.0",
-    "svelte": "^3.44.1",
+    "svelte": "^3.44.2",
     "svelte-check": "^2.2.10",
     "svelte-preprocess": "^4.9.8",
     "tslib": "^2.3.1",

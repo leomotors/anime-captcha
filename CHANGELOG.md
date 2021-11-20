@@ -2,6 +2,12 @@
 
 All change except adding data will be noted here
 
+## [1.1.45] - 2021-11-20
+
+- Added Super Idol (and refactored some code)
+
+- Removed fake loading time
+
 ## [1.1.43] - 2021-11-19
 
 - Fix an error in api/insight
