@@ -2,6 +2,10 @@
 
 All change except adding data will be noted here
 
+## [1.1.46] - 2021-11-21
+
+- Considerbly increased Rick Roll and Super Idol Chance
+
 ## [1.1.45] - 2021-11-20
 
 - Added Super Idol (and refactored some code)

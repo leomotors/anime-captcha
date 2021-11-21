@@ -12,9 +12,9 @@
     boxClicked = true;
     const randed = Math.random();
 
-    // 4% Chance for Rick Roll and 3% for Super Idol
-    if (randed < 0.04) RickRolled = true;
-    else if (randed < 0.07) SuperIdoled = true;
+    // 6% Chance for Rick Roll and 4% for Super Idol
+    if (randed < 0.06) RickRolled = true;
+    else if (randed < 0.1) SuperIdoled = true;
     else dispatch("start");
   }
 </script>
@@ -25,14 +25,14 @@
       title="Never Gonna Give You Up"
       url="dQw4w9WgXcQ"
       roll="Rick Rolled"
-      chance="4"
+      chance="6"
     />
   {:else if SuperIdoled}
     <RickRoll
       title="super idol 的笑容都没你的甜"
       url="aCgP8BFjrw4"
       roll="Super Idoled"
-      chance="3"
+      chance="4"
     />
   {:else}
     {#if boxClicked}
