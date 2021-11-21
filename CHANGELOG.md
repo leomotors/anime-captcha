@@ -2,6 +2,10 @@
 
 All change except adding data will be noted here
 
+## [1.1.47] - 2021-11-21
+
+- Added Timer so you can speedrun if you wish!
+
 ## [1.1.46] - 2021-11-21
 
 - Considerbly increased Rick Roll and Super Idol Chance

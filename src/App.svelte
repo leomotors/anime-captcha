@@ -11,6 +11,8 @@
   let data: CaptchaType;
 
   let started = false;
+  let start_time: number;
+  let time_used: number;
 
   let captchaEnded: boolean;
   let captchaResult: boolean;
@@ -20,9 +22,12 @@
     const res = await fetch("/api/get");
     data = await res.json();
     started = true;
+    start_time = new Date().getTime();
   }
 
   function submitAnswer(event: CustomEvent<any>) {
+    time_used = (new Date().getTime() - start_time) / 1000;
+
     userAnswer = event.detail.answer;
 
     for (let i = 0; i < 4; i++) {
@@ -61,6 +66,9 @@
       {:else}
         {#if captchaResult}
           <h1>Congrats! You are not a Robot</h1>
+          <h2>
+            You completed "{trimHTML(data.title)}" within {time_used} seconds
+          </h2>
         {:else}
           <h1>{data.onFail.text}</h1>
           <img src={data.onFail.image} alt={data.onFail.text} width="400px" />
@@ -84,7 +92,7 @@
   {/if}
 
   <!-- DEVELOPMENT MODE ONLY -->
-  {#if import.meta.env.MODE == "development"}
+  {#if import.meta.env.MODE == "development" && !started}
     <button
       class="btn btn-info"
       on:click={() => {
