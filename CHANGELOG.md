@@ -1,6 +1,16 @@
 # Changelog
 
-All change except adding data will be noted here
+All change except updating data will be noted here
+
+## [1.1.49] - 2021-11-27
+
+- Added 200-800 Ranged Score
+
+- Updated Website Logo
+
+- Updated api/insight
+
+- Misc Changes
 
 ## [1.1.48] - 2021-11-27
 
@@ -35,3 +45,7 @@ All change except adding data will be noted here
 - Added API to reduce client workload and for 3rd party use (if someone wish to)
 
 - Added Image Debug (Only available in Development Mode)
+
+## Note
+
+All changes before 1.1.40 are not documented here

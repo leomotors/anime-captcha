@@ -15,7 +15,8 @@
   let time_used: number;
 
   let captchaEnded: boolean;
-  let captchaResult: boolean;
+  let captchaScore: number;
+  let captchaRawScore: number;
   let userAnswer: boolean[][] = [[]];
 
   async function onStart() {
@@ -30,16 +31,19 @@
 
     userAnswer = event.detail.answer;
 
+    let correct = 0;
+
     for (let i = 0; i < 4; i++) {
       for (let j = 0; j < 4; j++) {
-        if (data.questions[4 * i + j].answer != userAnswer[i][j]) {
-          captchaResult = false; // Fail Captcha
-          captchaEnded = true;
-          return;
+        if (data.questions[4 * i + j].answer == userAnswer[i][j]) {
+          correct += 1;
         }
       }
     }
-    captchaResult = true; // Pass Captcha
+
+    captchaScore = 200 + 10 * Math.round((correct / 16) * 60);
+    captchaRawScore = correct;
+
     captchaEnded = true;
   }
 
@@ -64,7 +68,7 @@
           Go Back
         </button>
       {:else}
-        {#if captchaResult}
+        {#if captchaRawScore == 16}
           <h1>Congrats! You are not a Robot</h1>
           <h2>
             You completed "{trimHTML(data.title)}" within {time_used} seconds
@@ -72,8 +76,17 @@
         {:else}
           <h1>{data.onFail.text}</h1>
           <img src={data.onFail.image} alt={data.onFail.text} width="400px" />
+          <h4 class="text-muted mt-4">
+            You have spent {time_used} seconds and still fail; pathetic.
+          </h4>
         {/if}
-        <div class="buttons d-flex flex-row justify-center my-4">
+        <h3
+          class="mt-4"
+          title={`You answered correctly ${captchaRawScore} out of 16`}
+        >
+          Your Score: {captchaScore}
+        </h3>
+        <div class="buttons d-flex flex-row justify-center my-2">
           <button
             class="btn btn-primary"
             on:click={() => {
@@ -92,12 +105,12 @@
           </button>
         </div>
       {/if}
-      <h4>
+      <h5>
         Want to request or contribute? Check GitHub Repo
         <a href="https://github.com/Leomotors/anime-captcha" target="_blank">
           here!
         </a>
-      </h4>
+      </h5>
     {:else}
       <Captcha questions={data} on:submit={submitAnswer} />
     {/if}
