@@ -22,6 +22,5 @@ prefer the english name order to be the same as written in Japanese
 
 Make sure it is usable, Pictures from Wikipedia likely can't be displayed
 
-## If Possible
-
-If possible, you should run the website locally and test if everythings goes right!
+If you are able to run it locally (which you need vercel account and project to do that)
+There is Debug Tools to check if photos are displaying correctly

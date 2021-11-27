@@ -24,12 +24,11 @@
           <th>Image</th>
           <th>Character Name</th>
           <th>Anime</th>
-          <th>Answer</th>
         </tr>
       </thead>
       <tbody>
         {#each captcha.questions as question, i}
-          <tr>
+          <tr class={question.answer ? "table-success" : "table-danger"}>
             <td><h1>{i + 1}</h1></td>
             <td>
               <div
@@ -39,7 +38,6 @@
             </td>
             <td><Label label={question.name} /></td>
             <td><Label label={question.anime} /></td>
-            <td><h2>{question.answer ? "YES" : "NO"}</h2></td>
           </tr>
         {/each}
       </tbody>

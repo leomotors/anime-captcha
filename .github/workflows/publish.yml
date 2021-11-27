@@ -18,3 +18,4 @@ jobs:
         uses: Leomotors/auto-publish-release@main
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VERSION_MUST_INCREASE: true

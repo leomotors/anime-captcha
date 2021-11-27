@@ -47,6 +47,7 @@
 <style lang="scss">
   main {
     display: inline-block;
+    user-select: none;
     margin: auto;
     padding: 1em;
     border-radius: 0.2em;

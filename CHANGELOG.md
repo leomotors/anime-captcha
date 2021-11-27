@@ -2,6 +2,12 @@
 
 All change except adding data will be noted here
 
+## [1.1.48] - 2021-11-27
+
+- Added Play again Button for whom is lazy to press F5
+
+- Misc UI Changes
+
 ## [1.1.47] - 2021-11-21
 
 - Added Timer so you can speedrun if you wish!

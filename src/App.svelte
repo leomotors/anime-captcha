@@ -56,7 +56,7 @@
         <h1 class="mt-3">Answer of "{trimHTML(data.title)}"</h1>
         <AnswerKey {data} {userAnswer} />
         <button
-          class="btn btn-info mt-2 mb-3"
+          class="btn btn-primary my-3"
           on:click={() => {
             seeAnswer = false;
           }}
@@ -73,17 +73,31 @@
           <h1>{data.onFail.text}</h1>
           <img src={data.onFail.image} alt={data.onFail.text} width="400px" />
         {/if}
-        <button
-          class="btn btn-info mt-2 mb-3"
-          on:click={() => {
-            seeAnswer = true;
-          }}
-        >
-          See Answers
-        </button>
+        <div class="buttons d-flex flex-row justify-center my-4">
+          <button
+            class="btn btn-primary"
+            on:click={() => {
+              seeAnswer = true;
+            }}
+          >
+            See Answers
+          </button>
+          <button
+            class="btn btn-secondary"
+            on:click={() => {
+              window.location.reload();
+            }}
+          >
+            Play again
+          </button>
+        </div>
       {/if}
-      <h4>Reload Website to play again</h4>
-      <h4>Want to request or contribute? Check GitHub Repo below!</h4>
+      <h4>
+        Want to request or contribute? Check GitHub Repo
+        <a href="https://github.com/Leomotors/anime-captcha" target="_blank">
+          here!
+        </a>
+      </h4>
     {:else}
       <Captcha questions={data} on:submit={submitAnswer} />
     {/if}
@@ -99,7 +113,7 @@
         debug = true;
       }}
     >
-      DEBUG PHOTO
+      DEV ENV ONLY: DEBUG PHOTO
     </button>
     {#if debug}
       <Debug />
@@ -119,5 +133,13 @@
 
   .reserve-footer-bar-space {
     height: 4em;
+  }
+
+  .buttons > button {
+    margin: 0.5em;
+  }
+
+  a {
+    text-decoration: none;
   }
 </style>

@@ -19,4 +19,18 @@
 <h4 class="mt-4">
   There is {chance}% Chance you will be {roll} and you get it!
 </h4>
-<h4>Reload Website to try again</h4>
+
+<button
+  class="btn btn-primary m-2"
+  on:click={() => {
+    window.location.reload();
+  }}
+>
+  Try again
+</button>
+
+<style lang="scss">
+  * {
+    user-select: text;
+  }
+</style>
