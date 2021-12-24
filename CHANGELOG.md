@@ -2,6 +2,10 @@
 
 All change except updating data will be noted here
 
+## [1.1.50] - 2021-12-24
+
+- 走れそりよ 風のように 月見原を パドルパドル! (Added Padoru Padoru Roll, December Exclusive)
+
 ## [1.1.49] - 2021-11-27
 
 - Added 200-800 Ranged Score

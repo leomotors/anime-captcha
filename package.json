@@ -1,6 +1,6 @@
 {
   "name": "anime-captcha",
-  "version": "1.1.49",
+  "version": "1.1.50",
   "type": "module",
   "scripts": {
     "dev": "yarn config:pkg && vite --port $PORT",
@@ -20,24 +20,23 @@
   },
   "homepage": "https://github.com/Leomotors/anime-captcha",
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
-    "@tsconfig/svelte": "^2.0.1",
-    "@typescript-eslint/eslint-plugin": "^5.4.0",
-    "@typescript-eslint/parser": "^5.4.0",
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.32",
+    "@typescript-eslint/eslint-plugin": "^5.8.0",
+    "@typescript-eslint/parser": "^5.8.0",
     "@vercel/node": "^1.12.1",
-    "eslint": "^8.2.0",
-    "svelte": "^3.44.2",
-    "svelte-check": "^2.2.10",
-    "svelte-preprocess": "^4.9.8",
+    "eslint": "^8.5.0",
+    "svelte": "^3.44.3",
+    "svelte-check": "^2.2.11",
+    "svelte-preprocess": "^4.10.1",
     "tslib": "^2.3.1",
-    "typescript": "^4.5.2",
-    "vite": "^2.6.14"
+    "typescript": "^4.5.4",
+    "vite": "^2.7.6"
   },
   "dependencies": {
     "bootstrap": "^5.1.3",
-    "chalk": "^4.1.2",
+    "chalk": "^5.0.0",
     "leomotors-automation": "^1.0.1",
-    "node-sass": "^6.0.1",
+    "node-sass": "^7.0.0",
     "sveltestrap": "^5.6.3"
   }
 }

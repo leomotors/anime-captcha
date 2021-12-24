@@ -4,7 +4,7 @@ Just a Normal Captcha, _you are not a robot? Then pass this Captcha!_
 
 Featuring 3 Quizzes to test if you are a Robot
 
-## Reference
+## 🍅 Reference
 
 <img src="https://pbs.twimg.com/media/EXqFcdtWAAETZwC.jpg" height="300px" />
 
@@ -12,11 +12,11 @@ Featuring 3 Quizzes to test if you are a Robot
 
 <img src="https://titterfun.com/api/assets/image/zmmkr837ciax.jpg" height="350px" />
 
-## Want to Contribute? See Here!
+## ➕ Want to Contribute? See Here!
 
 [Contributing Guideline](./CONTRIBUTING.md)
 
-## API
+## 🌐 API
 
 /api/get : Get Questions just like how the app would retrieve data
 
@@ -26,7 +26,7 @@ Featuring 3 Quizzes to test if you are a Robot
 
 /api/insight : Get Insight about the data ex. Questions Count
 
-## To Run Locally (prerequisites: nodejs, npm, yarn, vercel)
+## 🔼 To Run Locally (prerequisites: nodejs, npm, yarn, vercel)
 
 - yarn install
 

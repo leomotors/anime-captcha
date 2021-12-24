@@ -8,13 +8,16 @@
   let boxClicked = false;
   let RickRolled = false;
   let SuperIdoled = false;
+  let Padoru = false;
   function setBoxClicked() {
     boxClicked = true;
     const randed = Math.random();
 
     // 6% Chance for Rick Roll and 4% for Super Idol
+    // Extra 10% for Padoru in December
     if (randed < 0.06) RickRolled = true;
     else if (randed < 0.1) SuperIdoled = true;
+    else if (randed < 0.2 && new Date().getMonth() == 11) Padoru = true;
     else dispatch("start");
   }
 </script>
@@ -33,6 +36,13 @@
       url="aCgP8BFjrw4"
       roll="Super Idoled"
       chance="4"
+    />
+  {:else if Padoru}
+    <RickRoll
+      title="パドルパドル"
+      url="JAHTCjCInJ0"
+      roll="Padoru Padoruられる"
+      chance="10"
     />
   {:else}
     {#if boxClicked}
