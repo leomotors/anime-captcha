@@ -1,11 +1,11 @@
-import { CaptchaType } from "../src/models/CaptchaType";
+import { CaptchaType, CaptchaTypeJSON } from "../src/models/CaptchaType";
 
 // * Import all JSON Files Here
 import * as loli from "./loli.json";
 import * as trap from "./trap.json";
 import * as hani from "./hani.json";
 
-const Data: { [category: string]: CaptchaType } = { loli, trap, hani };
+const Data: { [category: string]: CaptchaTypeJSON } = { loli, trap, hani };
 
 export function getQuestions(category: string): CaptchaType {
   const data = Data[category];
@@ -15,6 +15,7 @@ export function getQuestions(category: string): CaptchaType {
   const questions = data.questions.sort(() => 0.5 - Math.random()).slice(0, 16);
 
   return {
+    category,
     title: data.title,
     questions: questions,
     onFail: data.onFail,

@@ -14,7 +14,7 @@ interface Question {
 }
 
 // * This is the type of JSON File * //
-export interface CaptchaType {
+export interface CaptchaTypeJSON {
   // * Title of Captcha (the one appearing on top)
   title: string;
   // * Questions
@@ -24,4 +24,9 @@ export interface CaptchaType {
     text: string;
     image: string;
   };
+}
+
+export interface CaptchaType extends CaptchaTypeJSON {
+  // * Short name of Title
+  category: string;
 }
