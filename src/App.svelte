@@ -49,11 +49,7 @@
 
   let seeAnswer = false;
   let debug = false;
-
-  import { GoogleAnalytics } from "@beyonk/svelte-google-analytics";
 </script>
-
-<GoogleAnalytics properties={[import.meta.env.VITE_GTAGID]} />
 
 <!-- Why use Router? when you can use *if-else* -->
 <main class="d-flex flex-column justify-content-center align-items-center">

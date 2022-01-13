@@ -492,6 +492,30 @@
                 "ja": "やはり俺の青春ラブコメはまちがっている。"
             },
             "answer": true
+        },
+        {
+            "image": "https://64.media.tumblr.com/882cf7710f1601118b6146f60732c144/8708330f3a30a319-11/s1280x1920/ac528155ee03b0f588db8d523c0028186e7cb9ce.jpg",
+            "name": {
+                "en": "Fuiba Fuyu",
+                "ja": "風衣葉冬優"
+            },
+            "anime": {
+                "en": "Is the Order a Rabbit?",
+                "ja": "ご注文はうさぎですか？"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://otakotaku.com/asset/img/character/2021/10/fuku-61642199455a1p.jpg",
+            "name": {
+                "en": "Fuku",
+                "ja": "ふく"
+            },
+            "anime": {
+                "en": "Demon Slayer",
+                "ja": "鬼滅の刃"
+            },
+            "answer": false
         }
     ],
     "onFail": {

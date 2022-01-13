@@ -2,9 +2,9 @@
 
 All change except updating data will be noted here
 
-## [1.1.51] - 2022-01-13
+## [1.1.51 & 1.1.52] - 2022-01-13
 
-- Added Google Analytics
+- Added Google Analytics & Fix
 
 ## [1.1.50] - 2021-12-24
 

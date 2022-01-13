@@ -23,18 +23,6 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@beyonk/async-script-loader@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@beyonk/async-script-loader/-/async-script-loader-2.0.0.tgz#d8867e5cdf6ecd0e8cc06da06a8a5fb2a405f59f"
-  integrity sha512-OAhcycCXwSVsSMjJGAENz0qtrALW943IRbIGZRnJZBA2aO/BDdWuHY1gF/9l+dZITAEu/wAkwhMqtXNeqmW1rw==
-
-"@beyonk/svelte-google-analytics@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@beyonk/svelte-google-analytics/-/svelte-google-analytics-2.2.0.tgz#81faafe617105619849bddba89c9ee2ebd3c987d"
-  integrity sha512-SwH0+fw1JW7YIw61AnyeJRyGadwu0nkz6dpQZP+z8h85IJShXf4JIxwAXNLdsWf7ogEy6MRU0YoC1Mn6YF7pHw==
-  dependencies:
-    "@beyonk/async-script-loader" "^2.0.0"
-
 "@eslint/eslintrc@^1.0.5":
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-1.0.5.tgz#33f1b838dbf1f923bfa517e008362b78ddbbf318"
