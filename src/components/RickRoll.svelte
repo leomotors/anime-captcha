@@ -26,7 +26,7 @@
     window.location.reload();
   }}
 >
-  Try again
+  Pray and Try again
 </button>
 
 <style lang="scss">

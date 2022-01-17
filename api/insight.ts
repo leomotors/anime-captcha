@@ -1,5 +1,6 @@
 import { VercelRequest, VercelResponse } from "@vercel/node";
 import { getAll } from "../data/data";
+import { Insight } from "../src/models/Insight";
 
 const scoreFormula = (correct: number) =>
   200 + 10 * Math.round((correct / 16) * 60);
@@ -7,7 +8,7 @@ const scoreFormula = (correct: number) =>
 export default (req: VercelRequest, res: VercelResponse) => {
   const data = getAll();
 
-  const response = {
+  const response: Insight = {
     categories: {},
     score_scale: {},
     created_at: new Date().toISOString(),

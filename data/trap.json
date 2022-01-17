@@ -112,8 +112,8 @@
         {
             "image": "https://external-preview.redd.it/MD6xaauDnqdCYidkPwhkDOsWoOSsQBXP_Dw5dfcKAoc.jpg?auto=webp&s=6738f017c48c1bd119c316831b56ff9e9adc9a79",
             "name": {
-                "en": "Kirito",
-                "ja": "キリト"
+                "en": "Kirito (Kirigaya Kazuto)",
+                "ja": "キリト (桐ヶ谷和人)"
             },
             "anime": {
                 "en": "Sword Art Online",
@@ -466,6 +466,78 @@
             "anime": {
                 "en": "Is the Order a Rabbit?",
                 "ja": "ご注文はうさぎですか？"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://i.ytimg.com/vi/jYoqcRlPzY4/hqdefault.jpg",
+            "name": {
+                "en": "Nukesaku",
+                "ja": "ヌケサク"
+            },
+            "anime": {
+                "en": "JoJo's Bizarre Adventure",
+                "ja": "ジョジョの奇妙な冒険"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://ecdn.game4v.com/g4v-content/uploads/2021/12/14211827/game4v-anh-bia-1639491507-62.jpg",
+            "name": {
+                "en": "Kamado Tanjirō",
+                "ja": "竈門炭治郎"
+            },
+            "anime": {
+                "en": "Demon Slayer",
+                "ja": "鬼滅の刃"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://64.media.tumblr.com/210717b8dc47e031ad13ed8cb76dab23/21c48d768f977e91-92/s540x810/2241226664ddc2a7ff2b6fbaabd0e036becfbe63.png",
+            "name": {
+                "en": "Zenko (Agatsuma Zenitsu)",
+                "ja": "善子 (我妻善逸)"
+            },
+            "anime": {
+                "en": "Demon Slayer",
+                "ja": "鬼滅の刃"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://lostinanime.com/wp-content/uploads/2021/12/Kimetsu-no-Yaiba-Yuukaku-hen-02-20.jpg",
+            "name": {
+                "en": "Hashibira Inosuke",
+                "ja": "嘴平伊之助"
+            },
+            "anime": {
+                "en": "Demon Slayer",
+                "ja": "鬼滅の刃"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://shogi-pineapple.b-cdn.net/wp-content/uploads/2021/12/1639803756_346_Who-is-Daki-from-Kimetsu-no-Yaiba-Demon-Slayer.jpg",
+            "name": {
+                "en": "Daki",
+                "ja": "堕姫"
+            },
+            "anime": {
+                "en": "Demon Slayer",
+                "ja": "鬼滅の刃"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://i.pinimg.com/originals/67/bc/f1/67bcf160c0643d61b6d9da16e564d96b.jpg",
+            "name": {
+                "en": "Kocho Shinobu",
+                "ja": "胡蝶しのぶ"
+            },
+            "anime": {
+                "en": "Demon Slayer",
+                "ja": "鬼滅の刃"
             },
             "answer": true
         }

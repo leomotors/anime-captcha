@@ -29,7 +29,11 @@
 </script>
 
 <main>
-  <a href="https://github.com/Leomotors/anime-captcha" target="_blank">
+  <a
+    href="https://github.com/Leomotors/anime-captcha"
+    rel="noopener"
+    target="_blank"
+  >
     <i class="bi bi-github" /> GitHub
   </a>
   |

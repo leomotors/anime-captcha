@@ -7,6 +7,9 @@ import * as hani from "./hani.json";
 
 const Data: { [category: string]: CaptchaTypeJSON } = { loli, trap, hani };
 
+// * loli and trap has 2 while hani has 1
+const weights = [0, 2, 4, 5];
+
 export function getQuestions(category: string): CaptchaType {
   const data = Data[category];
 
@@ -22,9 +25,15 @@ export function getQuestions(category: string): CaptchaType {
   };
 }
 
+function getCategoryByIndex(index: number): number {
+  for (let i = 0; i < weights.length; i++) {
+    if (weights[i] > index) return i - 1;
+  }
+}
+
 export function getRandomQuestions(): CaptchaType {
-  const category =
-    Object.keys(Data)[Math.floor(Math.random() * Object.keys(Data).length)];
+  const category_index = Math.random() * weights[weights.length - 1];
+  const category = Object.keys(Data)[getCategoryByIndex(category_index)];
 
   return getQuestions(category);
 }

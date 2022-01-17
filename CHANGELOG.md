@@ -2,6 +2,16 @@
 
 All change except updating data will be noted here
 
+## [1.1.54] - 2022-01-17
+
+- Category selection now weighted because I hate hani category so, its chance is reduced
+
+- Updated Debug Component
+
+- Increased Rick Roll and Super Idol Chance to 6.9% and 4.20% (was 6%, 4%)
+
+- Many new characters added
+
 ## [1.1.51 & 1.1.52] - 2022-01-13
 
 - Added Google Analytics & Fix

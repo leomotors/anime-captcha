@@ -106,7 +106,11 @@
       {/if}
       <h5>
         Want to request or contribute? Check GitHub Repo
-        <a href="https://github.com/Leomotors/anime-captcha" target="_blank">
+        <a
+          href="https://github.com/Leomotors/anime-captcha"
+          target="_blank"
+          rel="noopener"
+        >
           here!
         </a>
       </h5>

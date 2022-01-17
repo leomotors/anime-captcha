@@ -23,7 +23,7 @@
                 "en": "Is the Order a Rabbit?",
                 "ja": "ご注文はうさぎですか？"
             },
-            "answer": true
+            "answer": false
         },
         {
             "image": "https://i.pinimg.com/originals/60/a9/0b/60a90bdff72f9fda44b423679bcc0987.png",
@@ -383,7 +383,7 @@
                 "en": "Is the Order a Rabbit?",
                 "ja": "ご注文はうさぎですか？"
             },
-            "answer": true
+            "answer": false
         },
         {
             "image": "https://i.pinimg.com/originals/e8/67/d2/e867d2ee8e0c21c1e092e58e3f8262d9.jpg",
@@ -516,6 +516,54 @@
                 "ja": "鬼滅の刃"
             },
             "answer": false
+        },
+        {
+            "image": "https://cdn.myanimelist.net/r/360x360/images/characters/12/422313.jpg?s=fe6553e8ca343f61bcfbcfb65c0d4379",
+            "name": {
+                "en": "Kugisaki Nobara",
+                "ja": "釘崎野薔薇"
+            },
+            "anime": {
+                "en": "Jujutsu Kaisen",
+                "ja": "呪術廻戦"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://shogi-pineapple.b-cdn.net/wp-content/uploads/2021/12/1639803756_346_Who-is-Daki-from-Kimetsu-no-Yaiba-Demon-Slayer.jpg",
+            "name": {
+                "en": "Daki",
+                "ja": "堕姫"
+            },
+            "anime": {
+                "en": "Demon Slayer",
+                "ja": "鬼滅の刃"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://i.pinimg.com/originals/67/bc/f1/67bcf160c0643d61b6d9da16e564d96b.jpg",
+            "name": {
+                "en": "Kocho Shinobu",
+                "ja": "胡蝶しのぶ"
+            },
+            "anime": {
+                "en": "Demon Slayer",
+                "ja": "鬼滅の刃"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://i.pinimg.com/474x/4e/87/49/4e87499beaa27e4320245e5599baf7c7.jpg",
+            "name": {
+                "en": "Higashikata Tomoko",
+                "ja": "東方朋子"
+            },
+            "anime": {
+                "en": "JoJo's Bizarre Adventure",
+                "ja": "ジョジョの奇妙な冒険"
+            },
+            "answer": true
         }
     ],
     "onFail": {

@@ -13,11 +13,11 @@
     boxClicked = true;
     const randed = Math.random();
 
-    // 6% Chance for Rick Roll and 4% for Super Idol
+    // 6.9% Chance for Rick Roll and 4.20% for Super Idol
     // Extra 10% for Padoru in December
-    if (randed < 0.06) RickRolled = true;
-    else if (randed < 0.1) SuperIdoled = true;
-    else if (randed < 0.2 && new Date().getMonth() == 11) Padoru = true;
+    if (randed < 0.069) RickRolled = true;
+    else if (randed < 0.111) SuperIdoled = true;
+    else if (randed < 0.211 && new Date().getMonth() == 11) Padoru = true;
     else dispatch("start");
   }
 </script>
@@ -28,14 +28,14 @@
       title="Never Gonna Give You Up"
       url="dQw4w9WgXcQ"
       roll="Rick Rolled"
-      chance="6"
+      chance="6.9"
     />
   {:else if SuperIdoled}
     <RickRoll
       title="super idol 的笑容都没你的甜"
       url="aCgP8BFjrw4"
       roll="Super Idoled"
-      chance="4"
+      chance="4.20"
     />
   {:else if Padoru}
     <RickRoll
