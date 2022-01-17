@@ -1,20 +1,19 @@
 import { VercelRequest, VercelResponse } from "@vercel/node";
-import { getAll } from "../data/data";
+import { getAll, weights } from "../data/data";
 import { Insight } from "../src/models/Insight";
-
-const scoreFormula = (correct: number) =>
-  200 + 10 * Math.round((correct / 16) * 60);
 
 export default (req: VercelRequest, res: VercelResponse) => {
   const data = getAll();
 
   const response: Insight = {
     categories: {},
-    score_scale: {},
     created_at: new Date().toISOString(),
   };
 
-  for (const cat in data) {
+  const dataKey = Object.keys(data);
+  for (let i = 0; i < dataKey.length; i++) {
+    const cat = dataKey[i];
+
     const catData = data[cat];
 
     let correct_count = 0;
@@ -27,11 +26,8 @@ export default (req: VercelRequest, res: VercelResponse) => {
       correct_count,
       correct_ratio:
         Math.round((correct_count / catData.questions.length) * 1000) / 1000,
+      weight: weights[i + 1] - weights[i],
     };
-  }
-
-  for (let i = 0; i <= 16; i++) {
-    response.score_scale[i] = scoreFormula(i);
   }
 
   res.status(200).json(response);

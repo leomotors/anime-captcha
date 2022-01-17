@@ -26,14 +26,12 @@
 
     ageLabel = `Last Updated: ${nnago}`;
   });
+
+  const ghurl = "https://github.com/Leomotors/anime-captcha";
 </script>
 
 <main>
-  <a
-    href="https://github.com/Leomotors/anime-captcha"
-    rel="noopener"
-    target="_blank"
-  >
+  <a href={ghurl} rel="noopener" target="_blank">
     <i class="bi bi-github" /> GitHub
   </a>
   |
@@ -44,6 +42,7 @@
   <span title={`Built at ${BuildTime}`}>
     {ageLabel}
   </span>
+  <a href={`${ghurl}/releases`} rel="noopener" target="_blank"> What's new? </a>
 </main>
 
 <style lang="scss">

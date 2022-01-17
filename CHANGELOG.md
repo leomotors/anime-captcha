@@ -2,6 +2,16 @@
 
 All change except updating data will be noted here
 
+## [1.1.56] - 2022-01-17
+
+- Footer Bar & Debug Panel & other misc changes
+
+- api/insight: Added weight in each categories
+
+- Removed 800 Score Scale
+
+- Added God Mode in Development Environment (Press g to reveal all answer, warning: Don't try this on production, you have been warned)
+
 ## [1.1.55] - 2022-01-17
 
 - You can now press Enter to submit answer

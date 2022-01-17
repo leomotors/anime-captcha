@@ -33,6 +33,26 @@
     if (e.key == "Enter") {
       submitAnswer();
     }
+    // God Mode (Dev Mode Only)
+    if (e.key == "g") {
+      if (import.meta.env.MODE == "development") {
+        for (let i = 0; i < 4; i++) {
+          for (let j = 0; j < 4; j++) {
+            clicked[i][j] = questions.questions[4 * i + j].answer;
+          }
+        }
+      } else {
+        // LMAO
+        if (
+          confirm("Pressing 'g' will reveal all answer (God Mode), Proceed?")
+        ) {
+          window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank");
+          alert(
+            "You should not trust stranger. Anyway, God Mode do exists but not for you!"
+          );
+        }
+      }
+    }
   };
 
   function submitAnswer(): void {
@@ -79,7 +99,9 @@
   >
     <i class="reload-btn bi bi-arrow-clockwise" on:click={reload} />
     {#if lmaoreload}
-      <div class="text-danger fs-4">You cannot change test case!</div>
+      <div class="text-danger fs-4 user-select-none">
+        You cannot change test case!
+      </div>
     {/if}
     <button
       class="captcha-verify btn my-2 text-light"

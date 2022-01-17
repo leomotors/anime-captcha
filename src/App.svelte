@@ -16,7 +16,7 @@
 
   let captchaEnded: boolean;
   let captchaScore: number;
-  let captchaRawScore: number;
+  let success: boolean;
   let userAnswer: boolean[][] = [[]];
 
   async function onStart() {
@@ -41,9 +41,8 @@
       }
     }
 
-    captchaScore = 200 + 10 * Math.round((correct / 16) * 60);
-    captchaRawScore = correct;
-
+    captchaScore = correct;
+    success = captchaScore == 16;
     captchaEnded = true;
   }
 
@@ -67,7 +66,7 @@
           Go Back
         </button>
       {:else}
-        {#if captchaRawScore == 16}
+        {#if success}
           <h1>Congrats! You are not a Robot</h1>
           <h2>
             You completed "{trimHTML(data.title)}" within {time_used} seconds
@@ -79,11 +78,14 @@
             You have spent {time_used} seconds and still fail; pathetic.
           </h4>
         {/if}
-        <h3
-          class="mt-4"
-          title={`You answered correctly ${captchaRawScore} out of 16`}
-        >
-          Your Score: {captchaScore}
+        <h3 class="mt-4">
+          {#if success}
+            <span class="text-success">16/16</span> Perfect!
+          {:else}
+            You got
+            <span class="text-danger">{16 - captchaScore}</span>
+            questions wrong!
+          {/if}
         </h3>
         <div class="buttons d-flex flex-row justify-center my-2">
           <button
@@ -100,7 +102,7 @@
               window.location.reload();
             }}
           >
-            Play again
+            {success ? "Play Again" : "Try Again"}
           </button>
         </div>
       {/if}
@@ -136,6 +138,7 @@
     {/if}
   {/if}
 
+  <!-- Footer Bar -->
   <div class="reserve-footer-bar-space" />
   <FooterBar />
 </main>

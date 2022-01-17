@@ -8,7 +8,7 @@ import * as hani from "./hani.json";
 const Data: { [category: string]: CaptchaTypeJSON } = { loli, trap, hani };
 
 // * loli and trap has 2 while hani has 1
-const weights = [0, 2, 4, 5];
+export const weights = [0, 2, 4, 5];
 
 export function getQuestions(category: string): CaptchaType {
   const data = Data[category];

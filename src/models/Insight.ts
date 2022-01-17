@@ -4,10 +4,8 @@ export interface Insight {
       questions_count: number;
       correct_count: number;
       correct_ratio: number;
+      weight: number;
     };
-  };
-  score_scale: {
-    [score: number]: number;
   };
   created_at: string;
 }

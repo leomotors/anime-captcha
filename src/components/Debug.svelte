@@ -22,7 +22,9 @@
 <main>
   <p class="mt-4">{insight ? `Data at ${insight.created_at}` : "Loading..."}</p>
   {#each Object.entries(data) as [category, captcha]}
-    <h1 class="display-6">Category: {category}</h1>
+    <h1 class="display-6">
+      Category: {category} (Weight: {I(category).weight})
+    </h1>
     <h2>{trimHTML(captcha.title)}</h2>
     <table class="table table-bordered">
       <thead>
