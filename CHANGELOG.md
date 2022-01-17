@@ -2,6 +2,10 @@
 
 All change except updating data will be noted here
 
+## [1.1.55] - 2022-01-17
+
+- You can now press Enter to submit answer
+
 ## [1.1.54] - 2022-01-17
 
 - Category selection now weighted because I hate hani category so, its chance is reduced

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { createEventDispatcher } from "svelte";
+  import { createEventDispatcher, onMount } from "svelte";
   const dispatch = createEventDispatcher();
 
   import { CaptchaType } from "../models/CaptchaType";
@@ -29,11 +29,22 @@
     clicked[i][j] = !clicked[i][j];
   }
 
+  const submitIfEnter = (e: KeyboardEvent) => {
+    if (e.key == "Enter") {
+      submitAnswer();
+    }
+  };
+
   function submitAnswer(): void {
     dispatch("submit", {
       answer: clicked,
     });
+    window.removeEventListener("keydown", submitIfEnter);
   }
+
+  onMount(() => {
+    window.addEventListener("keydown", submitIfEnter);
+  });
 </script>
 
 <main>
@@ -70,9 +81,13 @@
     {#if lmaoreload}
       <div class="text-danger fs-4">You cannot change test case!</div>
     {/if}
-    <button class="captcha-verify btn my-2 text-light" on:click={submitAnswer}
-      >Verify</button
+    <button
+      class="captcha-verify btn my-2 text-light"
+      on:click={submitAnswer}
+      title="Submit Answer and accept your fate"
     >
+      Verify
+    </button>
   </div>
 </main>
 
