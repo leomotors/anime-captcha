@@ -564,6 +564,18 @@
                 "ja": "ジョジョの奇妙な冒険"
             },
             "answer": true
+        },
+        {
+            "image": "https://thicc.mywaifulist.moe/waifus/2260/b6ae490e2cd7dad609b4be5311e2222624ec90daf3b3759469ba35a695fd7a61_thumb.jpeg",
+            "name": {
+                "en": "Tsurumi Rumi",
+                "ja": "鶴見留美"
+            },
+            "anime": {
+                "en": "My Youth Romantic Comedy Is Wrong, As I Expected",
+                "ja": "やはり俺の青春ラブコメはまちがっている。"
+            },
+            "answer": false
         }
     ],
     "onFail": {

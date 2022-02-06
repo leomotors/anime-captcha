@@ -10,7 +10,7 @@ const Data: { [category: string]: CaptchaTypeJSON } = { loli, trap, hani };
 // * loli and trap has 2 while hani has 1
 export const weights = [0, 2, 4, 5];
 
-export function getQuestions(category: string): CaptchaType {
+export function getQuestions(category: string): CaptchaType | undefined {
   const data = Data[category];
 
   if (!data) return undefined;
@@ -31,7 +31,7 @@ function getCategoryByIndex(index: number): number {
   }
 }
 
-export function getRandomQuestions(): CaptchaType {
+export function getRandomQuestions(): CaptchaType | undefined {
   const category_index = Math.random() * weights[weights.length - 1];
   const category = Object.keys(Data)[getCategoryByIndex(category_index)];
 
