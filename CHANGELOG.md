@@ -2,6 +2,10 @@
 
 All change except updating data will be noted here
 
+## [1.1.58] - 2022-02-07
+
+- Update Debug Menu (now show percent for weight)
+
 ## [1.1.57] - 2022-02-07
 
 - Further Nerf the `hani` category (20% -> 16.67%), (`loli` and `trap` 40% -> 41.67%)
