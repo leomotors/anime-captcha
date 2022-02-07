@@ -20,4 +20,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RELEASE_TITLE: "Anime Captcha {VERSION}"
           VERSION_MUST_INCREASE: true
-          RELEASE_ON_KEYWORD: ${{ github.event.commits[0].message }}
+          RELEASE_ON_KEYWORD: ${{ github.event.head_commit.message }}
