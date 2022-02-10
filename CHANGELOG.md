@@ -2,6 +2,10 @@
 
 All change except updating data will be noted here
 
+## [1.1.59] - 2022-02-10
+
+- Removed `hani` category, Sorry @Qwenty228
+
 ## [1.1.58] - 2022-02-07
 
 - Update Debug Menu (now show percent for weight)

@@ -540,6 +540,42 @@
                 "ja": "鬼滅の刃"
             },
             "answer": true
+        },
+        {
+            "image": "https://i.pinimg.com/originals/db/34/d0/db34d09121bd72d0cc71472bf4bc49c2.jpg",
+            "name": {
+                "en": "Historia Reiss",
+                "ja": "ヒストリア・レイス"
+            },
+            "anime": {
+                "en": "Attack on Titan",
+                "ja": "進撃の巨人"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://pbs.twimg.com/profile_images/1339234574803431424/2diM75QH_400x400.jpg",
+            "name": {
+                "en": "Uri Reiss",
+                "ja": "ウーリ・レイス"
+            },
+            "anime": {
+                "en": "Attack on Titan",
+                "ja": "進撃の巨人"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://staticg.sportskeeda.com/editor/2022/01/051d3-16424238838160-1920.jpg",
+            "name": {
+                "en": "Yelena",
+                "ja": "イェレナ"
+            },
+            "anime": {
+                "en": "Attack on Titan",
+                "ja": "進撃の巨人"
+            },
+            "answer": true
         }
     ],
     "onFail": {

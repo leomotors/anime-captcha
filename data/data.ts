@@ -3,12 +3,11 @@ import { CaptchaType, CaptchaTypeJSON } from "../src/models/CaptchaType";
 // * Import all JSON Files Here
 import * as loli from "./loli.json";
 import * as trap from "./trap.json";
-import * as hani from "./hani.json";
 
-const Data: { [category: string]: CaptchaTypeJSON } = { loli, trap, hani };
+const Data: { [category: string]: CaptchaTypeJSON } = { loli, trap };
 
-// * loli and trap has 5 while hani has 2
-export const weights = [0, 5, 10, 12];
+// * loli and trap has equal weight (hani is removed)
+export const weights = [0, 1, 2];
 
 export function getQuestions(category: string): CaptchaType | undefined {
   const data = Data[category];
