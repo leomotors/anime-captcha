@@ -588,6 +588,30 @@
                 "ja": "ジョジョの奇妙な冒険"
             },
             "answer": true
+        },
+        {
+            "image": "https://i.redd.it/8pvrn4b7iue81.png",
+            "name": {
+                "en": "Frieda Reiss",
+                "ja": "フリーダ・レイス"
+            },
+            "anime": {
+                "en": "Attack on Titan",
+                "ja": "進撃の巨人"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://i.pinimg.com/564x/32/62/b8/3262b869ae1090116b9e676183ad73c5.jpg",
+            "name": {
+                "en": "Carla Yeager",
+                "ja": "カルラ・イェーガー"
+            },
+            "anime": {
+                "en": "Attack on Titan",
+                "ja": "進撃の巨人"
+            },
+            "answer": true
         }
     ],
     "onFail": {
