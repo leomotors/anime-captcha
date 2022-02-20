@@ -2,6 +2,10 @@
 
 All change except updating data will be noted here
 
+## [1.1.60] - 2022-02-20
+
+- Added `filter` options to /api/get
+
 ## [1.1.59] - 2022-02-10
 
 - Removed `hani` category, Sorry @Qwenty228

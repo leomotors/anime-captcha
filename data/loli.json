@@ -636,6 +636,18 @@
                 "ja": "その着せ替え人形は恋をする"
             },
             "answer": false
+        },
+        {
+            "image": "https://animeanime.global/wp-content/uploads/2021/12/x455999.png.pagespeed.ic.N5W3RoMgDB.jpg",
+            "name": {
+                "en": "Inui Shinju",
+                "ja": "乾心寿"
+            },
+            "anime": {
+                "en": "My Dress-Up Darling",
+                "ja": "その着せ替え人形は恋をする"
+            },
+            "answer": false
         }
     ],
     "onFail": {

@@ -20,7 +20,25 @@ Featuring 2 _Cultured_ Quizzes to test if you are a Robot
 
 /api/get : Get Questions just like how the app would retrieve data
 
-/api/get?category=[category] : Get Questions from specified category
+- Optional Parameter: category
+
+- Optional Parameter: filter
+
+### /api/get example
+
+```
+https://anime-captcha.vercel.app/api/get?category=loli&filter=byanime:attackontitan,jujutsu,!yeager&filter=byname:inui&ignoreSize=1
+```
+
+will returns category of `loli` with any character that comes from
+`Attack on Titan` **or** `Jujutsu` **or** have name of `Inui`,
+**AND** do not have the name of `Yeager`
+ignoreSize is to prevent the API from throwing error
+if the results has less than 16 characters
+
+The matcher is case and space insensitive
+
+### Other APIs
 
 /api/getall : Get All Data this website has
 

@@ -5,7 +5,7 @@ export interface Label {
 
 // * Each Question consists of image url, name and anime they are from in
 // * both english and japanese
-interface Question {
+export interface Question {
   image: string;
   name: Label;
   anime: Label;
