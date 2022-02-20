@@ -37,7 +37,7 @@ enum TestResult {
 
 function testQuestion(str: string, test: string): TestResult {
   if (test.startsWith("!")) {
-    return !str.includes(test.slice(1)) ? TestResult.NOT_PASS : TestResult.FAIL;
+    return str.includes(test.slice(1)) ? TestResult.FAIL : TestResult.NOT_PASS;
   }
 
   return str.includes(test) ? TestResult.PASS : TestResult.NOT_PASS;

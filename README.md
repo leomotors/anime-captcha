@@ -27,7 +27,7 @@ Featuring 2 _Cultured_ Quizzes to test if you are a Robot
 ### /api/get example
 
 ```
-https://anime-captcha.vercel.app/api/get?category=loli&filter=byanime:attackontitan,jujutsu,!yeager&filter=byname:inui&ignoreSize=1
+https://anime-captcha.vercel.app/api/get?category=loli&filter=byanime:attackontitan,jujutsu&filter=byname:inui,!yeager&ignoreSize=1
 ```
 
 will returns category of `loli` with any character that comes from
