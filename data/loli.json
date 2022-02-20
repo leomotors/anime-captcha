@@ -612,6 +612,30 @@
                 "ja": "進撃の巨人"
             },
             "answer": true
+        },
+        {
+            "image": "https://64.media.tumblr.com/1fa0b6494c28b90af48777610e1a9086/0b6325d9efaec7b6-f2/s640x960/feec7e91a8d07920ae29089b07ad2e50b4312f5d.jpg",
+            "name": {
+                "en": "Inui Sajuna",
+                "ja": "乾紗寿叶"
+            },
+            "anime": {
+                "en": "My Dress-Up Darling",
+                "ja": "その着せ替え人形は恋をする"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://pbs.twimg.com/tweet_video_thumb/FK-PE7OVUAMqk7q.jpg",
+            "name": {
+                "en": "Kitagawa Marin",
+                "ja": "喜多川海夢"
+            },
+            "anime": {
+                "en": "My Dress-Up Darling",
+                "ja": "その着せ替え人形は恋をする"
+            },
+            "answer": false
         }
     ],
     "onFail": {

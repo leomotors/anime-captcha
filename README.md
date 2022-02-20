@@ -2,7 +2,7 @@
 
 Just a Normal Captcha, _you are not a robot? Then pass this Captcha!_
 
-Featuring 3 _Cultured_ Quizzes to test if you are a Robot
+Featuring 2 _Cultured_ Quizzes to test if you are a Robot
 
 ## 🍅 Reference
 
