@@ -648,10 +648,34 @@
                 "ja": "その着せ替え人形は恋をする"
             },
             "answer": false
+        },
+        {
+            "image": "https://thicc.mywaifulist.moe/waifus/665/6c383e9e8476948058a4fe683ed9e9ca8d2ec8fa0cdeb3a2562405e749d652dc_thumb.png",
+            "name": {
+                "en": "Ujimatsu Chiya",
+                "ja": "宇治松千夜"
+            },
+            "anime": {
+                "en": "Is the Order a Rabbit?",
+                "ja": "ご注文はうさぎですか？"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://fictionhorizon.com/wp-content/uploads/2022/02/Annie_awakens_after_four_years.png",
+            "name": {
+                "en": "Annie Leonhart",
+                "ja": "アニ・レオンハート"
+            },
+            "anime": {
+                "en": "Attack on Titan",
+                "ja": "進撃の巨人"
+            },
+            "answer": true
         }
     ],
     "onFail": {
         "text": "FBI OPEN UP",
-        "image": "https://c.tenor.com/_73fKmyXkVYAAAAM/fbi-fbiopenup.gif"
+        "ytid": "GxM3wstBcD4?start=0"
     }
 }

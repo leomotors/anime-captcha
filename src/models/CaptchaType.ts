@@ -22,7 +22,8 @@ export interface CaptchaTypeJSON {
   // * Things to show when user fails the Captcha
   onFail: {
     text: string;
-    image: string;
+    // * ID of YouTube Video with ?start={start}
+    ytid: string;
   };
 }
 

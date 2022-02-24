@@ -2,6 +2,10 @@
 
 All change except updating data will be noted here
 
+## [1.1.61] - 2022-02-24
+
+- On Fail now become more aggressive, especially the select Adult one! 😂
+
 ## [1.1.60] - 2022-02-20
 
 - Added `filter` options to /api/get

@@ -72,8 +72,17 @@
             You completed "{trimHTML(data.title)}" within {time_used} seconds
           </h2>
         {:else}
+          <h3>⚠️⚠️ Turn down Volume! 😂 ⚠️⚠️</h3>
           <h1>{data.onFail.text}</h1>
-          <img src={data.onFail.image} alt={data.onFail.text} width="400px" />
+          <iframe
+            width="560"
+            height="315"
+            src={`https://www.youtube.com/embed/${data.onFail.ytid}&autoplay=1`}
+            title={data.onFail.text}
+            frameborder="0"
+            allow="autoplay; encrypted-media; picture-in-picture"
+            allowfullscreen
+          />
           <h4 class="text-muted mt-4">
             You have spent {time_used} seconds and still fail; pathetic.
           </h4>
