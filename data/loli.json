@@ -86,7 +86,7 @@
             "answer": true
         },
         {
-            "image": "https://github.com/Leomotors/anime-captcha/blob/main/assets/Komoe.jpg?raw=true",
+            "image": "Komoe.webp",
             "name": {
                 "en": "Tsukuyomi Komoe",
                 "ja": "月詠小萌"
@@ -98,7 +98,7 @@
             "answer": true
         },
         {
-            "image": "https://github.com/Leomotors/anime-captcha/blob/main/assets/Kanna.png?raw=true",
+            "image": "Kanna.webp",
             "name": {
                 "en": "Kobayashi Kanna",
                 "ja": "小林カンナ"
@@ -672,6 +672,42 @@
                 "ja": "進撃の巨人"
             },
             "answer": true
+        },
+        {
+            "image": "https://thicc.mywaifulist.moe/waifus/567/8abdaad13649acf2d0db28e6cc9f64f394252c6fe10232c106cbc927609cfe3d_thumb.jpg",
+            "name": {
+                "en": "Adagaki Aki",
+                "ja": "安達垣愛姫"
+            },
+            "anime": {
+                "en": "Masamune-kun no Revenge",
+                "ja": "政宗くんのリベンジ"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://i.pinimg.com/736x/42/e9/e1/42e9e1aa64348c31c7f8e78fe0e6128b.jpg",
+            "name": {
+                "en": "Hayase Kinue",
+                "ja": "早瀬絹江"
+            },
+            "anime": {
+                "en": "Masamune-kun no Revenge",
+                "ja": "政宗くんのリベンジ"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://thicc.mywaifulist.moe/waifus/568/802e0040918bb3ca4227f9380d4ec5c244c4d388c253436d669fb00e7bce033c_thumb.jpg",
+            "name": {
+                "en": "Koiwai Yoshino",
+                "ja": "小岩井吉乃"
+            },
+            "anime": {
+                "en": "Masamune-kun no Revenge",
+                "ja": "政宗くんのリベンジ"
+            },
+            "answer": false
         }
     ],
     "onFail": {

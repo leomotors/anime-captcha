@@ -2,6 +2,10 @@
 
 All change except updating data will be noted here
 
+## [1.1.62] - 2022-03-10
+
+- Bump Dependencies
+
 ## [1.1.61] - 2022-02-24
 
 - On Fail now become more aggressive, especially the select Adult one! 😂

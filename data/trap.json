@@ -134,7 +134,7 @@
             "answer": true
         },
         {
-            "image": "https://github.com/Leomotors/anime-captcha/blob/main/assets/Armin.jpg?raw=true",
+            "image": "Armin.webp",
             "name": {
                 "en": "Armin Arlert",
                 "ja": "アルミン・アルレルト"
@@ -316,7 +316,7 @@
         {
             "image": "https://i.redd.it/h3uip0ptaz761.jpg",
             "name": {
-                "en": "Eren Jaeger",
+                "en": "Eren Yeager",
                 "ja": "エレン・イェーガー"
             },
             "anime": {
@@ -574,6 +574,30 @@
             "anime": {
                 "en": "Attack on Titan",
                 "ja": "進撃の巨人"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://64.media.tumblr.com/5d12fa528a535d4031bbddb7483c52ea/tumblr_onr81olSGs1w16zyxo1_400.png",
+            "name": {
+                "en": "Shuri Kojūrō",
+                "ja": "朱里小十郎"
+            },
+            "anime": {
+                "en": "Masamune-kun no Revenge",
+                "ja": "政宗くんのリベンジ"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://pbs.twimg.com/media/DBG9eilVoAAIzsU?format=jpg&name=large",
+            "name": {
+                "en": "Futaba Tae",
+                "ja": "双葉妙"
+            },
+            "anime": {
+                "en": "Masamune-kun no Revenge",
+                "ja": "政宗くんのリベンジ"
             },
             "answer": true
         }
