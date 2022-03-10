@@ -1,6 +1,6 @@
 {
   "name": "anime-captcha",
-  "version": "1.1.62",
+  "version": "1.1.63",
   "type": "module",
   "scripts": {
     "dev": "lm-config && vite --port $PORT",
@@ -34,6 +34,7 @@
     "sveltestrap": "^5.9.0",
     "tslib": "^2.3.1",
     "typescript": "^4.6.2",
-    "vite": "^2.8.6"
+    "vite": "^2.8.6",
+    "vite-plugin-pwa": "^0.11.13"
   }
 }

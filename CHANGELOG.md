@@ -2,6 +2,10 @@
 
 All change except updating data will be noted here
 
+## [1.1.63] - 2022-03-10
+
+- Added PWA
+
 ## [1.1.62] - 2022-03-10
 
 - Bump Dependencies
