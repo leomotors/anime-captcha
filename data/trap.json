@@ -134,7 +134,7 @@
             "answer": true
         },
         {
-            "image": "Armin.webp",
+            "image": "https://github.com/Leomotors/anime-captcha/blob/main/images/Armin.webp?raw=true",
             "name": {
                 "en": "Armin Arlert",
                 "ja": "アルミン・アルレルト"
@@ -600,6 +600,42 @@
                 "ja": "政宗くんのリベンジ"
             },
             "answer": true
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1jz-eLvLzonKIbm5Aj4rT1fsS45P7vwzVbS7V6BDrm0mA3NHrbhy47YyxWu9eTwKQeb4&usqp=CAU",
+            "name": {
+                "en": "Gasō Kanetsugu",
+                "ja": "雅宗兼次"
+            },
+            "anime": {
+                "en": "Masamune-kun no Revenge",
+                "ja": "政宗くんのリベンジ"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://pbs.twimg.com/media/Djj_O-VX0AAvlP0.jpg",
+            "name": {
+                "en": "Adagaki Aki",
+                "ja": "安達垣愛姫"
+            },
+            "anime": {
+                "en": "Masamune-kun no Revenge",
+                "ja": "政宗くんのリベンジ"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://toonamifaithful.com/wp-content/uploads/2021/04/LilZeke.jpeg",
+            "name": {
+                "en": "Zeke Yeager",
+                "ja": "ジーク・イェーガー"
+            },
+            "anime": {
+                "en": "Attack on Titan",
+                "ja": "進撃の巨人"
+            },
+            "answer": false
         }
     ],
     "onFail": {

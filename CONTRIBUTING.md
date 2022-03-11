@@ -24,3 +24,16 @@ Make sure it is usable, Pictures from Wikipedia likely can't be displayed
 
 If you are able to run it locally (which you need vercel account and project to do that)
 There is Debug Tools to check if photos are displaying correctly
+
+### Custom Image
+
+If the picture is very hard to find, (not centered, or CORS goes brrrr),
+save that image as **webp**, make sure **its size** is appropriate and put it in
+`images/`, The URL **should** point to GitHub Content. (it will not appear right
+now but if set correctly, will appear once pushed)
+
+**Example**
+
+```
+https://github.com/Leomotors/anime-captcha/blob/main/images/Armin.webp?raw=true
+```
