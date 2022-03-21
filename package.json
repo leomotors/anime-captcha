@@ -1,6 +1,6 @@
 {
   "name": "anime-captcha",
-  "version": "1.2.68",
+  "version": "1.2.69",
   "type": "module",
   "scripts": {
     "dev": "lm-config && vite --port $PORT",

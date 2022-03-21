@@ -7,6 +7,7 @@
 
   import { trimHTML } from "./utils/Trim";
   import { CaptchaType } from "./models/CaptchaType";
+  import { getRandomQuestions } from "../data/data";
 
   let data: CaptchaType;
 
@@ -20,8 +21,9 @@
   let userAnswer: boolean[][] = [[]];
 
   async function onStart() {
-    const res = await fetch("/api/get");
-    data = await res.json();
+    // Delay 100-300 ms
+    await new Promise((res, _) => setTimeout(res, 100 + Math.random() * 200));
+    data = getRandomQuestions();
     started = true;
     start_time = new Date().getTime();
   }
