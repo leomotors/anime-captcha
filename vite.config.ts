@@ -8,6 +8,7 @@ export default defineConfig({
   plugins: [
     svelte(),
     VitePWA({
+      registerType: "autoUpdate",
       manifest: {
         name: "Anime Captcha",
         short_name: "Anime Captcha",
@@ -16,9 +17,11 @@ export default defineConfig({
         background_color: "#ffffff",
         lang: "en",
         scope: "/",
+        orientation: "any",
         description:
           "Just a Normal Captcha, you are not a robot? Then pass this Captcha!",
         theme_color: "#4790ff",
+        categories: ["meme", "game"],
         icons: [
           {
             src: "recaptcha-192x192.png",
