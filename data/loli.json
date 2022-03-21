@@ -662,7 +662,7 @@
             "answer": false
         },
         {
-            "image": "https://fictionhorizon.com/wp-content/uploads/2022/02/Annie_awakens_after_four_years.png",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0g2cXl7qFEE-FD3oL2Daxme2JVuOpPiISWGyWtR-PM_ta3GzZ6XDK1JrquZsvjt6fUl0&usqp=CAU",
             "name": {
                 "en": "Annie Leonhart",
                 "ja": "アニ・レオンハート"
@@ -706,6 +706,30 @@
             "anime": {
                 "en": "Masamune-kun no Revenge",
                 "ja": "政宗くんのリベンジ"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://media.comicbook.com/2021/03/atttack-on-titan-anime-manga-pieck-infiltrates-paradis-island-sp-1258854.jpeg?auto=webp&width=1200&height=668&crop=1200:668,smart",
+            "name": {
+                "en": "Pieck Finger",
+                "ja": "ピーク・フィンガー"
+            },
+            "anime": {
+                "en": "Attack on Titan",
+                "ja": "進撃の巨人"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://images6.alphacoders.com/115/1153358.png",
+            "name": {
+                "en": "Shida Kuroha",
+                "ja": "志田黒羽"
+            },
+            "anime": {
+                "en": "A Romantic Comedy Where the Childhood Friend Absolutely Will Not Lose",
+                "ja": "幼なじみが絶対に負けないラブコメ"
             },
             "answer": false
         }
