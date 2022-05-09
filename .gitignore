@@ -8,3 +8,5 @@ src/config.ts
 .vercel
 
 .env
+
+*.g.*

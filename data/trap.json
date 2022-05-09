@@ -636,6 +636,30 @@
                 "ja": "進撃の巨人"
             },
             "answer": false
+        },
+        {
+            "image": "https://github.com/Leomotors/anime-captcha/blob/main/images/aharen_ren.webp?raw=true",
+            "name": {
+                "en": "Aharen Ren",
+                "ja": "阿波連れん"
+            },
+            "anime": {
+                "en": "Aharen-san Is Indecipherable",
+                "ja": "阿波連さんははかれない"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://newsdio.com/wp-content/uploads/2021/09/Looper-3-1.jpg",
+            "name": {
+                "en": "Aharen Reina",
+                "ja": "阿波連れいな"
+            },
+            "anime": {
+                "en": "Aharen-san Is Indecipherable",
+                "ja": "阿波連さんははかれない"
+            },
+            "answer": true
         }
     ],
     "onFail": {

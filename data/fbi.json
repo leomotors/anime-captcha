@@ -732,6 +732,18 @@
                 "ja": "幼なじみが絶対に負けないラブコメ"
             },
             "answer": false
+        },
+        {
+            "image": "https://github.com/Leomotors/anime-captcha/blob/main/images/aharen_ren.webp?raw=true",
+            "name": {
+                "en": "Aharen Ren",
+                "ja": "阿波連れん"
+            },
+            "anime": {
+                "en": "Aharen-san Is Indecipherable",
+                "ja": "阿波連さんははかれない"
+            },
+            "answer": false
         }
     ],
     "onFail": {

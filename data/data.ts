@@ -1,35 +1,20 @@
 import { CaptchaType, CaptchaTypeJSON } from "../src/models/CaptchaType";
-import { filterQuestions, parseFilter } from "./filter";
 
 // * Import all JSON Files Here
-import * as loli from "./loli.json";
+import * as fbi from "./fbi.json";
 import * as trap from "./trap.json";
 
-const Data: { [category: string]: CaptchaTypeJSON } = { loli, trap };
+const Data: { [category: string]: CaptchaTypeJSON } = { fbi, trap };
 
-// * loli and trap has equal weight (hani is removed)
+// * fbi and trap has equal weight (hani is removed)
 export const weights = [0, 1, 2];
 
-export function getQuestions(
-  category: string,
-  filterOption: string[] = [],
-  ignoreSize = false
-): CaptchaType | string {
+export function getQuestions(category: string): CaptchaType | undefined {
   const data = Data[category];
 
-  if (!data) return "Invalid Category!";
+  if (!data) return undefined;
 
-  const filteredQuestion = filterQuestions(
-    data.questions,
-    parseFilter(filterOption)
-  );
-
-  if (filteredQuestion.length < 16 && !ignoreSize)
-    return "Your filter is too strict, the amount of question after filter must be atleast 16!";
-
-  const questions = filteredQuestion
-    .sort(() => 0.5 - Math.random())
-    .slice(0, 16);
+  const questions = data.questions.sort(() => 0.5 - Math.random()).slice(0, 16);
 
   return {
     category,
@@ -45,16 +30,11 @@ function getCategoryByIndex(index: number): number {
   }
 }
 
-export function getRandomQuestions(
-  filterOption: string[] = [],
-  ignoreSize = false
-): CaptchaType | undefined {
+export function getRandomQuestions(): CaptchaType | undefined {
   const category_index = Math.random() * weights[weights.length - 1];
   const category = Object.keys(Data)[getCategoryByIndex(category_index)];
 
-  const res = getQuestions(category, filterOption, ignoreSize);
-  if (typeof res == "string") return undefined;
-  return res;
+  return getQuestions(category);
 }
 
 export function getAll() {

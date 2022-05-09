@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Version, BuildTime } from "../config";
+  import { Version, BuildTime } from "../config.g";
   import { onMount } from "svelte";
 
   let ageLabel: string;
