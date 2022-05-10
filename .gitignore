@@ -3,8 +3,6 @@
 /.vscode/
 .DS_Store
 
-src/config.ts
-
 .vercel
 
 .env

@@ -21,7 +21,7 @@ export default defineConfig({
         description:
           "Just a Normal Captcha, you are not a robot? Then pass this Captcha!",
         theme_color: "#4790ff",
-        categories: ["meme", "game"],
+        categories: ["meme", "game", "entertainment"],
         icons: [
           {
             src: "recaptcha-192x192.png",
