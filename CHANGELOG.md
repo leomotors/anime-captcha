@@ -2,6 +2,12 @@
 
 All change except updating data will be noted here
 
+## [1.2.71] - 2022-05-10
+
+- Fixed issues that prevent service worker from working
+
+- Current PWABuilder Score = 200
+
 ## [1.2.70] - 2022-05-09
 
 - Added PWA
