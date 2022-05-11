@@ -1,4 +1,16 @@
-<h1>Welcome to SvelteKit</h1>
-<p>
-  Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
-</p>
+<script>
+  import NotARobot from "$components/NotARobot.svelte";
+
+  let started = false;
+  function start() {}
+</script>
+
+<main
+  class="flex flex-col justify-center items-center min-h-[calc(100vh-4rem)]"
+>
+  {#if !started}
+    <NotARobot on:start={start} />
+  {:else}
+    <p>Placeholder</p>
+  {/if}
+</main>

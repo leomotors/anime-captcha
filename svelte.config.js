@@ -4,6 +4,15 @@ import adapter from "@sveltejs/adapter-vercel";
 import preprocess from "svelte-preprocess";
 import { VitePWA } from "vite-plugin-pwa";
 
+import path from "node:path";
+
+/** @type {{ [key: string]: string }} */
+const generatedAliases = {};
+
+["components", "data", "icons"].map(
+  (ele) => (generatedAliases[`\$${ele}`] = path.resolve(`src/${ele}`))
+);
+
 /** @type {import("@sveltejs/kit").Config} */
 export default {
   // Consult https://github.com/sveltejs/svelte-preprocess
@@ -20,6 +29,9 @@ export default {
       default: true,
     },
     vite: {
+      resolve: {
+        alias: generatedAliases,
+      },
       plugins: [
         VitePWA({
           registerType: "autoUpdate",

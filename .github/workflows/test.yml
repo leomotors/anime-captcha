@@ -1,0 +1,31 @@
+name: Tests
+
+on:
+  push:
+
+jobs:
+  main:
+    name: Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: actions/checkout
+        uses: actions/checkout@v2
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: Yarn Cache
+        uses: c-hive/gha-yarn-cache@v2
+      - name: Install Dependencies (Yarn)
+        run: yarn install
+      - name: Build Test
+        run: yarn build
+      - name: ESLint & Prettier Check
+        run: yarn lint
+      - name: CRLF Phobia Test
+        run: npx crlf-phobia *
+      - name: Install Browsers
+        run: npx playwright install
+      - name: Playwright Test
+        run: yarn test
