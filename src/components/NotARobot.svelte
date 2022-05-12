@@ -3,7 +3,7 @@
   import RickRoll from "$components/RickRoll.svelte";
   import Spinner from "$icons/Spinner.svelte";
 
-  const dispatch = createEventDispatcher();
+  const dispatch = createEventDispatcher<{ start: null }>();
 
   let rickroll_data: {
     title: string;

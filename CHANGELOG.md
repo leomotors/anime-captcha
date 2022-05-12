@@ -2,6 +2,18 @@
 
 All change except updating data will be noted here
 
+## [1.3.???] - 2022-05-??
+
+- This app is now rewritten in SvelteKit with TailwindCSS (Was Svelte SPA (Vite) and Bootstrap)
+
+- Adjust layout of the website
+
+- [In Progress] Responsive across devices and screen sizes
+
+- Adjusted Color to match better the actual captcha
+
+- Finally, Added Animation! ✨✨✨
+
 ## [1.2.71] - 2022-05-10
 
 - Fixed issues that prevent service worker from working

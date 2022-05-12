@@ -1,9 +1,13 @@
 <script lang="ts">
   import type { CaptchaType } from "$data/model";
+  import CheckboxMarkedCircle from "$icons/material/checkbox-marked-circle.svelte";
+  import Refresh from "$icons/material/refresh.svelte";
+
   import { createEventDispatcher, onMount } from "svelte";
-  const dispatch = createEventDispatcher();
+  const dispatch = createEventDispatcher<{ submit: boolean[][] }>();
 
   export let questions: CaptchaType;
+
   let lmaoreload = false;
   function reload() {
     if (!lmaoreload) {
@@ -13,6 +17,7 @@
       }, 3000);
     }
   }
+
   // Is there any better approach for this?
   let clicked = [
     [false, false, false, false],
@@ -20,10 +25,8 @@
     [false, false, false, false],
     [false, false, false, false],
   ];
-  function toggleClicked(i: number, j: number): void {
-    clicked[i][j] = !clicked[i][j];
-  }
-  const submitIfEnter = (e: KeyboardEvent) => {
+
+  function handleKeyDown(e: KeyboardEvent) {
     if (e.key == "Enter") {
       submitAnswer();
     }
@@ -47,21 +50,21 @@
         }
       }
     }
-  };
-  function submitAnswer(): void {
-    dispatch("submit", {
-      answer: clicked,
-    });
-    window.removeEventListener("keydown", submitIfEnter);
   }
+
+  function submitAnswer() {
+    dispatch("submit", clicked);
+  }
+
   onMount(() => {
-    window.addEventListener("keydown", submitIfEnter);
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
   });
 </script>
 
 <main class="my-4">
   <section class="top-section border-gray-200 border">
-    <h1 class="text-left p-4 bg-captcha text-white text-4xl">
+    <h1 class="text-left p-4 bg-captcha-blue text-white text-4xl">
       {@html questions.title}
     </h1>
     <table class="table-fixed m-2">
@@ -69,12 +72,13 @@
         {#each [0, 1, 2, 3] as i}
           <tr>
             {#each [0, 1, 2, 3] as j}
-              <td class="relative p-0.5">
-                <p class="absolute">i</p>
+              <td class="relative p-0.5" class:clicked={clicked[i][j]}>
+                <div class="checkbox">
+                  <CheckboxMarkedCircle />
+                </div>
                 <div
                   class="tile"
-                  class:clicked={clicked[i][j]}
-                  on:click={() => toggleClicked(i, j)}
+                  on:click={() => (clicked[i][j] = !clicked[i][j])}
                   style="background-image: url({questions.questions[4 * i + j]
                     .image})"
                 />
@@ -87,14 +91,14 @@
   </section>
 
   <footer class="bottom-section border-gray-200 border-x border-b">
-    <p>Reload</p>
+    <div class="text-captcha-gray ml-4 cursor-pointer" on:click={reload}>
+      <Refresh />
+    </div>
     {#if lmaoreload}
-      <div class="text-danger fs-4 user-select-none">
-        You cannot change test case!
-      </div>
+      <div class="text-red-600 text-lg">You cannot change test case!</div>
     {/if}
     <button
-      class="bg-captcha text-white m-2 py-2 px-3 rounded text-xl"
+      class="bg-captcha-blue text-white m-2 py-2 px-3 rounded text-xl"
       on:click={submitAnswer}
       title="Submit Answer and accept your fate"
     >
@@ -105,14 +109,28 @@
 
 <style lang="postcss">
   .bottom-section {
-    @apply flex flex-row justify-between items-center;
+    @apply flex flex-row justify-between items-center select-none;
+  }
+
+  .checkbox {
+    @apply absolute z-10 text-captcha-blue scale-0 bg-white;
+    @apply rounded-full shadow-lg left-1 top-1;
   }
 
   .tile {
-    @apply w-24 h-24 bg-center bg-cover transition-all duration-100;
+    @apply w-24 h-24 bg-center bg-cover;
   }
 
-  .tile.clicked {
-    @apply scale-90;
+  .tile,
+  .checkbox {
+    @apply transition-all duration-100;
+  }
+
+  .clicked > .tile {
+    @apply scale-[0.8];
+  }
+
+  .clicked > .checkbox {
+    @apply scale-100;
   }
 </style>

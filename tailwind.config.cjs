@@ -7,7 +7,7 @@ const config = {
   theme: {
     extend: {
       colors: {
-        captcha: "#1a73e8",
+        captcha: { blue: "#1a73e8", gray: "#727272" },
       },
     },
   },

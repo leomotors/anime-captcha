@@ -9,6 +9,10 @@
     data = await (await fetch("/api/get")).json();
     started = true;
   }
+
+  function handleSubmit(e: CustomEvent<boolean[][]>) {
+    // todo
+  }
 </script>
 
 <main
@@ -17,6 +21,6 @@
   {#if !started}
     <NotARobot on:start={start} />
   {:else}
-    <Captcha questions={data} />
+    <Captcha questions={data} on:submit={handleSubmit} />
   {/if}
 </main>
