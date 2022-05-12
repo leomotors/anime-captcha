@@ -8,7 +8,7 @@
   import "../app.css";
 </script>
 
-<main>
+<main class="min-h-[calc(100vh-4rem)]">
   <slot />
 </main>
 

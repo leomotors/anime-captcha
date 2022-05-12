@@ -23,7 +23,7 @@
   </p>
 
   <button
-    class="bg-[#1a73e8] rounded m-2 p-2 text-white text-xl"
+    class="bg-captcha rounded m-2 p-2 text-white text-xl"
     on:click={() => {
       window.location.reload();
     }}

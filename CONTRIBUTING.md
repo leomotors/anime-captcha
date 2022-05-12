@@ -1,6 +1,8 @@
 # Contributing Guideline
 
-**Schema of JSON**: See [src/models/CaptchaType.ts](src/models/CaptchaType.ts)
+You can add/remove question at src/data/[category].json
+
+**Schema of JSON**: See [src/data/model.ts](src/data/model.ts)
 for how JSON File should look like and edit them in src/data
 
 When adding a character, prefer japanese name to be written without spaces,

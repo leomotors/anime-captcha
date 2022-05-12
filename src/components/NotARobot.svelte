@@ -38,7 +38,7 @@
 </script>
 
 <main
-  class="flex flex-row items-center gap-1 bg-[#f9f9f9] p-4 rounded select-none border-[1px] border-[#d3d3d3]"
+  class="flex flex-row items-center gap-1 bg-[#f9f9f9] p-4 rounded select-none border border-[#d3d3d3]"
 >
   {#if rickroll_data}
     <RickRoll {...rickroll_data} />

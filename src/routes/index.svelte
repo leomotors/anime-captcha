@@ -1,8 +1,14 @@
-<script>
+<script lang="ts">
+  import Captcha from "$components/Captcha.svelte";
   import NotARobot from "$components/NotARobot.svelte";
+  import type { CaptchaType } from "$data/model";
 
+  let data: CaptchaType;
   let started = false;
-  function start() {}
+  async function start() {
+    data = await (await fetch("/api/get")).json();
+    started = true;
+  }
 </script>
 
 <main
@@ -11,6 +17,6 @@
   {#if !started}
     <NotARobot on:start={start} />
   {:else}
-    <p>Placeholder</p>
+    <Captcha questions={data} />
   {/if}
 </main>
