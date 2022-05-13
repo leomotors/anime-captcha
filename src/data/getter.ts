@@ -1,13 +1,7 @@
-import type { CaptchaType, CaptchaTypeJSON } from "$data/model";
+import type { CaptchaType } from "$data/model";
 
-// * Import all JSON Files Here
-import * as fbi from "./fbi.json";
-import * as trap from "./trap.json";
-
-const Data: { [category: string]: CaptchaTypeJSON } = { fbi, trap };
-
-// * fbi and trap has equal weight (hani is removed)
-export const weights = [0, 1, 2];
+import { Data } from "./data.g";
+const data_length = Object.keys(Data).length;
 
 export function getQuestions(category: string): CaptchaType | undefined {
   const data = Data[category];
@@ -24,15 +18,8 @@ export function getQuestions(category: string): CaptchaType | undefined {
   };
 }
 
-function getCategoryByIndex(index: number): number {
-  for (let i = 0; i < weights.length; i++) {
-    if (weights[i] > index) return i - 1;
-  }
-}
-
 export function getRandomQuestions(): CaptchaType | undefined {
-  const category_index = Math.random() * weights[weights.length - 1];
-  const category = Object.keys(Data)[getCategoryByIndex(category_index)];
+  const category = Object.keys(Data)[Math.floor(Math.random() * data_length)];
 
   return getQuestions(category);
 }
