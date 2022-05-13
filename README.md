@@ -34,7 +34,7 @@ https://anime-captcha.vercel.app/api/get?category=fbi
 
 /api/insight : Get Insight about the data ex. Questions Count
 
-## 🔼 To Run Locally (prerequisites: nodejs, yarn)
+## 🔼 To Run Locally (prerequisites: nodejs 16, yarn)
 
 - yarn install
 
