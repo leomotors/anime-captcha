@@ -28,7 +28,7 @@
 
   <div class="middle text-center">
     <p>
-      Version {Version} |
+      Version {Version} <span class="text-slate-200">PREVIEW</span> |
       <a
         class="blue-link"
         href="https://github.com/Leomotors/anime-captcha/releases"
