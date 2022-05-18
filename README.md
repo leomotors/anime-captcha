@@ -22,13 +22,13 @@ Recently, Anime Captcha has been rewritten for better developer and user experie
 
 - Now has many routes✨
 
-- [IN PROGRESS] Statistics and play history
+- [COMING SOON] Statistics and play history
 
-- [IN PROGRESS] Better responsiveness for mobile and various screen sizes
+- [COMING SOON] Better responsiveness for mobile and various screen sizes
 
 - Miscellanous design changes
 
-Full Changelog: [IN PROGRESS]
+Changelog: [./CHANGELOG.md](./CHANGELOG.md)
 
 ## ➕ Want to Contribute? See Here!
 

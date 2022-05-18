@@ -2,17 +2,22 @@
 
 All change except updating data will be noted here
 
-## [1.3.???] - 2022-05-??
+## [1.3.116] - 2022-05-18
+
+Preview Version but merged to main because it is now better than old version
 
 - This app is now rewritten in SvelteKit with TailwindCSS (Was Svelte SPA (Vite) and Bootstrap)
 
-- Adjust layout of the website
+- Adjust layout, design and structure of the website
 
-- [In Progress] Responsive across devices and screen sizes
+  - The app now has many routes
 
 - Adjusted Color to match better the actual captcha
 
 - Finally, Added Animation! ✨✨✨
+
+- API & Related Technical Changes:
+  - /insight now use pre-generated data
 
 ## [1.2.71] - 2022-05-10
 

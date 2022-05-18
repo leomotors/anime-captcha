@@ -1062,10 +1062,10 @@
   dependencies:
     esbuild "^0.14.21"
 
-"@sveltejs/kit@1.0.0-next.334":
-  version "1.0.0-next.334"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.334.tgz#cd370dc010272ae4bed3179de2db54ebb73d4dca"
-  integrity sha512-HPMF1oYBfyOG6wfU0Y6F4SID8jphue9yF+PXJqVTDBL5Z2WBG2ogum6MavE8aWhq+g2H6w5y0jNT8+8DO2KTCA==
+"@sveltejs/kit@1.0.0-next.335":
+  version "1.0.0-next.335"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.335.tgz#14bd4016633605b9edc8b7a77cd393ca778449db"
+  integrity sha512-iZutvIJSSNJJGceZOX2ZWqcyRqp9MIPnNWOgOLXqBG/Z/+KLoN8MRI0U79XIw232SAEXhhkwaJtB3UnXQSu85A==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^1.0.0-next.32"
     chokidar "^3.5.3"
