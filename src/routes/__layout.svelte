@@ -8,7 +8,9 @@
   import "../app.css";
 </script>
 
-<main class="min-h-[calc(100vh-4rem)]">
+<main
+  class="flex flex-col justify-center items-center min-h-[calc(100vh-4rem)] gap-4 pb-6"
+>
   <slot />
 </main>
 

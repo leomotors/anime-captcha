@@ -36,7 +36,7 @@ export function pushResult(result: PlayResult) {
   cachedResults = history;
 }
 
-export function getResultsByID(index = -1) {
+export function getResultsByID(index: number) {
   const res = getAllResults();
 
   if (index < 0) index += res.length;

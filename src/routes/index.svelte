@@ -27,12 +27,8 @@
   }
 </script>
 
-<main
-  class="flex flex-col justify-center items-center min-h-[calc(100vh-4rem)]"
->
-  {#if !started}
-    <NotARobot on:start={start} />
-  {:else}
-    <Captcha questions={data} on:submit={handleSubmit} />
-  {/if}
-</main>
+{#if !started}
+  <NotARobot on:start={start} />
+{:else}
+  <Captcha questions={data} on:submit={handleSubmit} />
+{/if}

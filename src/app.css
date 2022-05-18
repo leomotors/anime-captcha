@@ -15,3 +15,11 @@
 .blue-link {
   @apply text-blue-400 hover:text-blue-500;
 }
+
+.actions {
+  @apply flex flex-row justify-center gap-4;
+}
+
+.actions > * {
+  @apply rounded-xl p-4 text-xl text-white;
+}

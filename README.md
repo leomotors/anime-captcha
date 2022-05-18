@@ -12,6 +12,24 @@ Featuring 2 _Cultured_ Quizzes to test if you are a Robot
 
 <img src="https://titterfun.com/api/assets/image/zmmkr837ciax.jpg" height="350px" />
 
+## ✨✨ Version 1.3
+
+Recently, Anime Captcha has been rewritten for better developer and user experience
+
+- Now written in SvelteKit with SSR (Was Svelte SPA with Vite)
+
+- Now use TailwindCSS (Was Bootstrap 5)
+
+- Now has many routes✨
+
+- [IN PROGRESS] Statistics and play history
+
+- [IN PROGRESS] Better responsiveness for mobile and various screen sizes
+
+- Miscellanous design changes
+
+Full Changelog: [IN PROGRESS]
+
 ## ➕ Want to Contribute? See Here!
 
 [Contributing Guideline](./CONTRIBUTING.md)

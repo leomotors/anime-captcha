@@ -118,7 +118,7 @@
   }
 
   .tile {
-    @apply w-24 h-24 bg-center bg-cover;
+    @apply w-28 h-28 bg-center bg-cover;
   }
 
   .tile,
