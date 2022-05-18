@@ -1,3 +1,7 @@
+<script lang="ts" context="module">
+  export const prerender = false;
+</script>
+
 <script lang="ts">
   import { goto } from "$app/navigation";
   import { page } from "$app/stores";

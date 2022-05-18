@@ -1,3 +1,7 @@
+<script lang="ts" context="module">
+  export const prerender = false;
+</script>
+
 <script lang="ts">
   import { goto } from "$app/navigation";
 
@@ -47,9 +51,9 @@
       View Answer Key
     </a>
 
-    <button on:click={() => goto("/")} class="bg-captcha-gray"
-      >Play again</button
-    >
+    <button on:click={() => goto("/")} class="bg-captcha-gray">
+      Play again
+    </button>
   </div>
 {:else}
   <p>no data</p>
