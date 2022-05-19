@@ -1,21 +1,23 @@
 <script lang="ts">
+  import "../app.css";
+
+  import { page } from "$app/stores";
+
   import GitHub from "$icons/GitHub.svelte";
   import ext from "$lib/ext";
-
-  import { Version, BuildTime } from "../config.g";
   import { elapsedFrom } from "$lib/time";
 
-  import "../app.css";
+  import { Version, BuildTime } from "../config.g";
 </script>
 
 <main
-  class="flex flex-col justify-center items-center min-h-[calc(100vh-4rem)] gap-4 pb-6"
+  class="flex flex-col justify-center items-center text-center min-h-[calc(100vh-8rem)] sm:min-h-[calc(100vh-4rem)] gap-4 pb-6 px-2"
 >
   <slot />
 </main>
 
 <footer
-  class="system-font h-16 bg-slate-700 flex flex-row justify-between px-12 items-center text-white"
+  class="system-font h-32 sm:h-16 bg-slate-700 flex flex-row justify-between px-4 sm:px-12 items-center text-white"
 >
   <a
     class="flex flex-row gap-2 items-center select-none hover:text-gray-300"
@@ -28,7 +30,8 @@
 
   <div class="middle text-center">
     <p>
-      Version {Version} <span class="text-slate-200">PREVIEW</span> |
+      Version {Version}
+      <span class="hidden sm:inline">|</span><br class="inline sm:hidden" />
       <a
         class="blue-link"
         href="https://github.com/Leomotors/anime-captcha/releases"
@@ -40,9 +43,12 @@
     <p>Last Updated {elapsedFrom(BuildTime)}</p>
   </div>
 
-  <div class="right">
-    <a class="font-semibold text-xl hover:text-gray-300" href="/statistics">
-      Statistics
+  <div class="right select-none">
+    <a
+      class="font-semibold text-xl hover:text-gray-300"
+      href={$page.url.pathname.includes("statistics") ? "/" : "/statistics"}
+    >
+      {$page.url.pathname.includes("statistics") ? "Home" : "Statistics"}
     </a>
   </div>
 </footer>

@@ -24,15 +24,13 @@
 </script>
 
 {#if play}
-  <h1 class="font-semibold text-3xl mt-6">
+  <h1 class="font-semibold text-xl lg:text-3xl mt-6">
     Result of "{play.dataset.title.replace(/<[^>]+>/g, " ").trim()}"
   </h1>
 
-  <table
-    class="table-auto text-center border-collapse border-[1.5px] border-slate-900"
-  >
+  <table class="table-auto border-collapse border-[1.5px] border-slate-900">
     <thead class="border-b-[1.5px] border-black">
-      <tr class="bg-sky-200 text-xl">
+      <tr class="bg-sky-200 text-xs lg:text-xl">
         <th>Image</th>
         <th>Character Name</th>
         <th>Anime</th>

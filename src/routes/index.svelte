@@ -4,7 +4,7 @@
   import Captcha from "$components/Captcha.svelte";
   import NotARobot from "$components/NotARobot.svelte";
   import type { CaptchaType } from "$data/model";
-  import { pushResult } from "$lib/storage";
+  import { computeScore, pushResult } from "$lib/storage";
 
   let data: CaptchaType;
   let started = false;
@@ -19,7 +19,8 @@
     pushResult({
       dataset: data,
       user_answer: e.detail,
-      submission_time: new Date().toISOString(),
+      score: computeScore(data.questions, e.detail),
+      submission_time: new Date().toLocaleString(),
       time_used: Date.now() - startTime,
     });
 

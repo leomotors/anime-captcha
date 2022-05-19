@@ -5,20 +5,18 @@
   export let chance: string;
 </script>
 
-<main class="text-center">
+<main>
   <h1 class="font-bold text-4xl">You Lucky!</h1>
   <hr class="my-4" />
   <iframe
-    class="mx-auto"
-    width="560"
-    height="315"
+    class="mx-auto w-full aspect-video"
     src="https://www.youtube.com/embed/{url}?autoplay=1"
     {title}
     frameborder="0"
     allow="autoplay; encrypted-media; picture-in-picture"
     allowfullscreen
   />
-  <p class="mt-4 font-semibold text-2xl">
+  <p class="mt-4 font-semibold text-xl sm:text-2xl">
     There is {chance}% Chance you will be {roll} and you get it!
   </p>
 

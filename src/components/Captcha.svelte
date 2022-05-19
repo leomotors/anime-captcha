@@ -64,7 +64,7 @@
 
 <main class="my-4">
   <section class="top-section border-gray-200 border">
-    <h1 class="text-left p-4 bg-captcha-blue text-white text-4xl">
+    <h1 class="text-left p-4 bg-captcha-blue text-white text-3xl sm:text-4xl">
       {@html questions.title}
     </h1>
     <table class="table-fixed m-2">
@@ -118,7 +118,7 @@
   }
 
   .tile {
-    @apply w-28 h-28 bg-center bg-cover;
+    @apply w-20 h-20 md:w-24 md:h-24 2xl:w-28 2xl:h-28 bg-center bg-cover;
   }
 
   .tile,

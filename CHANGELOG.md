@@ -2,6 +2,12 @@
 
 All change except updating data will be noted here
 
+## [1.3.132] - 2022-05-19
+
+- Add History (in /statistics)
+
+- Finally, *RESPONSIVE* across mobile and various screen sizes is now properly implemented! ✨✨✨
+
 ## [1.3.116] - 2022-05-18
 
 Preview Version but merged to main because it is now better than old version

@@ -1,13 +1,14 @@
-import type { CaptchaType } from "$data/model";
+import type { CaptchaType, Question } from "$data/model";
 
 export interface PlayResult {
   dataset: CaptchaType;
   user_answer: boolean[][];
+  score: number;
   submission_time: string;
   time_used: number;
 }
 
-const saveVersion = "1";
+const saveVersion = "2";
 
 const keys = {
   saveVersion: "saveVersion",
@@ -16,11 +17,15 @@ const keys = {
 
 let cachedResults: PlayResult[];
 
+export function resetStorage() {
+  localStorage.clear();
+  localStorage.setItem(keys.saveVersion, saveVersion);
+}
+
 export function pushResult(result: PlayResult) {
   if (localStorage.getItem(keys.saveVersion) != saveVersion) {
     // * No migrations implemented yet
-    localStorage.clear();
-    localStorage.setItem(keys.saveVersion, saveVersion);
+    resetStorage();
   }
 
   const history = getAllResults();
@@ -54,11 +59,11 @@ export function getAllResults() {
   return cachedResults;
 }
 
-export function computeScore(res: PlayResult) {
+export function computeScore(questions: Question[], key: boolean[][]) {
   let correct = 0;
   for (let i = 0; i < 4; i++) {
     for (let j = 0; j < 4; j++) {
-      if (res.dataset.questions[4 * i + j].answer == res.user_answer[i][j]) {
+      if (questions[4 * i + j].answer == key[i][j]) {
         correct += 1;
       }
     }
