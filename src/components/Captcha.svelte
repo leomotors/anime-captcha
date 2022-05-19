@@ -53,7 +53,7 @@
   }
 
   function submitAnswer() {
-    dispatch("submit", clicked);
+    dispatch("submit", clicked, {});
   }
 
   onMount(() => {
