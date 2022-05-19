@@ -33,7 +33,7 @@
         roll: "Super Idoled",
         chance: "4.20",
       };
-    else dispatch("start");
+    else dispatch("start", null, {});
   }
 </script>
 
