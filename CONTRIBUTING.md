@@ -39,3 +39,11 @@ now but if set correctly, will appear once pushed)
 ```
 https://github.com/Leomotors/anime-captcha/blob/main/images/Armin.webp?raw=true
 ```
+
+### Local Testing
+
+Start the app in development mode at visits /debug
+
+This will display all the images **and their answer** (Spoiler Warning)
+
+Please make sure your image is accessible from browser and not blocked by CORS or anything.

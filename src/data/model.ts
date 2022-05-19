@@ -31,3 +31,5 @@ export interface CaptchaType extends CaptchaTypeJSON {
   // * Short name of Title
   category: string;
 }
+
+export type CaptchaGetAll = { [category: string]: CaptchaTypeJSON };

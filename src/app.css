@@ -45,3 +45,15 @@ button,
 iframe {
   @apply select-none;
 }
+
+.captcha-table {
+  @apply table-auto border-collapse border-[1.5px] border-slate-900;
+}
+
+.captcha-table > thead {
+  @apply border-b-[1.5px] border-black;
+}
+
+.captcha-table > thead > tr > th {
+  @apply p-2;
+}

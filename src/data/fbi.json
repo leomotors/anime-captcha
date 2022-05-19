@@ -744,6 +744,66 @@
                 "ja": "阿波連さんははかれない"
             },
             "answer": false
+        },
+        {
+            "image": "https://i.pinimg.com/originals/7d/f6/b3/7df6b334ee6a8457b6ba8aaf2f81fdd8.jpg",
+            "name": {
+                "en": "Falco Grice",
+                "ja": "ファルコ・グライス"
+            },
+            "anime": {
+                "en": "Attack on Titan",
+                "ja": "進撃の巨人"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://i.pinimg.com/736x/10/c9/c0/10c9c02224ae9c08ba781bae2a856675.jpg",
+            "name": {
+                "en": "Anya Forger",
+                "ja": "アーニャ・フォージャー"
+            },
+            "anime": {
+                "en": "SPY×FAMILY",
+                "ja": "スパイファミリー"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdRo7bOi2DRI5OaO5n0T8UVpidUQRyXWwalw&usqp=CAU",
+            "name": {
+                "en": "Loid Forger",
+                "ja": "ロイド・フォージャー"
+            },
+            "anime": {
+                "en": "SPY×FAMILY",
+                "ja": "スパイファミリー"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://cdn.realsport101.com/images/ncavvykf/epicstream/e31e80a44efa30c13576b0d29d1a1b13a7428f26-1200x628.jpg?rect=42,0,1116,628&w=700&h=394&dpr=2",
+            "name": {
+                "en": "Yor Forger",
+                "ja": "ヨル・フォージャー"
+            },
+            "anime": {
+                "en": "SPY×FAMILY",
+                "ja": "スパイファミリー"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://i.pinimg.com/236x/ff/08/73/ff0873326996049d257fb08928fa5c80.jpg",
+            "name": {
+                "en": "Izumi Motoko",
+                "ja": "和泉許子"
+            },
+            "anime": {
+                "en": "Shikimori's Not Just a Cutie",
+                "ja": "可愛いだけじゃない式守さん"
+            },
+            "answer": true
         }
     ],
     "onFail": {

@@ -28,7 +28,8 @@
   <hr class="text-slate-900 w-[90%] my-4" />
 
   <p class="info px-2">
-    Note: The history is stored in your browser's LocalStorage
+    Note: The history is stored in your browser's LocalStorage, only the last
+    100 plays are kept.
   </p>
 
   <div class="all-play flex flex-col-reverse w-full p-6 gap-4">

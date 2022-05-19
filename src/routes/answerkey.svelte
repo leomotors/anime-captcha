@@ -28,8 +28,8 @@
     Result of "{play.dataset.title.replace(/<[^>]+>/g, " ").trim()}"
   </h1>
 
-  <table class="table-auto border-collapse border-[1.5px] border-slate-900">
-    <thead class="border-b-[1.5px] border-black">
+  <table class="captcha-table">
+    <thead>
       <tr class="bg-sky-200 text-xs lg:text-xl">
         <th>Image</th>
         <th>Character Name</th>

@@ -2,6 +2,10 @@
 
 All change except updating data will be noted here
 
+## [1.3.136] - 2022-05-19
+
+- Added /debug (Accessible in development only)
+
 ## [1.3.132] - 2022-05-19
 
 - Add History (in /statistics)

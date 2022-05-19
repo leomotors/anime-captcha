@@ -660,6 +660,30 @@
                 "ja": "阿波連さんははかれない"
             },
             "answer": true
+        },
+        {
+            "image": "https://i.ytimg.com/vi/ydvzdAMm7cM/maxresdefault.jpg",
+            "name": {
+                "en": "Shikimori",
+                "ja": "式守さん"
+            },
+            "anime": {
+                "en": "Shikimori's Not Just a Cutie",
+                "ja": "可愛いだけじゃない式守さん"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://external-preview.redd.it/MMWh9renmFzqxS9rwZW59LwqWCxBGp_p1IqZK-PnbM4.jpg?width=640&crop=smart&auto=webp&s=759e0dc3f98400538a0b4f6ce4eab5119cab3a3d",
+            "name": {
+                "en": "Izumi",
+                "ja": "和泉くん"
+            },
+            "anime": {
+                "en": "Shikimori's Not Just a Cutie",
+                "ja": "可愛いだけじゃない式守さん"
+            },
+            "answer": false
         }
     ],
     "onFail": {

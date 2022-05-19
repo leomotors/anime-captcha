@@ -37,14 +37,14 @@ for (const file of files) {
 fs.writeFile(
   "./src/data/data.g.ts",
   `
-import type { CaptchaTypeJSON } from "$data/model";
+import type { CaptchaGetAll } from "$data/model";
 
 ${categories.reduce(
   (prev, cate) => prev + `import * as ${cate} from "./${cate}.json";\n`,
   ""
 )}
 
-export const Data: { [category: string]: CaptchaTypeJSON } = { ${categories} };
+export const Data: CaptchaGetAll = { ${categories} };
 `
 );
 
