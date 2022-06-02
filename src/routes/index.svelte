@@ -20,7 +20,7 @@
       dataset: data,
       user_answer: e.detail,
       score: computeScore(data.questions, e.detail),
-      submission_time: new Date().toLocaleString(),
+      submission_time: new Date().toISOString(),
       time_used: Date.now() - startTime,
     });
 

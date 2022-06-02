@@ -8,7 +8,7 @@ export interface PlayResult {
   time_used: number;
 }
 
-const saveVersion = "2";
+const saveVersion = "3";
 
 const keys = {
   saveVersion: "saveVersion",
@@ -22,17 +22,21 @@ export function resetStorage() {
   localStorage.setItem(keys.saveVersion, saveVersion);
 }
 
-export function pushResult(result: PlayResult) {
+function migration_hook() {
   if (localStorage.getItem(keys.saveVersion) != saveVersion) {
     // * No migrations implemented yet
     resetStorage();
   }
+}
+
+export function pushResult(result: PlayResult) {
+  migration_hook();
 
   const history = getAllResults();
 
   history.push(result);
 
-  if (history.length > 100) {
+  if (history.length > 500) {
     history.shift();
   }
 
@@ -51,6 +55,7 @@ export function getResultsByID(index: number) {
 
 export function getAllResults() {
   if (!cachedResults) {
+    migration_hook();
     cachedResults = JSON.parse(
       localStorage.getItem(keys.history) || "[]"
     ) as PlayResult[];
