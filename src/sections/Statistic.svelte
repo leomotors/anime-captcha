@@ -65,7 +65,7 @@
 
     <ProgBar
       label="Avg. Score"
-      value={avgScore}
+      value={avgScore.toFixed(2)}
       width={(avgScore / 16) * 100}
     />
   </section>
