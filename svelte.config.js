@@ -9,7 +9,7 @@ import path from "node:path";
 /** @type {{ [key: string]: string }} */
 const generatedAliases = {};
 
-["components", "data", "icons"].map(
+["components", "data", "icons", "sections"].map(
   (ele) => (generatedAliases[`\$${ele}`] = path.resolve(`src/${ele}`))
 );
 

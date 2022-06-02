@@ -2,6 +2,12 @@
 
 All change except updating data will be noted here
 
+## [1.4.156] - 2022-06-02
+
+- Statistics is now implemented!
+
+- [BREAKING] Submission time now saves in ISO Format, will purge old save
+
 ## [1.3.136] - 2022-05-19
 
 - Added /debug (Accessible in development only)

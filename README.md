@@ -12,7 +12,7 @@ Featuring 2 _Cultured_ Quizzes to test if you are a Robot
 
 <img src="https://titterfun.com/api/assets/image/zmmkr837ciax.jpg" height="350px" />
 
-## ✨✨ Version 1.3
+## ✨✨ Statistic & History Update (1.3 & 1.4)
 
 Recently, Anime Captcha has been rewritten for better developer and user experience
 
@@ -24,7 +24,7 @@ Recently, Anime Captcha has been rewritten for better developer and user experie
 
 - Animations🤩 and miscellaneous design changes
 
-- [IN PROGRESS] Statistics and [Done] Play history
+- Statistics and Play history
 
 - Much better responsiveness for mobile and various screen sizes
 

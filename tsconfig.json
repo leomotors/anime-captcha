@@ -13,7 +13,9 @@
             "$data": ["src/data"],
             "$data/*": ["src/data/*"],
             "$icons": ["src/icons"],
-            "$icons/*": ["src/icons/*"],            
+            "$icons/*": ["src/icons/*"], 
+            "$sections": ["src/sections"],
+            "$sections/*": ["src/sections/*"],           
             "$types": ["src/types"],
             "$types/*": ["src/types/*"]
         }
