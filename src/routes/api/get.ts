@@ -3,7 +3,7 @@ import type { JSONObject } from "@sveltejs/kit/types/private";
 
 import { getQuestions, getRandomQuestions } from "$data/getter";
 
-export const get: RequestHandler = ({ params }) => {
+export const GET: RequestHandler = ({ params }) => {
   const category = params.category;
 
   if (category) {

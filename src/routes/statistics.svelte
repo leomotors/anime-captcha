@@ -1,11 +1,9 @@
 <script lang="ts">
-  import "./statistics.css";
-
   import { onMount } from "svelte";
-  import { getAllResults, type PlayResult } from "$lib/storage";
 
-  import Statistics from "$sections/Statistic.svelte";
+  import { type PlayResult, getAllResults } from "$lib/storage";
   import History from "$sections/History.svelte";
+  import Statistics from "$sections/Statistic.svelte";
 
   let allPlay: PlayResult[] = [];
 

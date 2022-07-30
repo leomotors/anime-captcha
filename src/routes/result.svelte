@@ -3,11 +3,11 @@
 </script>
 
 <script lang="ts">
-  import { goto } from "$app/navigation";
-  import { page } from "$app/stores";
   import { onMount } from "svelte";
 
-  import { getResultsByID, type PlayResult } from "$lib/storage";
+  import { goto } from "$app/navigation";
+  import { page } from "$app/stores";
+  import { type PlayResult, getResultsByID } from "$lib/storage";
 
   let play: PlayResult | undefined;
 
@@ -27,14 +27,14 @@
     <h1>⚠️⚠️ Turn down Volume! 😂 ⚠️⚠️</h1>
     <h2>{play.dataset.onFail.text}</h2>
     <iframe
-      class="mx-auto w-[90%] sm:w-2/3 md:w-2/5 aspect-video"
+      class="mx-auto aspect-video w-[90%] sm:w-2/3 md:w-2/5"
       src="https://www.youtube.com/embed/{play.dataset.onFail.ytid}&autoplay=1"
       title={play.dataset.onFail.text}
       frameborder="0"
       allow="autoplay; encrypted-media; picture-in-picture"
       allowfullscreen
     />
-    <p class="text-gray-800 mt-4 text-xl">
+    <p class="mt-4 text-xl text-gray-800">
       You have spent {play.time_used / 1000} seconds and still fail; pathetic.
     </p>
     <h3>

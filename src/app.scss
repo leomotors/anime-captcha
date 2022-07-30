@@ -23,10 +23,10 @@
 
 .actions {
   @apply flex flex-row justify-center gap-4;
-}
 
-.actions > * {
-  @apply rounded-xl p-4 text-xl text-white;
+  & > * {
+    @apply rounded-xl p-4 text-xl text-white;
+  }
 }
 
 h1 {
@@ -48,12 +48,12 @@ iframe {
 
 .captcha-table {
   @apply table-auto border-collapse border-[1.5px] border-slate-900;
-}
 
-.captcha-table > thead {
-  @apply border-b-[1.5px] border-black;
-}
+  & > thead {
+    @apply border-b-[1.5px] border-black;
 
-.captcha-table > thead > tr > th {
-  @apply p-2;
+    & > tr > th {
+      @apply p-2;
+    }
+  }
 }

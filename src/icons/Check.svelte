@@ -8,7 +8,7 @@
     xmlns="http://www.w3.org/2000/svg"
     width="20"
     height="20"
-    class="text-green-500 mx-auto"
+    class="mx-auto text-green-500"
     fill="currentColor"
     viewBox="0 0 16 16"
   >
@@ -22,7 +22,7 @@
     xmlns="http://www.w3.org/2000/svg"
     width="16"
     height="16"
-    class="text-red-500 mx-auto"
+    class="mx-auto text-red-500"
     fill="currentColor"
     viewBox="0 0 16 16"
   >

@@ -1,6 +1,8 @@
 <script lang="ts">
-  import { getAllResults, resetStorage, type PlayResult } from "$lib/storage";
   import { goto } from "$app/navigation";
+  import { type PlayResult, getAllResults, resetStorage } from "$lib/storage";
+  import styles from "$styles/statistics.module.scss";
+
   import { BuildTime, Version } from "../config.g";
 
   export let allPlay: PlayResult[];
@@ -34,16 +36,17 @@
   }
 </script>
 
-<main class="big-card premium-font">
+<section class="{styles.mainCard} premium-font">
   <h1 class="pt-6">History</h1>
   <hr />
 
   <p class="info px-2">
     Note: The history is stored in your browser's LocalStorage, only the last
-    500 plays are kept and it may be reset at any moment.
+    500 plays are kept and it may be reset at any moment. (Unless I am not lazy
+    to write migration)
   </p>
 
-  <div class="all-play flex flex-col-reverse w-full p-6 gap-4">
+  <div class="all-play flex w-full flex-col-reverse gap-4 p-6">
     {#each allPlay as play, index}
       <div
         class="play-card {play.score == 16 ? 'bg-green-100' : 'bg-red-100'}"
@@ -58,7 +61,7 @@
         </div>
 
         <!-- right -->
-        <div class="flex flex-row gap-4 items-center text-2xl sm:text-3xl">
+        <div class="flex flex-row items-center gap-4 text-2xl sm:text-3xl">
           <p class="text-slate-400">{play.dataset.category}</p>
           <p
             class={(play.score == 16 ? "text-green-600" : "text-red-600") +
@@ -71,7 +74,7 @@
     {/each}
 
     {#if allPlay.length == 0}
-      <p class="info">You don't have any play history</p>
+      <p class="info">(You don't have any play history)</p>
     {/if}
   </div>
 
@@ -79,13 +82,13 @@
     <button on:click={resetDataClick}>Reset all Data</button>
     <button on:click={downloadClick}>Download Data</button>
   </div>
-</main>
+</section>
 
 <style lang="postcss">
   .play-card {
-    @apply flex flex-row justify-between w-full cursor-pointer select-none;
-    @apply p-4 text-xl sm:text-2xl font-bold rounded-lg shadow-lg;
-    @apply hover:scale-[1.025] transition-all;
+    @apply flex w-full cursor-pointer select-none flex-row justify-between;
+    @apply rounded-lg p-4 text-xl font-bold shadow-lg sm:text-2xl;
+    @apply transition-all hover:scale-[1.025];
   }
 
   .info {
@@ -94,7 +97,7 @@
 
   .pink-btns > button {
     @apply bg-gradient-to-b from-pink-100 to-pink-200;
-    @apply hover:scale-105 transition-all font-semibold p-4 mb-6;
-    @apply rounded-xl shadow-xl text-xl;
+    @apply mb-6 p-4 font-semibold transition-all hover:scale-105;
+    @apply rounded-xl text-xl shadow-xl;
   }
 </style>

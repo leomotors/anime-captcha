@@ -3,7 +3,7 @@
   export let label: Label;
 </script>
 
-<main>
-  <div class="font-bold text-xs lg:text-2xl">{label.en}</div>
-  <div class="text-slate-800 text-[8px] lg:text-xl">{label.ja}</div>
-</main>
+<div>
+  <div class="text-xs font-bold lg:text-2xl">{label.en}</div>
+  <div class="text-[8px] text-slate-800 lg:text-xl">{label.ja}</div>
+</div>

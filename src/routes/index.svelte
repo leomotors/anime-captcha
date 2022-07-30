@@ -1,6 +1,5 @@
 <script lang="ts">
   import { goto } from "$app/navigation";
-
   import Captcha from "$components/Captcha.svelte";
   import NotARobot from "$components/NotARobot.svelte";
   import type { CaptchaType } from "$data/model";

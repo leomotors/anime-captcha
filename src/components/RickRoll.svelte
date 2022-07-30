@@ -5,27 +5,27 @@
   export let chance: string;
 </script>
 
-<main>
-  <h1 class="font-bold text-4xl">You Lucky!</h1>
+<div>
+  <h1 class="text-4xl font-bold">You Lucky!</h1>
   <hr class="my-4" />
   <iframe
-    class="mx-auto w-full aspect-video"
+    class="mx-auto aspect-video w-full"
     src="https://www.youtube.com/embed/{url}?autoplay=1"
     {title}
     frameborder="0"
     allow="autoplay; encrypted-media; picture-in-picture"
     allowfullscreen
   />
-  <p class="mt-4 font-semibold text-xl sm:text-2xl">
+  <p class="mt-4 text-xl font-semibold sm:text-2xl">
     There is {chance}% Chance you will be {roll} and you get it!
   </p>
 
   <button
-    class="bg-captcha-blue rounded m-2 py-2 px-4 text-white text-xl"
+    class="m-2 rounded bg-captcha-blue py-2 px-4 text-xl text-white"
     on:click={() => {
       window.location.reload();
     }}
   >
     Pray and Try again
   </button>
-</main>
+</div>

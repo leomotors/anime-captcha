@@ -1,7 +1,7 @@
 <script lang="ts" context="module">
-  import { dev } from "$app/env";
   import type { Load } from "@sveltejs/kit";
 
+  import { dev } from "$app/env";
   import type { CaptchaGetAll } from "$data/model";
   import type { Insight } from "$types";
 
@@ -41,7 +41,7 @@
   }
 </script>
 
-<main class="premium-font my-10 flex flex-col gap-4">
+<div class="premium-font my-10 flex flex-col gap-4">
   <h1>Insight created at {insight.created_at}</h1>
 
   {#each Object.entries(data) as [cate, captcha]}
@@ -63,7 +63,7 @@
             <td>{index + 1}</td>
             <td>
               <div
-                class="aspect-square bg-cover bg-center mx-auto w-28 h-28"
+                class="mx-auto aspect-square h-28 w-28 bg-cover bg-center"
                 style="background-image: url({question.image})"
               />
             </td>
@@ -78,7 +78,7 @@
         .correct_ratio})
     </h2>
   {/each}
-</main>
+</div>
 
 <style lang="postcss">
   tbody > tr > td:nth-child(-n + 2) {

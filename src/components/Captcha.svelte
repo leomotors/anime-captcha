@@ -1,9 +1,9 @@
 <script lang="ts">
+  import { createEventDispatcher, onMount } from "svelte";
+
   import type { CaptchaType } from "$data/model";
   import CheckboxMarkedCircle from "$icons/material/checkbox-marked-circle.svelte";
   import Refresh from "$icons/material/refresh.svelte";
-
-  import { createEventDispatcher, onMount } from "svelte";
   const dispatch = createEventDispatcher<{ submit: boolean[][] }>();
 
   export let questions: CaptchaType;
@@ -62,12 +62,12 @@
   });
 </script>
 
-<main class="my-4">
-  <section class="top-section border-gray-200 border">
-    <h1 class="text-left p-4 bg-captcha-blue text-white text-3xl sm:text-4xl">
+<div class="my-4">
+  <section class="top-section border border-gray-200">
+    <h1 class="bg-captcha-blue p-4 text-left text-3xl text-white sm:text-4xl">
       {@html questions.title}
     </h1>
-    <table class="table-fixed m-2">
+    <table class="m-2 table-fixed">
       <tbody>
         {#each [0, 1, 2, 3] as i}
           <tr>
@@ -90,35 +90,35 @@
     </table>
   </section>
 
-  <footer class="bottom-section border-gray-200 border-x border-b">
-    <div class="text-captcha-gray ml-4 cursor-pointer" on:click={reload}>
+  <footer class="bottom-section border-x border-b border-gray-200">
+    <div class="ml-4 cursor-pointer text-captcha-gray" on:click={reload}>
       <Refresh />
     </div>
     {#if lmaoreload}
-      <div class="text-red-600 text-lg">You cannot change test case!</div>
+      <div class="text-lg text-red-600">You cannot change test case!</div>
     {/if}
     <button
-      class="bg-captcha-blue text-white m-2 py-2 px-3 rounded text-xl"
+      class="m-2 rounded bg-captcha-blue py-2 px-3 text-xl text-white"
       on:click={submitAnswer}
       title="Submit Answer and accept your fate"
     >
       VERIFY
     </button>
   </footer>
-</main>
+</div>
 
 <style lang="postcss">
   .bottom-section {
-    @apply flex flex-row justify-between items-center select-none;
+    @apply flex select-none flex-row items-center justify-between;
   }
 
   .checkbox {
-    @apply absolute z-10 text-captcha-blue scale-0 bg-white;
-    @apply rounded-full shadow-lg left-1 top-1;
+    @apply absolute z-10 scale-0 bg-white text-captcha-blue;
+    @apply left-1 top-1 rounded-full shadow-lg;
   }
 
   .tile {
-    @apply w-20 h-20 md:w-24 md:h-24 2xl:w-28 2xl:h-28 bg-center bg-cover;
+    @apply h-20 w-20 bg-cover bg-center md:h-24 md:w-24 2xl:h-28 2xl:w-28;
   }
 
   .tile,

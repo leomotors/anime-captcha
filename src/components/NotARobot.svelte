@@ -1,5 +1,6 @@
 <script lang="ts">
   import { createEventDispatcher } from "svelte";
+
   import RickRoll from "$components/RickRoll.svelte";
   import Spinner from "$icons/Spinner.svelte";
 
@@ -37,8 +38,8 @@
   }
 </script>
 
-<main
-  class="flex flex-row items-center gap-1 bg-[#f9f9f9] m-4 p-4 rounded select-none border border-[#d3d3d3]"
+<div
+  class="m-4 flex select-none flex-row items-center gap-1 rounded border border-[#d3d3d3] bg-[#f9f9f9] p-4"
 >
   {#if rickroll_data}
     <RickRoll {...rickroll_data} />
@@ -46,8 +47,8 @@
     {#if boxClicked}
       <Spinner />
     {:else}
-      <input class="scale-[2] ml-2 mr-3" type="checkbox" on:click={boxClick} />
+      <input class="ml-2 mr-3 scale-[2]" type="checkbox" on:click={boxClick} />
     {/if}
-    <p class="text-2xl mr-1">I'm not a Robot</p>
+    <p class="mr-1 text-2xl">I'm not a Robot</p>
   {/if}
-</main>
+</div>

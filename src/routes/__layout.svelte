@@ -1,26 +1,25 @@
 <script lang="ts">
-  import "../app.css";
+  import "../app.scss";
 
   import { page } from "$app/stores";
-
   import GitHub from "$icons/GitHub.svelte";
   import ext from "$lib/ext";
   import { elapsedFrom } from "$lib/time";
 
-  import { Version, BuildTime } from "../config.g";
+  import { BuildTime, Version } from "../config.g";
 </script>
 
 <main
-  class="flex flex-col justify-center items-center text-center min-h-[calc(100vh-8rem)] sm:min-h-[calc(100vh-4rem)] gap-4 pb-6 px-2"
+  class="flex min-h-[calc(100vh-8rem)] flex-col items-center justify-center gap-4 px-2 pb-6 text-center sm:min-h-[calc(100vh-4rem)]"
 >
   <slot />
 </main>
 
 <footer
-  class="system-font h-32 sm:h-16 bg-slate-700 flex flex-row justify-between px-4 sm:px-12 items-center text-white"
+  class="system-font flex h-32 flex-row items-center justify-between bg-slate-700 px-4 text-white sm:h-16 sm:px-12"
 >
   <a
-    class="flex flex-row gap-2 items-center select-none hover:text-gray-300"
+    class="flex select-none flex-row items-center gap-2 hover:text-gray-300"
     href="https://github.com/Leomotors/anime-captcha"
     {...ext}
   >
@@ -45,7 +44,7 @@
 
   <div class="right select-none">
     <a
-      class="font-semibold text-xl hover:text-gray-300"
+      class="text-xl font-semibold hover:text-gray-300"
       href={$page.url.pathname.includes("statistics") ? "/" : "/statistics"}
     >
       {$page.url.pathname.includes("statistics") ? "Home" : "Statistics"}

@@ -1,0 +1,8 @@
+.mainCard {
+  @apply flex w-[90%] flex-col items-center justify-center sm:w-2/3 lg:w-1/2 2xl:w-1/3;
+  @apply rounded-xl bg-sky-50 shadow-2xl;
+
+  & > hr {
+    @apply my-4 w-[90%] text-slate-900;
+  }
+}

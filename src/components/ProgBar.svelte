@@ -4,12 +4,12 @@
   export let value: string | number = "";
 </script>
 
-<div class="flex flex-row justify-between w-full">
+<div class="flex w-full flex-row justify-between">
   <p>{label}</p>
   <div class="progbar-label">
     <div class="progbar w-4/5 bg-sky-300">
       <div
-        class="progbar transition-transform bg-green-400"
+        class="progbar bg-green-400 transition-transform"
         style="width: {isNaN(width) ? 0 : width}%"
       />
     </div>
@@ -19,10 +19,10 @@
 
 <style lang="postcss">
   .progbar-label {
-    @apply flex flex-row justify-between w-3/5 gap-2;
+    @apply flex w-3/5 flex-row justify-between gap-2;
   }
 
   .progbar {
-    @apply h-6 my-auto rounded-lg;
+    @apply my-auto h-6 rounded-lg;
   }
 </style>

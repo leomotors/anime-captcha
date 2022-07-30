@@ -3,14 +3,13 @@
 </script>
 
 <script lang="ts">
-  import { goto } from "$app/navigation";
-  import { page } from "$app/stores";
   import { onMount } from "svelte";
 
-  import { getResultsByID, type PlayResult } from "$lib/storage";
-
+  import { goto } from "$app/navigation";
+  import { page } from "$app/stores";
   import Label from "$components/Label.svelte";
   import Check from "$icons/Check.svelte";
+  import { type PlayResult, getResultsByID } from "$lib/storage";
 
   let play: PlayResult | undefined;
 
@@ -24,7 +23,7 @@
 </script>
 
 {#if play}
-  <h1 class="font-semibold text-xl lg:text-3xl mt-6">
+  <h1 class="mt-6 text-xl font-semibold lg:text-3xl">
     Result of "{play.dataset.title.replace(/<[^>]+>/g, " ").trim()}"
   </h1>
 
@@ -47,7 +46,7 @@
         >
           <td>
             <div
-              class="aspect-square bg-cover bg-center mx-auto"
+              class="mx-auto aspect-square bg-cover bg-center"
               style="background-image: url({question.image})"
             />
           </td>
@@ -74,12 +73,7 @@
 <style lang="postcss">
   th,
   td {
-    @apply border border-slate-300;
-  }
-
-  th,
-  td {
-    @apply p-2;
+    @apply border border-slate-300 p-2;
   }
 
   td:first-child {
