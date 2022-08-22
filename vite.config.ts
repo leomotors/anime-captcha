@@ -1,13 +1,12 @@
 import { sveltekit } from "@sveltejs/kit/vite";
+import path from "node:path";
 import { defineConfig } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
-
-import path from "node:path";
 
 const generatedAliases = {} as { [key: string]: string };
 
 ["components", "data", "icons", "sections", "styles"].map(
-  (ele) => (generatedAliases[`\$${ele}`] = path.resolve(`src/${ele}`))
+  (ele) => (generatedAliases[`$${ele}`] = path.resolve(`src/${ele}`))
 );
 
 export default defineConfig({

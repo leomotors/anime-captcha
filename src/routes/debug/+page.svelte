@@ -1,36 +1,40 @@
 <script lang="ts" context="module">
-  import type { Load } from "@sveltejs/kit";
+  throw new Error("@migration task: Check code was safely removed (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292722)");
 
-  import { dev } from "$app/env";
-  import type { CaptchaGetAll } from "$data/model";
-  import type { Insight } from "$types";
+  // import type { Load } from "@sveltejs/kit";
 
-  export const prerender = false;
+  // import { dev } from "$app/env";
+  // import type { CaptchaGetAll } from "$data/model";
+  // import type { Insight } from "$types";
 
-  export const load: Load = async ({ fetch }) => {
-    if (!dev)
-      return {
-        status: 403,
-        error: "You shall not pass! Debug is only available in Debug",
-      };
+  // export const prerender = false;
 
-    const [_data, _insight] = await Promise.all([
-      fetch("/api/getall"),
-      fetch("/api/insight"),
-    ]);
+  // export const load: Load = async ({ fetch }) => {
+  //   if (!dev)
+  //     return {
+  //       status: 403,
+  //       error: "You shall not pass! Debug is only available in Debug",
+  //     };
 
-    const [data, insight] = await Promise.all([_data.json(), _insight.json()]);
+  //   const [_data, _insight] = await Promise.all([
+  //     fetch("/api/getall"),
+  //     fetch("/api/insight"),
+  //   ]);
 
-    return {
-      props: {
-        data: data as CaptchaGetAll,
-        insight: insight as Insight,
-      },
-    };
-  };
+  //   const [data, insight] = await Promise.all([_data.json(), _insight.json()]);
+
+  //   return {
+  //     props: {
+  //       data: data as CaptchaGetAll,
+  //       insight: insight as Insight,
+  //     },
+  //   };
+  // };
 </script>
 
 <script lang="ts">
+  throw new Error("@migration task: Add data prop (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292707)");
+
   import Label from "$components/Label.svelte";
 
   export let data: CaptchaGetAll;
