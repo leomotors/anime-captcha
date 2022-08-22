@@ -2,6 +2,10 @@
 
 All change except updating data will be noted here
 
+## [1.5.160] - 2022-08-22
+
+- Bump Dependencies, no new feature
+
 ## [1.4.156] - 2022-06-02
 
 - Statistics is now implemented!

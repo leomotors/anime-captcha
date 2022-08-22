@@ -4,22 +4,6 @@
     "module": "ESNext",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "resolveJsonModule": true,
-    "paths": {
-      "$lib": ["src/lib"],
-      "$lib/*": ["src/lib/*"],
-      "$components": ["src/components"],
-      "$components/*": ["src/components/*"],
-      "$data": ["src/data"],
-      "$data/*": ["src/data/*"],
-      "$icons": ["src/icons"],
-      "$icons/*": ["src/icons/*"],
-      "$sections": ["src/sections"],
-      "$sections/*": ["src/sections/*"],
-      "$styles": ["src/styles"],
-      "$styles/*": ["src/styles/*"],
-      "$types": ["src/types"],
-      "$types/*": ["src/types/*"]
-    }
+    "resolveJsonModule": true
   }
 }

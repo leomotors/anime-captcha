@@ -11,7 +11,10 @@ const config = {
   ],
   plugins: ["svelte3", "@typescript-eslint", "simple-import-sort"],
   overrides: [
-    { files: ["*.svelte"], processor: "svelte3/svelte3" },
+    {
+      files: ["*.svelte"],
+      processor: "svelte3/svelte3",
+    },
     {
       files: ["*.cjs"],
       rules: {
