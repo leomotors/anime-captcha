@@ -14,7 +14,7 @@
   "homepage": "https://github.com/Leomotors/anime-captcha",
   "scripts": {
     "pre-build": "pnpm lm-config && node prebuild.js",
-    "dev": "pnpm lm-inc && pnpm pre-build && vite dev --port 6912",
+    "dev": "pnpm pre-build && vite dev --port 6912",
     "build": "pnpm pre-build && vite build && sh post-build.sh",
     "package": "svelte-kit package",
     "preview": "vite preview",

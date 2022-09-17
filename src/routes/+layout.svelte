@@ -1,12 +1,23 @@
 <script lang="ts">
   import "../app.scss";
 
+  import { onMount } from "svelte";
+
+  import { dev } from "$app/environment";
   import { page } from "$app/stores";
   import GitHub from "$icons/GitHub.svelte";
   import ext from "$lib/ext";
   import { elapsedFrom } from "$lib/time";
 
   import { BuildTime, Version } from "../config.g";
+
+  onMount(() => {
+    if (dev) return;
+
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("./sw.js", { scope: "./" });
+    }
+  });
 </script>
 
 <svelte:head>
