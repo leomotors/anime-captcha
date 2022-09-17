@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [
     sveltekit(),
     VitePWA({
+      injectRegister: "script",
       registerType: "autoUpdate",
       manifest: {
         name: "Anime Captcha",
