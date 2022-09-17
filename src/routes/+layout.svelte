@@ -9,6 +9,14 @@
   import { BuildTime, Version } from "../config.g";
 </script>
 
+<svelte:head>
+  <title>Anime Captcha</title>
+  <meta
+    name="description"
+    content="Just a Normal Captcha, you are not a robot? Then pass this Captcha!"
+  />
+</svelte:head>
+
 <main
   class="flex min-h-[calc(100vh-8rem)] flex-col items-center justify-center gap-4 px-2 pb-6 text-center sm:min-h-[calc(100vh-4rem)]"
 >

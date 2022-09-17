@@ -2,6 +2,11 @@
 
 All change except updating data will be noted here
 
+## [1.5.162] - 2022-09-17
+
+- Bump Dependencies
+- Fixed an issues that PWA does not work
+
 ## [1.5.160] - 2022-08-22
 
 - Bump Dependencies, no new feature

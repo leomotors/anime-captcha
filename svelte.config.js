@@ -24,8 +24,5 @@ export default {
   kit: {
     adapter: adapter(),
     alias: generatedAliases,
-    prerender: {
-      default: true,
-    },
   },
 };

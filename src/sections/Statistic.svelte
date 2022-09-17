@@ -39,7 +39,7 @@
   }
 </script>
 
-<section class="{styles.mainCard} premium-font mt-12 pb-6">
+<section class="{styles.mainCard} premium-font mt-6 pb-6">
   <h1 class="pt-6">Statistics</h1>
   <hr />
 

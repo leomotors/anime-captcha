@@ -684,6 +684,30 @@
                 "ja": "可愛いだけじゃない式守さん"
             },
             "answer": false
+        },
+        {
+            "image": "https://img1.ak.crunchyroll.com/i/spire2/956276f91e050ea7e6c7c9747557a5271656701621_main.jpg",
+            "name": {
+                "en": "Philip",
+                "ja": "フィリップ"
+            },
+            "anime": {
+                "en": "Fuuto PI",
+                "ja": "風都探偵"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://boundingintocomics.com/wp-content/uploads/2022/07/2022.07.05-06.21-boundingintocomics-62c4813a33a79.jpg",
+            "name": {
+                "en": "Hidari Shōtarō",
+                "ja": "左翔太郎"
+            },
+            "anime": {
+                "en": "Fuuto PI",
+                "ja": "風都探偵"
+            },
+            "answer": false
         }
     ],
     "onFail": {
