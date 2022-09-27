@@ -804,6 +804,102 @@
                 "ja": "可愛いだけじゃない式守さん"
             },
             "answer": true
+        },
+        {
+            "image": "https://cdn.myanimelist.net/images/characters/14/385261.jpg",
+            "name": {
+                "en": "Yoshida, Yuuko",
+                "ja": "吉田 優子"
+            },
+            "anime": {
+                "en": "The Demon Girl Next Door",
+                "ja": "まちカドまぞく"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://cdn.myanimelist.net/images/characters/9/383383.jpg",
+            "name": {
+                "en": "Chiyoda, Momo",
+                "ja": "千代田 桃"
+            },
+            "anime": {
+                "en": "The Demon Girl Next Door",
+                "ja": "まちカドまぞく"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://cdn.myanimelist.net/images/characters/6/403342.jpg",
+            "name": {
+                "en": "Lico",
+                "ja": "リコ"
+            },
+            "anime": {
+                "en": "The Demon Girl Next Door 2",
+                "ja": "まちカドまぞく 2丁目"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://cdn.myanimelist.net/images/characters/5/477006.jpg",
+            "name": {
+                "en": "Hinatsuki, Mikan",
+                "ja": "陽夏木 ミカン"
+            },
+            "anime": {
+                "en": "The Demon Girl Next Door",
+                "ja": "まちカドまぞく"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://cdn.myanimelist.net/images/characters/5/477017.jpg",
+            "name": {
+                "en": "Lilith",
+                "ja": "リリス"
+            },
+            "anime": {
+                "en": "The Demon Girl Next Door",
+                "ja": "まちカドまぞく"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://cdn.myanimelist.net/images/characters/5/477010.jpg",
+            "name": {
+                "en": "Yoshida, Ryouko",
+                "ja": "吉田 良子"
+            },
+            "anime": {
+                "en": "The Demon Girl Next Door",
+                "ja": "まちカドまぞく"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://cdn.myanimelist.net/images/characters/11/477016.jpg",
+            "name": {
+                "en": "Ogura, Shion",
+                "ja": "小倉 しおん"
+            },
+            "anime": {
+                "en": "The Demon Girl Next Door",
+                "ja": "まちカドまぞく"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://cdn.myanimelist.net/images/characters/8/477012.jpg",
+            "name": {
+                "en": "Yoshida, Seiko",
+                "ja": "吉田 清子"
+            },
+            "anime": {
+                "en": "The Demon Girl Next Door",
+                "ja": "まちカドまぞく"
+            },
+            "answer": true
         }
     ],
     "onFail": {
