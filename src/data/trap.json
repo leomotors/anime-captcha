@@ -708,6 +708,66 @@
                 "ja": "風都探偵"
             },
             "answer": false
+        },
+        {
+            "image": "https://github.com/Leomotors/anime-captcha/blob/main/images/1ka.webp?raw=true",
+            "name": {
+                "en": "Nakano Ichika",
+                "ja": "中野一花"
+            },
+            "anime": {
+                "en": "The Quintessential Quintuplets",
+                "ja": "五等分の花嫁"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://github.com/Leomotors/anime-captcha/blob/main/images/2no.webp?raw=true",
+            "name": {
+                "en": "Nakano Nino",
+                "ja": "中野二乃"
+            },
+            "anime": {
+                "en": "The Quintessential Quintuplets",
+                "ja": "五等分の花嫁"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://github.com/Leomotors/anime-captcha/blob/main/images/3ku.webp?raw=true",
+            "name": {
+                "en": "Nakano Miku",
+                "ja": "中野三玖"
+            },
+            "anime": {
+                "en": "The Quintessential Quintuplets",
+                "ja": "五等分の花嫁"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://github.com/Leomotors/anime-captcha/blob/main/images/4ba.webp?raw=true",
+            "name": {
+                "en": "Nakano Yotsuba",
+                "ja": "中野四葉"
+            },
+            "anime": {
+                "en": "The Quintessential Quintuplets",
+                "ja": "五等分の花嫁"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://github.com/Leomotors/anime-captcha/blob/main/images/5tsuki.webp?raw=true",
+            "name": {
+                "en": "Nakano Itsuki",
+                "ja": "中野五月"
+            },
+            "anime": {
+                "en": "The Quintessential Quintuplets",
+                "ja": "五等分の花嫁"
+            },
+            "answer": true
         }
     ],
     "onFail": {
