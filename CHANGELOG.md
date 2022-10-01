@@ -1,6 +1,6 @@
 # Changelog
 
-All change except updating data will be noted here
+All notable change except updating data will be noted here
 
 ## [1.5.162] - 2022-09-17
 
@@ -25,7 +25,7 @@ All change except updating data will be noted here
 
 - Add History (in /statistics)
 
-- Finally, *RESPONSIVE* across mobile and various screen sizes is now properly implemented! ✨✨✨
+- Finally, _RESPONSIVE_ across mobile and various screen sizes is now properly implemented! ✨✨✨
 
 ## [1.3.116] - 2022-05-18
 
