@@ -900,6 +900,18 @@
                 "ja": "まちカドまぞく"
             },
             "answer": true
+        },
+        {
+            "image": "https://static.wikia.nocookie.net/to-aru-majutsu-no-index/images/5/50/Angelene_profile.jpg/revision/latest/scale-to-width-down/700",
+            "name": {
+                "en": "Anjerene",
+                "ja": "アンジェレネ"
+            },
+            "anime": {
+                "en": "Kinsho Mokuroku",
+                "ja": "禁書目録"
+            },
+            "answer": true
         }
     ],
     "onFail": {
