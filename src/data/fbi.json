@@ -900,6 +900,18 @@
                 "ja": "まちカドまぞく"
             },
             "answer": true
+        },
+        {
+            "image": "https://github.com/Leomotors/anime-captcha/blob/main/images/Angelene_profile.webp?raw=true",
+            "name": {
+                "en": "Anjerene",
+                "ja": "アンジェレネ"
+            },
+            "anime": {
+                "en": "Kinsho Mokuroku",
+                "ja": "禁書目録"
+            },
+            "answer": true
         }
     ],
     "onFail": {
