@@ -912,6 +912,30 @@
                 "ja": "禁書目録"
             },
             "answer": true
+        },
+        {
+            "image": "https://64.media.tumblr.com/60bf94d3dff67c430bb430e98a3f146b/tumblr_ox2eeks2My1uctmvwo9_250.png",
+            "name": {
+                "en": "Kirima Syaro",
+                "ja": "桐間紗路"
+            },
+            "anime": {
+                "en": "Is the Order a Rabbit?",
+                "ja": "ご注文はうさぎですか？"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://pbs.twimg.com/media/EWRghcUXkAAr3fp.jpg",
+            "name": {
+                "en": "Biscuit Krueger",
+                "ja": "ビスケット＝クルーガー"
+            },
+            "anime": {
+                "en": "Hunter x Hunter",
+                "ja": "ハンター×ハンター"
+            },
+            "answer": true
         }
     ],
     "onFail": {
