@@ -9,7 +9,7 @@ import type { PageLoad } from "./$types";
 export const prerender = false;
 
 export const load: PageLoad = async ({ fetch }) => {
-  if (!dev)
+  if (!dev && import.meta.env.VERCEL_ENV !== "production")
     throw error(403, "You shall not pass! Debug is only available in Debug");
 
   const [data, insight] = await Promise.all([
