@@ -768,6 +768,78 @@
                 "ja": "五等分の花嫁"
             },
             "answer": true
+        },
+        {
+            "image": "https://cdn.myanimelist.net/images/characters/15/482274.jpg",
+            "name": {
+                "en": "Asai Akira",
+                "ja": "朝井 アキラ"
+            },
+            "anime": {
+                "en": "Call of the Night",
+                "ja": "よふかしのうた"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://cdn.myanimelist.net/images/characters/16/485223.jpg",
+            "name": {
+                "en": "Suzushiro Hatsuka",
+                "ja": "蘿蔔 ハツカ"
+            },
+            "anime": {
+                "en": "Call of the Night",
+                "ja": "よふかしのうた"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://cdn.myanimelist.net/images/characters/7/133805.jpg",
+            "name": {
+                "en": "Urushibara Ruka",
+                "ja": "漆原 るか"
+            },
+            "anime": {
+                "en": "Steins;Gate",
+                "ja": "シュタインズ・ゲート"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://cdn.myanimelist.net/images/characters/4/131329.jpg",
+            "name": {
+                "en": "Shiina Mayuri",
+                "ja": "椎名 まゆり"
+            },
+            "anime": {
+                "en": "Steins;Gate",
+                "ja": "シュタインズ・ゲート"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://cdn.myanimelist.net/images/characters/12/461554.jpg",
+            "name": {
+                "en": "Shiina Mahiru",
+                "ja": "椎名 真昼"
+            },
+            "anime": {
+                "en": "The Angel Next Door Spoils Me Rotten",
+                "ja": "お隣の天使様にいつの間にか駄目人間にされていた件"
+            },
+            "answer": true
+        },
+        {
+            "image": "https://cdn.myanimelist.net/images/characters/14/468198.jpg",
+            "name": {
+                "en": "Shirakawa Chitose",
+                "ja": "白河 千歳"
+            },
+            "anime": {
+                "en": "The Angel Next Door Spoils Me Rotten",
+                "ja": "お隣の天使様にいつの間にか駄目人間にされていた件"
+            },
+            "answer": true
         }
     ],
     "onFail": {

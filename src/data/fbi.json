@@ -936,6 +936,30 @@
                 "ja": "ハンター×ハンター"
             },
             "answer": true
+        },
+        {
+            "image": "https://www.looper.com/img/gallery/chainsaw-man-fans-cant-get-over-denjis-highly-anticipated-transformation-scene-in-episode-1/intro-1665616296.webp",
+            "name": {
+                "en": "Denji",
+                "ja": "デンジ"
+            },
+            "anime": {
+                "en": "Chainsaw Man",
+                "ja": "チェンソーマン"
+            },
+            "answer": false
+        },
+        {
+            "image": "https://www.americanpost.news/wp-content/uploads/2022/08/Dubbing-actress-is-FIRED-for-making-a-fandub-of-the.jpg",
+            "name": {
+                "en": "Makima",
+                "ja": "マキマ"
+            },
+            "anime": {
+                "en": "Chainsaw Man",
+                "ja": "チェンソーマン"
+            },
+            "answer": true
         }
     ],
     "onFail": {
