@@ -16,6 +16,8 @@ prefer the english name order to be the same as written in Japanese
 
 ミカサ・アッカーマン -> Mikasa Ackerman
 
+アーニャ・フォージャー -> Anya Forger
+
 ## Exception can be made for some cases
 
 保登心愛 -> Hoto Cocoa (Instead of Hoto Kokoa)
