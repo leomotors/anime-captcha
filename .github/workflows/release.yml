@@ -17,7 +17,6 @@ jobs:
       - name: Publish Release
         uses: Leomotors/auto-publish-release@main
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          RELEASE_TITLE: "Anime Captcha {VERSION}"
-          VERSION_MUST_INCREASE: true
-          TAG: ${{ github.ref }}
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          title: "Anime Captcha"
+          tag: ${{ github.ref }}

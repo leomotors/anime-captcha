@@ -6,6 +6,7 @@ All notable change except updating data will be noted here
 
 - chore: bump deps
 - feat: Deployed to Edge
+- refactor: clean code, fix a11y
 
 ## [1.5.162] - 2022-09-17
 
