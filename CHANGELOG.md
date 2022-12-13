@@ -2,6 +2,11 @@
 
 All notable change except updating data will be noted here
 
+## [1.6.164] - 2022-12-14
+
+- chore: bump deps
+- feat: Deployed to Edge
+
 ## [1.5.162] - 2022-09-17
 
 - Bump Dependencies

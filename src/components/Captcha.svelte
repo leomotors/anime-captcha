@@ -27,12 +27,12 @@
   ];
 
   function handleKeyDown(e: KeyboardEvent) {
-    if (e.key == "Enter") {
+    if (e.key === "Enter") {
       submitAnswer();
     }
     // God Mode (Dev Mode Only)
-    if (e.key == "g") {
-      if (import.meta.env.MODE == "development") {
+    if (e.key === "g") {
+      if (import.meta.env.MODE === "development") {
         for (let i = 0; i < 4; i++) {
           for (let j = 0; j < 4; j++) {
             clicked[i][j] = questions.questions[4 * i + j].answer;
@@ -76,7 +76,7 @@
                 <div class="checkbox">
                   <CheckboxMarkedCircle />
                 </div>
-                <div
+                <button
                   class="tile"
                   on:click={() => (clicked[i][j] = !clicked[i][j])}
                   style="background-image: url({questions.questions[4 * i + j]
@@ -91,9 +91,9 @@
   </section>
 
   <footer class="bottom-section border-x border-b border-gray-200">
-    <div class="ml-4 cursor-pointer text-captcha-gray" on:click={reload}>
+    <button class="ml-4 cursor-pointer text-captcha-gray" on:click={reload}>
       <Refresh />
-    </div>
+    </button>
     {#if lmaoreload}
       <div class="text-lg text-red-600">You cannot change test case!</div>
     {/if}

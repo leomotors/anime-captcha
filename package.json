@@ -1,6 +1,6 @@
 {
   "name": "anime-captcha",
-  "version": "1.5.162",
+  "version": "1.6.164",
   "type": "module",
   "repository": {
     "type": "git",
@@ -20,34 +20,38 @@
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
-    "lint": "prettier --check \"*.config.{cjs,js,ts}\" \"{src,tests}/**/*.{ts,svelte,html}\" && eslint src && eslint *.{cjs,js}",
-    "format": "prettier --write \"*.config.{cjs,js,ts}\" \"{src,tests}/**/*.{ts,svelte,html}\""
+    "lint": "eslint src && prettier --check \"src/**/*.{ts,svelte,html,scss}\"",
+    "format": "eslint src --fix && prettier --write \"src/**/*.{ts,svelte,html,scss}\""
+  },
+  "engines": {
+    "node": "^18.12.0",
+    "pnpm": "^7"
   },
   "devDependencies": {
     "@leomotors/scripts": "^3.1.0",
-    "@sveltejs/adapter-vercel": "1.0.0-next.77",
-    "@sveltejs/kit": "1.0.0-next.507",
-    "@types/eslint": "^8.4.6",
-    "@typescript-eslint/eslint-plugin": "^5.38.1",
-    "@typescript-eslint/parser": "^5.38.1",
-    "autoprefixer": "^10.4.12",
-    "eslint": "^8.24.0",
+    "@sveltejs/adapter-vercel": "1.0.0-next.87",
+    "@sveltejs/kit": "1.0.0-next.586",
+    "@types/eslint": "^8.4.10",
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.29.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-simple-import-sort": "^8.0.0",
     "eslint-plugin-svelte3": "^4.0.0",
-    "globby": "^13.1.2",
-    "postcss": "^8.4.17",
-    "prettier": "^2.7.1",
-    "prettier-plugin-svelte": "^2.7.1",
-    "prettier-plugin-tailwindcss": "^0.1.13",
-    "sass": "^1.55.0",
-    "svelte": "^3.50.1",
-    "svelte-check": "^2.9.1",
-    "svelte-preprocess": "^4.10.7",
-    "tailwindcss": "^3.1.8",
-    "typescript": "^4.8.4",
-    "vite": "^3.1.4",
-    "vite-plugin-pwa": "^0.13.1"
+    "globby": "^13.1.3",
+    "postcss": "^8.4.20",
+    "prettier": "^2.8.1",
+    "prettier-plugin-svelte": "^2.9.0",
+    "prettier-plugin-tailwindcss": "^0.2.1",
+    "sass": "^1.56.2",
+    "svelte": "^3.55.0",
+    "svelte-check": "^2.10.2",
+    "svelte-preprocess": "^5.0.0",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.1",
+    "vite-plugin-pwa": "^0.14.0"
   }
 }

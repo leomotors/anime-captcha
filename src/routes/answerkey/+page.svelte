@@ -36,7 +36,7 @@
     <tbody>
       {#each play.dataset.questions as question, index}
         <tr
-          class={question.answer == answerAtIndex(index)
+          class={question.answer === answerAtIndex(index)
             ? "bg-green-100"
             : "bg-red-100"}
         >

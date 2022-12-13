@@ -1,6 +1,6 @@
 // Copied from Anime Captcha
 export function elapsedFrom(start: string | number) {
-  if (typeof start == "string") start = Date.parse(start);
+  if (typeof start === "string") start = Date.parse(start);
 
   // Calculate how far it is from BuildDate
   const now = Date.now();

@@ -4,8 +4,8 @@ import { getQuestions, getRandomQuestions } from "$data/getter";
 
 import type { RequestHandler } from "./$types";
 
-export const GET: RequestHandler = ({ params }) => {
-  const category = params.category;
+export const GET: RequestHandler = ({ url }) => {
+  const category = url.searchParams.get("category");
 
   if (category) {
     const questions = getQuestions(category);
@@ -13,7 +13,7 @@ export const GET: RequestHandler = ({ params }) => {
     if (questions) {
       return json(questions);
     } else {
-      return error(400, "Invalid Category");
+      throw error(400, "Invalid Category");
     }
   } else {
     const questions = getRandomQuestions();
@@ -21,7 +21,7 @@ export const GET: RequestHandler = ({ params }) => {
     if (questions) {
       return json(questions);
     } else {
-      return error(500, "Internal Server Error");
+      throw error(500, "Internal Server Error");
     }
   }
 };

@@ -17,7 +17,7 @@
 
   $: {
     winCount = filteredPlay.reduce(
-      (prev, curr) => (curr.score == 16 ? prev + 1 : prev),
+      (prev, curr) => (curr.score === 16 ? prev + 1 : prev),
       0
     );
     avgScore =
@@ -45,7 +45,10 @@
 
   <div class="btn-group flex max-w-[90%] flex-row justify-center rounded-xl">
     {#each allFilters as day}
-      <button class:selected={filter == day} on:click={() => changeFilter(day)}>
+      <button
+        class:selected={filter === day}
+        on:click={() => changeFilter(day)}
+      >
         {day ? `Last ${day} days` : "All Time"}
       </button>
     {/each}

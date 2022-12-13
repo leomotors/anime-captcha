@@ -22,10 +22,13 @@ const config = {
       },
     },
   ],
+  ignorePatterns: ["*.g.*"],
   rules: {
     "prettier/prettier": "warn",
     "simple-import-sort/imports": "warn",
     "simple-import-sort/exports": "warn",
+    eqeqeq: "warn",
+    "no-constant-binary-expression": "warn",
   },
   settings: {
     "svelte3/typescript": () => require("typescript"),

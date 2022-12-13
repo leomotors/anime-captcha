@@ -1,7 +1,7 @@
 <script lang="ts">
-  import type { PageData } from "./$types";
-
   import Label from "$components/Label.svelte";
+
+  import type { PageData } from "./$types";
 
   export let data: PageData;
   $: ({ captchaData, insight } = data);

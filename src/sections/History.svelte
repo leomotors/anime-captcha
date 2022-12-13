@@ -48,8 +48,8 @@
 
   <div class="all-play flex w-full flex-col-reverse gap-4 p-6">
     {#each allPlay as play, index}
-      <div
-        class="play-card {play.score == 16 ? 'bg-green-100' : 'bg-red-100'}"
+      <button
+        class="play-card {play.score === 16 ? 'bg-green-100' : 'bg-red-100'}"
         on:click={() => goto(`/result?id=${index}`)}
       >
         <!-- left -->
@@ -64,16 +64,16 @@
         <div class="flex flex-row items-center gap-4 text-2xl sm:text-3xl">
           <p class="text-slate-400">{play.dataset.category}</p>
           <p
-            class={(play.score == 16 ? "text-green-600" : "text-red-600") +
+            class={(play.score === 16 ? "text-green-600" : "text-red-600") +
               " w-8"}
           >
             {play.score}
           </p>
         </div>
-      </div>
+      </button>
     {/each}
 
-    {#if allPlay.length == 0}
+    {#if allPlay.length === 0}
       <p class="info">(You don't have any play history)</p>
     {/if}
   </div>

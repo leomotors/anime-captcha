@@ -1,7 +1,8 @@
 // @ts-check
 
-import adapter from "@sveltejs/adapter-vercel";
 import path from "node:path";
+
+import adapter from "@sveltejs/adapter-vercel";
 import preprocess from "svelte-preprocess";
 
 /** @type {Record<string, string>} */
@@ -22,7 +23,7 @@ export default {
   ],
 
   kit: {
-    adapter: adapter(),
+    adapter: adapter({ edge: true }),
     alias: generatedAliases,
   },
 };
