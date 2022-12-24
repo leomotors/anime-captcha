@@ -2,6 +2,12 @@
 
 All notable change except updating data will be noted here
 
+## [1.7.165] - 2022-12-25
+
+- chore: bump deps (as always)
+- feat: Super Idol now replaced by ???
+- a11y: Not a robot checkbox is changed from input to button
+
 ## [1.6.164] - 2022-12-14
 
 - chore: bump deps

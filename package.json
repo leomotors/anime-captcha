@@ -1,6 +1,6 @@
 {
   "name": "anime-captcha",
-  "version": "1.6.164",
+  "version": "1.7.165",
   "type": "module",
   "repository": {
     "type": "git",
@@ -29,13 +29,13 @@
   },
   "devDependencies": {
     "@leomotors/scripts": "^3.1.0",
-    "@sveltejs/adapter-vercel": "1.0.0-next.87",
-    "@sveltejs/kit": "1.0.0-next.586",
+    "@sveltejs/adapter-vercel": "1.0.0",
+    "@sveltejs/kit": "1.0.1",
     "@types/eslint": "^8.4.10",
-    "@typescript-eslint/eslint-plugin": "^5.46.1",
-    "@typescript-eslint/parser": "^5.46.1",
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0",
     "autoprefixer": "^10.4.13",
-    "eslint": "^8.29.0",
+    "eslint": "^8.30.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-simple-import-sort": "^8.0.0",
@@ -45,13 +45,13 @@
     "prettier": "^2.8.1",
     "prettier-plugin-svelte": "^2.9.0",
     "prettier-plugin-tailwindcss": "^0.2.1",
-    "sass": "^1.56.2",
+    "sass": "^1.57.1",
     "svelte": "^3.55.0",
-    "svelte-check": "^2.10.2",
+    "svelte-check": "^3.0.1",
     "svelte-preprocess": "^5.0.0",
     "tailwindcss": "^3.2.4",
     "typescript": "^4.9.4",
-    "vite": "^4.0.1",
+    "vite": "^4.0.3",
     "vite-plugin-pwa": "^0.14.0"
   }
 }

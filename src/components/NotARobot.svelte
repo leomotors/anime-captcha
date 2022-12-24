@@ -1,17 +1,12 @@
 <script lang="ts">
-  import { createEventDispatcher } from "svelte";
+  import { createEventDispatcher, type ComponentProps } from "svelte";
 
   import RickRoll from "$components/RickRoll.svelte";
   import Spinner from "$icons/Spinner.svelte";
 
   const dispatch = createEventDispatcher<{ start: null }>();
 
-  let rickroll_data: {
-    title: string;
-    url: string;
-    roll: string;
-    chance: string;
-  };
+  let rickroll_data: ComponentProps<RickRoll>;
 
   let boxClicked = false;
 
@@ -22,17 +17,22 @@
     // 6.9% Chance for Rick Roll and 4.20% for Super Idol
     if (randed < 0.069)
       rickroll_data = {
-        title: "Never Gonna Give You Up",
-        url: "dQw4w9WgXcQ",
+        data: {
+          type: "youtube",
+          title: "Never Gonna Give You Up",
+          url: "dQw4w9WgXcQ",
+        },
         roll: "Rick Rolled",
         chance: "6.9",
       };
-    else if (randed < 0.111)
+    else if (randed < 0.1331989)
       rickroll_data = {
-        title: "super idol 的笑容都没你的甜",
-        url: "aCgP8BFjrw4",
-        roll: "Super Idoled",
-        chance: "4.20",
+        data: {
+          type: "video",
+          src: "https://cutebutnotcunny.blob.core.windows.net/j3k/share-this-vid-to-stop-japanese-propaganda.mp4",
+        },
+        roll: "Maoed",
+        chance: "6.4.1989",
       };
     else dispatch("start", null, {});
   }
@@ -47,7 +47,10 @@
     {#if boxClicked}
       <Spinner />
     {:else}
-      <input class="ml-2 mr-3 scale-[2]" type="checkbox" on:click={boxClick} />
+      <button
+        class="mr-2 h-7 w-7 rounded-md border-2 border-neutral-500 transition-colors hover:border-neutral-600"
+        on:click={boxClick}
+      />
     {/if}
     <p class="mr-1 text-2xl">I'm not a Robot</p>
   {/if}
