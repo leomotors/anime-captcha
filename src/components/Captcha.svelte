@@ -45,7 +45,7 @@
         ) {
           window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank");
           alert(
-            "You should not trust stranger. Anyway, God Mode do exists but not for you!"
+            "You should not trust stranger. Anyway, God Mode do exists but not for you!",
           );
         }
       }
@@ -65,6 +65,7 @@
 <div class="my-4">
   <section class="top-section border border-gray-200">
     <h1 class="bg-captcha-blue p-4 text-left text-3xl text-white sm:text-4xl">
+      <!-- eslint-disable-next-line svelte/no-at-html-tags -->
       {@html questions.title}
     </h1>
     <table class="m-2 table-fixed">
@@ -98,7 +99,7 @@
       <div class="text-lg text-red-600">You cannot change test case!</div>
     {/if}
     <button
-      class="m-2 rounded bg-captcha-blue py-2 px-3 text-xl text-white"
+      class="m-2 rounded bg-captcha-blue px-3 py-2 text-xl text-white"
       on:click={submitAnswer}
       title="Submit Answer and accept your fate"
     >

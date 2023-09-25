@@ -57,7 +57,7 @@ export function getAllResults() {
   if (!cachedResults) {
     migration_hook();
     cachedResults = JSON.parse(
-      localStorage.getItem(keys.history) || "[]"
+      localStorage.getItem(keys.history) || "[]",
     ) as PlayResult[];
   }
 

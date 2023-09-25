@@ -32,7 +32,7 @@
   </p>
 
   <button
-    class="m-2 rounded bg-captcha-blue py-2 px-4 text-xl text-white"
+    class="m-2 rounded bg-captcha-blue px-4 py-2 text-xl text-white"
     on:click={() => {
       window.location.reload();
     }}

@@ -5,7 +5,7 @@
   import { page } from "$app/stores";
   import Label from "$components/Label.svelte";
   import Check from "$icons/Check.svelte";
-  import { type PlayResult, getResultsByID } from "$lib/storage";
+  import { getResultsByID, type PlayResult } from "$lib/storage";
 
   let play: PlayResult | undefined;
 

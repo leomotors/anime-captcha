@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
 
-  import { type PlayResult, getAllResults } from "$lib/storage";
+  import { getAllResults, type PlayResult } from "$lib/storage";
   import History from "$sections/History.svelte";
   import Statistics from "$sections/Statistic.svelte";
 

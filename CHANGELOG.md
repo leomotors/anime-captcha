@@ -2,6 +2,10 @@
 
 All notable change except updating data will be noted here
 
+## [1.8.166] - 2023-09-25
+
+- chore: bump deps
+
 ## [1.7.165] - 2022-12-25
 
 - chore: bump deps (as always)

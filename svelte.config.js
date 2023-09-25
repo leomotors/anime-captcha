@@ -23,7 +23,7 @@ export default {
   ],
 
   kit: {
-    adapter: adapter({ edge: true }),
+    adapter: adapter({ runtime: "edge" }),
     alias: generatedAliases,
   },
 };

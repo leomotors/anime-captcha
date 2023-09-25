@@ -3,7 +3,7 @@
 
   import { goto } from "$app/navigation";
   import { page } from "$app/stores";
-  import { type PlayResult, getResultsByID } from "$lib/storage";
+  import { getResultsByID, type PlayResult } from "$lib/storage";
 
   let play: PlayResult | undefined;
 

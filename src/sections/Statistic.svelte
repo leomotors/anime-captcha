@@ -18,7 +18,7 @@
   $: {
     winCount = filteredPlay.reduce(
       (prev, curr) => (curr.score === 16 ? prev + 1 : prev),
-      0
+      0,
     );
     avgScore =
       filteredPlay.reduce((prev, curr) => curr.score + prev, 0) /
@@ -28,13 +28,13 @@
   let filter = 0;
   const allFilters = [1, 7, 14, 30, 0] as const;
 
-  function changeFilter(day: typeof allFilters[number]) {
+  function changeFilter(day: (typeof allFilters)[number]) {
     filter = day;
     filteredPlay = allPlay.filter(
       (p) =>
         !day ||
         new Date().getTime() - new Date(p.submission_time).getTime() <
-          day * 24 * 60 * 60 * 1000
+          day * 24 * 60 * 60 * 1000,
     );
   }
 </script>

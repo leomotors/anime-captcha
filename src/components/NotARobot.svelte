@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { createEventDispatcher, type ComponentProps } from "svelte";
+  import { type ComponentProps, createEventDispatcher } from "svelte";
 
   import RickRoll from "$components/RickRoll.svelte";
   import Spinner from "$icons/Spinner.svelte";

@@ -1,6 +1,6 @@
 <script lang="ts">
   import { goto } from "$app/navigation";
-  import { type PlayResult, getAllResults, resetStorage } from "$lib/storage";
+  import { getAllResults, type PlayResult, resetStorage } from "$lib/storage";
   import styles from "$styles/statistics.module.scss";
 
   import { BuildTime, Version } from "../config.g";
@@ -26,7 +26,7 @@
         localStorage,
       },
       null,
-      4
+      4,
     );
 
     const anchor = document.createElement("a");
