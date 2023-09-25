@@ -1,17 +1,9 @@
 {
   "name": "anime-captcha",
-  "version": "1.7.165",
+  "version": "1.8.166",
   "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Leomotors/anime-captcha.git"
-  },
   "author": "Leomotors",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Leomotors/anime-captcha/issues"
-  },
-  "homepage": "https://github.com/Leomotors/anime-captcha",
   "scripts": {
     "pre-build": "pnpm lm-config && node prebuild.js",
     "dev": "pnpm pre-build && vite dev --port 6912",

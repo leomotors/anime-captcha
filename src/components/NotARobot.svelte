@@ -29,7 +29,7 @@
       rickroll_data = {
         data: {
           type: "video",
-          src: "https://cutebutnotcunny.blob.core.windows.net/j3k/share-this-vid-to-stop-japanese-propaganda.mp4",
+          src: "https://cunny.skillissue.gay/j3k/share-this-vid-to-stop-japan-propaganda.mp4",
         },
         roll: "Maoed",
         chance: "6.4.1989",
